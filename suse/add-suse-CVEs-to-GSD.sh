@@ -26,7 +26,7 @@ do
       # If no GSD.references[] array exiosts you'll get an error
       FOUND=`jq -e '.GSD.references|any(. == "'$URL'")' $FILE`
       if [ $FOUND == "true" ]; then
-        echo -n "."
+        echo "FOUND: $GSDID"
       else
         # So if false or null we add the url
         echo ""
@@ -41,10 +41,10 @@ do
         sed 's/": 1,$/": 1.0,/' $TEMP | sed 's/": 2,$/": 2.0,/' | sed 's/": 3,$/": 3.0,/' | sed 's/": 4,$/": 4.0,/' | sed 's/": 5,$/": 5.0,/' | sed 's/": 6,$/": 6.0,/' | sed 's/": 7,$/": 7.0,/' | sed 's/": 8,$/": 8.0,/' | sed 's/": 9,$/": 9.0,/' | sed 's/": 10,$/": 10.0,/' | sed 's/": 1$/": 1.0/' | sed 's/": 2$/": 2.0/' | sed 's/": 3$/": 3.0/' | sed 's/": 4$/": 4.0/' | sed 's/": 5$/": 5.0/' | sed 's/": 6$/": 6.0/' | sed 's/": 7$/": 7.0/' | sed 's/": 8$/": 8.0/' | sed 's/": 9$/": 9.0/' | sed 's/": 10$/": 10.0/' > $FILE
         rm -f $TEMP
         # done-o-dial
-        echo "Updated $FILE"
+        echo "UPDATED: $GSDID"
       fi
     else
-      echo "ERROR: $FILE does not exist."
+      echo "ERROR: $GSDID"
     fi
 
 done < "$input"
