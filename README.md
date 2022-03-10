@@ -2,7 +2,7 @@
 
 gsd-data-enrichment. After some experimentation I've decided:
 
-Shell scripts, they work, it's easy to follow what is going on. We'll also refactor this in Python 3 long term.
+Shell scripts, they work, it's easy to follow what is going on. We'll also refactor this in Python 3 long term so we can support URL's with commas for example (a known problem right now).
 
 ## General flow:
 
