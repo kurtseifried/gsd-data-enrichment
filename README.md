@@ -6,7 +6,13 @@ Shell scripts, they work, it's easy to follow what is going on. We'll also refac
 
 ## General flow:
 
-Create a CSV file of CVE ID and a URL to add. Each vendor has a unique way of presenting this data, some as a single page, some as multiple pages. We're focusing on single page ones for now. Each VENDOR will have a directory with a VENDOR shortname (e.g. debian, suse, redhat, fedora, microsoft, android). These directories will have a script with the VENDOR shortname and an optional SOURCENAME (some vendors have multiple overlapping sources) called "get-VENDOR-[SOURCENAME]-CVEs.sh" with an output of VENDOR-[SOURCENAME]-CVE.csv
+Create a CSV file of CVE ID and a URL to add, e.g.:
+
+```
+CVE-2000-1234,https://somevendor/path/CVE-2000-1234
+```
+
+There is no header line. Each vendor has a unique way of presenting this data, some as a single page, some as multiple pages. We're focusing on single page ones for now. Each VENDOR will have a directory with a VENDOR shortname (e.g. debian, suse, redhat, fedora, microsoft, android). These directories will have a script with the VENDOR shortname and an optional SOURCENAME (some vendors have multiple overlapping sources) called "get-VENDOR-[SOURCENAME]-CVEs.sh" with an output of VENDOR-[SOURCENAME]-CVE.csv
 
 Take that CSV file and walk through it using the add-CVE-URL-CSV.sh script, check on GSD entries for the CVEs:
 
