@@ -5,7 +5,7 @@
 rm -f crossreferences.html
 rm -f crossreferences2.html
 
-wget https://www.debian.org/security/crossreferences.html
+wget -q https://www.debian.org/security/crossreferences.html
 # Format is 2 td entries, first is DSA, second is CVE(s)
 grep "^<tr VALIGN=\"TOP\"><td><a href=\"https://www.debian.org/security/" crossreferences.html > crossreferences2.html
 
@@ -14,6 +14,7 @@ rm -f $FILENAME
 touch $FILENAME
 
 TEMP=$(mktemp)
+
 
 while IFS= read -r line
 do
