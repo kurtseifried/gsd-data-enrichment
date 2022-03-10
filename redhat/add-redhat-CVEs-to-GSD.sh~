@@ -2,24 +2,24 @@
 
 # Run from /gsd-database/ root directory
 
-# rm -f crossreferences.html
-cd ..
-wget https://www.debian.org/security/crossreferences.html
-# Format is 2 td entries, first is DSA, second is CVE(s)
-grep "^<tr VALIGN=\"TOP\"><td><a href=\"https://www.debian.org/security/" crossreferences.html > crossreferences2.html
+# https://access.redhat.com/errata/RHSA-2022:0780
 
+# rm -f rhsamapcpe.txt
+cd ..
+#rm -f rhsamapcpe.txt
+#wget https://access.redhat.com/security/data/metrics/rhsamapcpe.txt
 cd gsd-database
 
 
 while IFS= read -r line
 do
-  DSA_URL=`echo $line | cut -d"\"" -f4`
-  CVE_DATA=`echo $line | awk -F"<td>" '{print $3}' | grep -i "https://security-tracker.debian.org/tracker/CVE-"`
-  if echo "$CVE_DATA" | grep -q ","; then
-    IFS=', ' read -r -a array <<< "$CVE_DATA"
-    for element in "${array[@]}"
-    do
-      CVE_VALUE=`echo $element | cut -d">" -f2 | sed 's/<.*//'`
+    RHSA_URL=`echo "https://access.redhat.com/errata/$line" | cut -d" " -f1`
+    CVE_DATA=`echo $line | cut -d" " -f2`
+    if echo "$CVE_DATA" | grep -q ","; then
+	IFS=', ' read -r -a array <<< "$CVE_DATA"
+	for element in "${array[@]}"
+	do
+	    CVE_VALUE=`echo $element | cut -d">" -f2 | sed 's/<.*//'`
       if echo "$CVE_VALUE" | grep -q "^CVE-"; then
         GSDID=`echo $CVE_VALUE | sed 's/CVE/GSD/'`
         YEAR=`echo $CVE_VALUE | cut -d"-" -f2`
@@ -27,7 +27,7 @@ do
         DIR=`echo $INT | sed 's/[0-9][0-9][0-9]$/xxx/'`
         FILENAME="$GSDID.json"
         FILE="$YEAR/$DIR/$FILENAME"
-        URL=$DSA_URL
+        URL=$RHSA_URL
         TEMP=$(mktemp)
 
         if [ -f "$FILE" ]; then
@@ -67,7 +67,7 @@ do
     DIR=`echo $INT | sed 's/[0-9][0-9][0-9]$/xxx/'`
     FILENAME="$GSDID.json"
     FILE="$YEAR/$DIR/$FILENAME"
-    URL=$DSA_URL
+    URL=$RHSA_URL
     TEMP=$(mktemp)
 
     if [ -f "$FILE" ]; then
@@ -96,8 +96,11 @@ do
     else
       echo "ERROR: $GSDID"
     fi
+    
   fi
 
-done < ../crossreferences2.html
+done < ../rhsamapcpe.txt
+
+rm -f rhsamapcpe.txt
 
 exit
