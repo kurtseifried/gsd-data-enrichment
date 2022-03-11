@@ -2,12 +2,14 @@
 
 # Ubuntu OVAL data seems like the best bet
 
+rm -rf *.oval.xml
+
 #wget https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2
-wget https://security-metadata.canonical.com/oval/com.ubuntu.impish.usn.oval.xml.bz2
-wget https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2
-wget https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2
-wget https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2
-wget https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2
+wget -q https://security-metadata.canonical.com/oval/com.ubuntu.impish.usn.oval.xml.bz2
+wget -q https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2
+wget -q https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2
+wget -q https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2
+wget -q https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2
 
 # EOL
 #wget https://security-metadata.canonical.com/oval/com.ubuntu.artful.usn.oval.xml.bz2
@@ -18,10 +20,10 @@ wget https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml
 #wget https://security-metadata.canonical.com/oval/com.ubuntu.edgy.usn.oval.xml.bz2
 #wget https://security-metadata.canonical.com/oval/com.ubuntu.eoan.usn.oval.xml.bz2
 #wget https://security-metadata.canonical.com/oval/com.ubuntu.feisty.usn.oval.xml.bz2
-wget https://security-metadata.canonical.com/oval/com.ubuntu.groovy.usn.oval.xml.bz2
+wget -q https://security-metadata.canonical.com/oval/com.ubuntu.groovy.usn.oval.xml.bz2
 #wget https://security-metadata.canonical.com/oval/com.ubuntu.gutsy.usn.oval.xml.bz2
 #wget https://security-metadata.canonical.com/oval/com.ubuntu.hardy.usn.oval.xml.bz2
-wget https://security-metadata.canonical.com/oval/com.ubuntu.hirsute.usn.oval.xml.bz2
+wget -q https://security-metadata.canonical.com/oval/com.ubuntu.hirsute.usn.oval.xml.bz2
 #wget https://security-metadata.canonical.com/oval/com.ubuntu.hoary.usn.oval.xml.bz2
 ##wget https://security-metadata.canonical.com/oval/com.ubuntu.intrepid.usn.oval.xml.bz2
 #wget https://security-metadata.canonical.com/oval/com.ubuntu.jaunty.usn.oval.xml.bz2
@@ -45,4 +47,3 @@ bzip2 -d *.bz2
 
 grep "https://ubuntu.com/security/CVE-" *.xml | cut -d"\"" -f4 | sort -n | uniq | awk -F" " '{print $1","$1}' | sed 's/https:\/\/ubuntu.com\/security\///' > ubuntu-cve-oval.csv
 
-rm -rf *.oval.xml

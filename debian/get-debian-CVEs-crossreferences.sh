@@ -33,5 +33,4 @@ done < crossreferences2.html
 sort -rn $TEMP > $FILENAME
 
 rm -f $TEMP
-rm -f crossreferences.html
-rm -f crossreferences2.html
+

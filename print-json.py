@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# This is a copy, the real script lives in ../gsd-tools/local-scripts/print-json.py
+
 import sys
 import json
 
