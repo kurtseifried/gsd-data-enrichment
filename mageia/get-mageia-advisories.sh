@@ -10,6 +10,6 @@ wget https://advisories.mageia.org/4.html
 wget https://advisories.mageia.org/3.html
 wget https://advisories.mageia.org/2.html
 
-grep CVE *.html| awk -F"\"" '{print $3","$2}'| sed 's/^>//' | sed 's/<\/a>,/,https:\/\/advisories.mageia.org\//' | sort -n | uniq > mageia-cve-advisories.csv
+grep "<a href=\"CVE-[0-9][0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]*\.html\"" *.html| awk -F"\"" '{print $3","$2}'| sed 's/^>//' | sed 's/<\/a>,/,https:\/\/advisories.mageia.org\//' | sort -n | uniq > mageia-cve-advisories.csv
 
 rm -f [0-9].html
