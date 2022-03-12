@@ -37,4 +37,4 @@ sort -n $TEMP > $FILENAME
 
 rm -f $TEMP
 
-cat debian-cve-crossreferences-LASTONE.csv debian-cve-crossreferences-LASTONE.csv debian-cve-crossreferences.csv | sort -n | uniq > debian-cve-crossreferences-CURRENT.csv
+cat debian-cve-crossreferences-LASTONE.csv debian-cve-crossreferences-LASTONE.csv debian-cve-crossreferences.csv | sort -n | uniq -u > debian-cve-crossreferences-CURRENT.csv

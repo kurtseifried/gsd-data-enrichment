@@ -17,4 +17,4 @@ wget -q https://advisories.mageia.org/2.html
 
 grep "<a href=\"CVE-[0-9][0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]*\.html\"" *.html| awk -F"\"" '{print $3","$2}'| sed 's/^>//' | sed 's/<\/a>,/,https:\/\/advisories.mageia.org\//' | sort -n | uniq > mageia-cve-advisories.csv
 
-cat mageia-cve-advisories-LASTONE.csv mageia-cve-advisories-LASTONE.csv mageia-cve-advisories.csv | sort -n | uniq > mageia-cve-advisories-CURRENT.csv
+cat mageia-cve-advisories-LASTONE.csv mageia-cve-advisories-LASTONE.csv mageia-cve-advisories.csv | sort -n | uniq -u > mageia-cve-advisories-CURRENT.csv

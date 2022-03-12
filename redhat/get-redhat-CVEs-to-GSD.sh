@@ -37,4 +37,4 @@ sort -n $TEMP > $FILENAME
 
 rm -f $TEMP
 
-cat redhat-cve-rhsamapcpe-LASTONE.csv redhat-cve-rhsamapcpe-LASTONE.csv redhat-cve-rhsamapcpe.csv | sort -n | uniq > redhat-cve-rhsamapcpe-CURRENT.csv
+cat redhat-cve-rhsamapcpe-LASTONE.csv redhat-cve-rhsamapcpe-LASTONE.csv redhat-cve-rhsamapcpe.csv | sort -n | uniq -u > redhat-cve-rhsamapcpe-CURRENT.csv

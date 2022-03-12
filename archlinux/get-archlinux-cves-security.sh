@@ -11,4 +11,4 @@ grep CVE all | awk -F"\"" '{print $2",https://security.archlinux.org"$2}' | sed 
 
 # Put only the new ones into -CURRENT
 
-cat archlinux-cve-security-LASTONE.csv archlinux-cve-security-LASTONE.csv archlinux-cve-security.csv | sort -n | uniq > archlinux-cve-security-CURRENT.csv
+cat archlinux-cve-security-LASTONE.csv archlinux-cve-security-LASTONE.csv archlinux-cve-security.csv | sort -n | uniq -u > archlinux-cve-security-CURRENT.csv
