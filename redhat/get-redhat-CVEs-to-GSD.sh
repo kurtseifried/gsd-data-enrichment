@@ -5,6 +5,10 @@
 # https://access.redhat.com/errata/RHSA-2022:0780
 
 rm -f rhsamapcpe.txt
+
+touch redhat-cve-rhsamapcpe.csv
+mv -f redhat-cve-rhsamapcpe.csv redhat-cve-rhsamapcpe-LASTONE.csv
+
 wget -q https://access.redhat.com/security/data/metrics/rhsamapcpe.txt
 
 FILENAME=redhat-cve-rhsamapcpe.csv
@@ -33,4 +37,4 @@ sort -rn $TEMP > $FILENAME
 
 rm -f $TEMP
 
-exit
+cat redhat-cve-rhsamapcpe-LASTONE.csv redhat-cve-rhsamapcpe-LASTONE.csv redhat-cve-rhsamapcpe.csv | sort -n | uniq > redhat-cve-rhsamapcpe-CURRENT.csv

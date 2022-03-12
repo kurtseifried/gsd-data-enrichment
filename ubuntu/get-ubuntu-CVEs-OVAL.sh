@@ -4,6 +4,9 @@
 
 rm -rf *.oval.xml
 
+touch ubuntu-cve-oval.csv
+mv -f ubuntu-cve-oval.csv ubuntu-cve-oval-LASTONE.csv
+
 #wget https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2
 wget -q https://security-metadata.canonical.com/oval/com.ubuntu.impish.usn.oval.xml.bz2
 wget -q https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2
@@ -47,3 +50,4 @@ bzip2 -d *.bz2
 
 grep "https://ubuntu.com/security/CVE-" *.xml | cut -d"\"" -f4 | sort -n | uniq | awk -F" " '{print $1","$1}' | sed 's/https:\/\/ubuntu.com\/security\///' > ubuntu-cve-oval.csv
 
+cat  ubuntu-cve-oval-LASTONE.csv  ubuntu-cve-oval-LASTONE.csv ubuntu-cve-oval.csv | sort -n | uniq > ubuntu-cve-oval-CURRENT.csv

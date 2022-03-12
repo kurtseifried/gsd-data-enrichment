@@ -5,6 +5,9 @@
 rm -f crossreferences.html
 rm -f crossreferences2.html
 
+touch debian-cve-crossreferences.csv
+mv -f debian-cve-crossreferences.csv debian-cve-crossreferences-LASTONE.csv
+
 wget -q https://www.debian.org/security/crossreferences.html
 # Format is 2 td entries, first is DSA, second is CVE(s)
 grep "^<tr VALIGN=\"TOP\"><td><a href=\"https://www.debian.org/security/" crossreferences.html > crossreferences2.html
@@ -34,3 +37,4 @@ sort -rn $TEMP > $FILENAME
 
 rm -f $TEMP
 
+cat debian-cve-crossreferences-LASTONE.csv debian-cve-crossreferences-LASTONE.csv debian-cve-crossreferences.csv | sort -n | uniq > debian-cve-crossreferences-CURRENT.csv

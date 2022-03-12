@@ -6,6 +6,10 @@
 
 
 rm -f index.html
+
+touch suse-cve-mainlist.csv
+mv -f suse-cve-mainlist.csv suse-cve-mainlist-LASTONE.csv
+
 wget -q https://www.suse.com/security/cve/
 
 #
@@ -13,3 +17,4 @@ wget -q https://www.suse.com/security/cve/
 #
 grep "^<a href=\"CVE-" index.html | cut -d"\"" -f2 | sed 's/\.html$//' | awk -F" " '{print $1",https://www.suse.com/security/cve/"$1".html"}'> suse-cve-mainlist.csv
 
+cat suse-cve-mainlist-LASTONE.csv suse-cve-mainlist-LASTONE.csv suse-cve-mainlist.csv | sort -n | uniq > suse-cve-mainlist-CURRENT.csv

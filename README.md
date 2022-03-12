@@ -4,7 +4,7 @@ gsd-data-enrichment. After some experimentation I've decided:
 
 Shell scripts, they work, it's easy to follow what is going on. We'll also refactor this in Python 3 long term so we can support URL's with commas for example (a known problem right now).
 
-## General flow:
+## Updating CVE/URL data
 
 Create a CSV file of CVE ID and a URL to add, e.g.:
 
@@ -12,7 +12,9 @@ Create a CSV file of CVE ID and a URL to add, e.g.:
 CVE-2000-1234,https://somevendor/path/CVE-2000-1234
 ```
 
-There is no header line. Each vendor has a unique way of presenting this data, some as a single page, some as multiple pages. We're focusing on single page ones for now. Each VENDOR will have a directory with a VENDOR shortname (e.g. debian, suse, redhat, fedora, microsoft, android). These directories will have a script with the VENDOR shortname and an optional SOURCENAME (some vendors have multiple overlapping sources) called "get-VENDOR-[SOURCENAME]-CVEs.sh" with an output of VENDOR-[SOURCENAME]-CVE.csv
+There is no header line. Each vendor has a unique way of presenting this data, some as a single page, some as multiple pages. We're focusing on single page ones for now. Each VENDOR will have a directory with a VENDOR shortname (e.g. debian, suse, redhat, fedora, microsoft, android). These directories will have a script with the VENDOR shortname and an optional SOURCENAME (some vendors have multiple overlapping sources) called "get-VENDOR-[SOURCENAME]-CVEs.sh" with an output of VENDOR-[SOURCENAME]-CVE.csv and VENDOR-[SOURCENAME]-CVE-LASTONE.csv (the previous copy of VENDOR-[SOURCENAME]-CVE.csv) and the diff of the two: VENDOR-[SOURCENAME]-CVE-CURRENT.csv
+
+## Updating GSD files with the CVE/URL data
 
 Take that CSV file and walk through it using the add-CVE-URL-CSV.sh script, check on GSD entries for the CVEs:
 
@@ -35,3 +37,5 @@ The stub file will be:
 ```
 
 Once we touch or create a JSON file we run it through the print-json.py to ensure the JSON isn't mangled and to fix the spacing (2 spaces, not 4).
+
+We go against VENDOR-[SOURCENAME]-CVE-CURRENT.csv to speed things up.
