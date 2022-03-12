@@ -33,7 +33,7 @@ do
   done
 done < crossreferences2.html
 
-sort -rn $TEMP > $FILENAME
+sort -n $TEMP > $FILENAME
 
 rm -f $TEMP
 

@@ -33,7 +33,7 @@ do
   fi
 done < rhsamapcpe.txt
 
-sort -rn $TEMP > $FILENAME
+sort -n $TEMP > $FILENAME
 
 rm -f $TEMP
 
