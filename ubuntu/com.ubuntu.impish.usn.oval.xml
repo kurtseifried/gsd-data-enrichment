@@ -10,7 +10,7 @@
         <oval:product_name>Canonical USN OVAL Generator</oval:product_name>
         <oval:product_version>1</oval:product_version>
         <oval:schema_version>5.11.1</oval:schema_version>
-        <oval:timestamp>2022-03-12T02:31:17</oval:timestamp>
+        <oval:timestamp>2022-03-14T16:31:18</oval:timestamp>
         <terms_of_use>Copyright (C) 2022 Canonical LTD. All rights reserved. This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 3 of the License. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License version 3 for more details. You should have received a copy of the GNU General Public License version 3 along with this program.  If not, see http://www.gnu.org/licenses/.</terms_of_use>
     </generator>
 
@@ -697,6 +697,26 @@
               <criterion test_ref="oval:com.ubuntu.impish:tst:522710000000" comment="Interim Release" />
            </criteria>
         </definition>
+        <definition id="oval:com.ubuntu.impish:def:53231000000" version="1" class="patch">
+           <metadata>
+              <title>5323-1 -- NBD vulnerabilities</title>
+              <affected family="unix">
+                 <platform>Ubuntu 21.10</platform>
+              </affected>
+              <reference source="USN" ref_url="https://ubuntu.com/security/notices/USN-5323-1" ref_id="USN-5323-1"/>
+              <reference source="CVE" ref_url="https://ubuntu.com/security/CVE-2022-26495" ref_id="CVE-2022-26495"/>
+              <reference source="CVE" ref_url="https://ubuntu.com/security/CVE-2022-26496" ref_id="CVE-2022-26496"/>
+              <description>It was discovered that NBD incorrectly handled name length fields. A remote attacker could use this issue to cause NBD to crash, resulting in a denial of service, or possibly execute arbitrary code.</description>
+              <advisory from="security@ubuntu.com">
+                 <severity>Medium</severity>
+                 <issued date="2022-03-14"/>
+                 
+              </advisory>
+           </metadata>
+           <criteria operator="OR">
+              <criterion test_ref="oval:com.ubuntu.impish:tst:532310000000" comment="Interim Release" />
+           </criteria>
+        </definition>
         <definition id="oval:com.ubuntu.impish:def:52431000000" version="1" class="patch">
            <metadata>
               <title>5243-1 -- AIDE vulnerability</title>
@@ -1336,6 +1356,25 @@
            </metadata>
            <criteria operator="OR">
               <criterion test_ref="oval:com.ubuntu.impish:tst:522510000000" comment="Interim Release" />
+           </criteria>
+        </definition>
+        <definition id="oval:com.ubuntu.impish:def:53241000000" version="1" class="patch">
+           <metadata>
+              <title>5324-1 -- libxml2 vulnerability</title>
+              <affected family="unix">
+                 <platform>Ubuntu 21.10</platform>
+              </affected>
+              <reference source="USN" ref_url="https://ubuntu.com/security/notices/USN-5324-1" ref_id="USN-5324-1"/>
+              <reference source="CVE" ref_url="https://ubuntu.com/security/CVE-2022-23308" ref_id="CVE-2022-23308"/>
+              <description>It was discovered that libxml2 incorrectly handled certain XML files. An attacker could use this issue to cause libxml2 to crash, resulting in a denial of service, or possibly execute arbitrary code.</description>
+              <advisory from="security@ubuntu.com">
+                 <severity>Medium</severity>
+                 <issued date="2022-03-14"/>
+                 
+              </advisory>
+           </metadata>
+           <criteria operator="OR">
+              <criterion test_ref="oval:com.ubuntu.impish:tst:532410000000" comment="Interim Release" />
            </criteria>
         </definition>
         <definition id="oval:com.ubuntu.impish:def:52291000000" version="1" class="patch">
@@ -2510,6 +2549,10 @@
           <linux:object object_ref="oval:com.ubuntu.impish:obj:522710000000"/>
           <linux:state state_ref="oval:com.ubuntu.impish:ste:522710000000"/>
         </linux:dpkginfo_test>
+        <linux:dpkginfo_test id="oval:com.ubuntu.impish:tst:532310000000" version="1" check_existence="at_least_one_exists" check="at least one" comment="Interim Release">
+          <linux:object object_ref="oval:com.ubuntu.impish:obj:532310000000"/>
+          <linux:state state_ref="oval:com.ubuntu.impish:ste:532310000000"/>
+        </linux:dpkginfo_test>
         <linux:dpkginfo_test id="oval:com.ubuntu.impish:tst:524310000000" version="1" check_existence="at_least_one_exists" check="at least one" comment="Interim Release">
           <linux:object object_ref="oval:com.ubuntu.impish:obj:524310000000"/>
           <linux:state state_ref="oval:com.ubuntu.impish:ste:524310000000"/>
@@ -2773,6 +2816,10 @@
         <linux:dpkginfo_test id="oval:com.ubuntu.impish:tst:522510000000" version="1" check_existence="at_least_one_exists" check="at least one" comment="Interim Release">
           <linux:object object_ref="oval:com.ubuntu.impish:obj:522510000000"/>
           <linux:state state_ref="oval:com.ubuntu.impish:ste:522510000000"/>
+        </linux:dpkginfo_test>
+        <linux:dpkginfo_test id="oval:com.ubuntu.impish:tst:532410000000" version="1" check_existence="at_least_one_exists" check="at least one" comment="Interim Release">
+          <linux:object object_ref="oval:com.ubuntu.impish:obj:532410000000"/>
+          <linux:state state_ref="oval:com.ubuntu.impish:ste:532410000000"/>
         </linux:dpkginfo_test>
         <linux:dpkginfo_test id="oval:com.ubuntu.impish:tst:522910000000" version="1" check_existence="at_least_one_exists" check="at least one" comment="Interim Release">
           <linux:object object_ref="oval:com.ubuntu.impish:obj:522910000000"/>
@@ -3251,6 +3298,9 @@
         <linux:dpkginfo_object id="oval:com.ubuntu.impish:obj:522710000000" version="1" comment="Interim Release">
           <linux:name var_ref="oval:com.ubuntu.impish:var:522710000000" var_check="at least one" />
         </linux:dpkginfo_object>
+        <linux:dpkginfo_object id="oval:com.ubuntu.impish:obj:532310000000" version="1" comment="Interim Release">
+          <linux:name var_ref="oval:com.ubuntu.impish:var:532310000000" var_check="at least one" />
+        </linux:dpkginfo_object>
         <linux:dpkginfo_object id="oval:com.ubuntu.impish:obj:524310000000" version="1" comment="Interim Release">
           <linux:name var_ref="oval:com.ubuntu.impish:var:524310000000" var_check="at least one" />
         </linux:dpkginfo_object>
@@ -3448,6 +3498,9 @@
         </linux:dpkginfo_object>
         <linux:dpkginfo_object id="oval:com.ubuntu.impish:obj:522510000000" version="1" comment="Interim Release">
           <linux:name var_ref="oval:com.ubuntu.impish:var:522510000000" var_check="at least one" />
+        </linux:dpkginfo_object>
+        <linux:dpkginfo_object id="oval:com.ubuntu.impish:obj:532410000000" version="1" comment="Interim Release">
+          <linux:name var_ref="oval:com.ubuntu.impish:var:532410000000" var_check="at least one" />
         </linux:dpkginfo_object>
         <linux:dpkginfo_object id="oval:com.ubuntu.impish:obj:522910000000" version="1" comment="Interim Release">
           <linux:name var_ref="oval:com.ubuntu.impish:var:522910000000" var_check="at least one" />
@@ -3854,6 +3907,9 @@
         <linux:dpkginfo_state id="oval:com.ubuntu.impish:ste:522710000000" version="1" comment="Interim Release">
           <linux:evr datatype="evr_string" operation="less than">0:8.1.2+dfsg-0.3ubuntu0.1</linux:evr>
         </linux:dpkginfo_state>
+        <linux:dpkginfo_state id="oval:com.ubuntu.impish:ste:532310000000" version="1" comment="Interim Release">
+          <linux:evr datatype="evr_string" operation="less than">1:3.21-1ubuntu0.1</linux:evr>
+        </linux:dpkginfo_state>
         <linux:dpkginfo_state id="oval:com.ubuntu.impish:ste:524310000000" version="1" comment="Interim Release">
           <linux:evr datatype="evr_string" operation="less than">0:0.17.3-4ubuntu0.1</linux:evr>
         </linux:dpkginfo_state>
@@ -4052,6 +4108,9 @@
         <linux:dpkginfo_state id="oval:com.ubuntu.impish:ste:522510000000" version="1" comment="Interim Release">
           <linux:evr datatype="evr_string" operation="less than">0:4.6.3+dfsg-0.1ubuntu0.2</linux:evr>
         </linux:dpkginfo_state>
+        <linux:dpkginfo_state id="oval:com.ubuntu.impish:ste:532410000000" version="1" comment="Interim Release">
+          <linux:evr datatype="evr_string" operation="less than">0:2.9.12+dfsg-4ubuntu0.1</linux:evr>
+        </linux:dpkginfo_state>
         <linux:dpkginfo_state id="oval:com.ubuntu.impish:ste:522910000000" version="1" comment="Interim Release">
           <linux:evr datatype="evr_string" operation="less than">0:96.0+build2-0ubuntu0.21.10.1</linux:evr>
         </linux:dpkginfo_state>
@@ -4164,10 +4223,10 @@
           <linux:evr datatype="evr_string" operation="less than">0:5.13.0-1012.15</linux:evr>
         </linux:dpkginfo_state>
         <linux:dpkginfo_state id="oval:com.ubuntu.impish:ste:524010000110" version="1" comment="Interim Release">
-          <linux:evr datatype="evr_string" operation="less than">0:5.13.0-1015.19</linux:evr>
+          <linux:evr datatype="evr_string" operation="less than">0:5.13.0.1011.12</linux:evr>
         </linux:dpkginfo_state>
         <linux:dpkginfo_state id="oval:com.ubuntu.impish:ste:524010000120" version="1" comment="Interim Release">
-          <linux:evr datatype="evr_string" operation="less than">0:5.13.0.1011.12</linux:evr>
+          <linux:evr datatype="evr_string" operation="less than">0:5.13.0-1015.19</linux:evr>
         </linux:dpkginfo_state>
         <linux:dpkginfo_state id="oval:com.ubuntu.impish:ste:524010000130" version="1" comment="Interim Release">
           <linux:evr datatype="evr_string" operation="less than">0:5.13.0.1015.20</linux:evr>
@@ -4203,34 +4262,34 @@
           <linux:evr datatype="evr_string" operation="less than">0:5.13.0.1019.17</linux:evr>
         </linux:dpkginfo_state>
         <linux:dpkginfo_state id="oval:com.ubuntu.impish:ste:531710000020" version="1" comment="Interim Release">
-          <linux:evr datatype="evr_string" operation="less than">0:5.13.0-1016.17</linux:evr>
-        </linux:dpkginfo_state>
-        <linux:dpkginfo_state id="oval:com.ubuntu.impish:ste:531710000030" version="1" comment="Interim Release">
           <linux:evr datatype="evr_string" operation="less than">0:5.13.0.35.44</linux:evr>
         </linux:dpkginfo_state>
-        <linux:dpkginfo_state id="oval:com.ubuntu.impish:ste:531710000040" version="1" comment="Interim Release">
+        <linux:dpkginfo_state id="oval:com.ubuntu.impish:ste:531710000030" version="1" comment="Interim Release">
           <linux:evr datatype="evr_string" operation="less than">0:5.13.0.1021.21</linux:evr>
         </linux:dpkginfo_state>
-        <linux:dpkginfo_state id="oval:com.ubuntu.impish:ste:531710000050" version="1" comment="Interim Release">
+        <linux:dpkginfo_state id="oval:com.ubuntu.impish:ste:531710000040" version="1" comment="Interim Release">
           <linux:evr datatype="evr_string" operation="less than">0:5.13.0-1017.19</linux:evr>
         </linux:dpkginfo_state>
-        <linux:dpkginfo_state id="oval:com.ubuntu.impish:ste:531710000060" version="1" comment="Interim Release">
+        <linux:dpkginfo_state id="oval:com.ubuntu.impish:ste:531710000050" version="1" comment="Interim Release">
           <linux:evr datatype="evr_string" operation="less than">0:5.13.0-1020.22</linux:evr>
         </linux:dpkginfo_state>
-        <linux:dpkginfo_state id="oval:com.ubuntu.impish:ste:531710000070" version="1" comment="Interim Release">
+        <linux:dpkginfo_state id="oval:com.ubuntu.impish:ste:531710000060" version="1" comment="Interim Release">
           <linux:evr datatype="evr_string" operation="less than">0:5.13.0-1019.23</linux:evr>
         </linux:dpkginfo_state>
-        <linux:dpkginfo_state id="oval:com.ubuntu.impish:ste:531710000080" version="1" comment="Interim Release">
+        <linux:dpkginfo_state id="oval:com.ubuntu.impish:ste:531710000070" version="1" comment="Interim Release">
           <linux:evr datatype="evr_string" operation="less than">0:5.13.0.1017.17</linux:evr>
         </linux:dpkginfo_state>
-        <linux:dpkginfo_state id="oval:com.ubuntu.impish:ste:531710000090" version="1" comment="Interim Release">
+        <linux:dpkginfo_state id="oval:com.ubuntu.impish:ste:531710000080" version="1" comment="Interim Release">
           <linux:evr datatype="evr_string" operation="less than">0:5.13.0.1016.16</linux:evr>
         </linux:dpkginfo_state>
-        <linux:dpkginfo_state id="oval:com.ubuntu.impish:ste:531710000100" version="1" comment="Interim Release">
+        <linux:dpkginfo_state id="oval:com.ubuntu.impish:ste:531710000090" version="1" comment="Interim Release">
           <linux:evr datatype="evr_string" operation="less than">0:5.13.0.1017.18</linux:evr>
         </linux:dpkginfo_state>
-        <linux:dpkginfo_state id="oval:com.ubuntu.impish:ste:531710000110" version="1" comment="Interim Release">
+        <linux:dpkginfo_state id="oval:com.ubuntu.impish:ste:531710000100" version="1" comment="Interim Release">
           <linux:evr datatype="evr_string" operation="less than">0:5.13.0-1021.26</linux:evr>
+        </linux:dpkginfo_state>
+        <linux:dpkginfo_state id="oval:com.ubuntu.impish:ste:531710000110" version="1" comment="Interim Release">
+          <linux:evr datatype="evr_string" operation="less than">0:5.13.0-1016.17</linux:evr>
         </linux:dpkginfo_state>
         <linux:dpkginfo_state id="oval:com.ubuntu.impish:ste:531710000120" version="1" comment="Interim Release">
           <linux:evr datatype="evr_string" operation="less than">0:5.13.0.1020.25</linux:evr>
@@ -4378,7 +4437,7 @@
         <constant_variable id="oval:com.ubuntu.impish:var:526010000000" version="1" datatype="string" comment="Interim Release">
             <value>samba-testsuite</value>
             <value>samba</value>
-            <value>registry-tools</value>
+            <value>libnss-winbind</value>
             <value>libpam-winbind</value>
             <value>winbind</value>
             <value>smbclient</value>
@@ -4394,7 +4453,7 @@
             <value>samba-common</value>
             <value>ctdb</value>
             <value>samba-libs</value>
-            <value>libnss-winbind</value>
+            <value>registry-tools</value>
         </constant_variable>
         <constant_variable id="oval:com.ubuntu.impish:var:530030000000" version="1" datatype="string" comment="Interim Release">
             <value>php8.0-fpm</value>
@@ -4472,8 +4531,6 @@
             <value>linux-cloud-tools-generic-hwe-20.04-edge</value>
             <value>linux-image-generic-64k-hwe-20.04-edge</value>
             <value>linux-virtual-hwe-20.04</value>
-            <value>linux-generic-hwe-20.04</value>
-            <value>linux-headers-lowlatency-hwe-20.04-edge</value>
             <value>linux-headers-generic-64k-hwe-20.04</value>
             <value>linux-generic-64k-hwe-20.04-edge</value>
             <value>linux-generic-lpae-hwe-20.04</value>
@@ -4500,6 +4557,7 @@
             <value>linux-headers-virtual-hwe-20.04-edge</value>
             <value>linux-image-oem-20.04</value>
             <value>linux-generic-hwe-20.04-edge</value>
+            <value>linux-headers-lowlatency-hwe-20.04-edge</value>
             <value>linux-headers-lowlatency</value>
             <value>linux-tools-generic-hwe-20.04-edge</value>
             <value>linux-tools-oem-20.04</value>
@@ -4509,6 +4567,7 @@
             <value>linux-headers-generic-64k-hwe-20.04-edge</value>
             <value>linux-tools-lowlatency-hwe-20.04</value>
             <value>linux-cloud-tools-lowlatency</value>
+            <value>linux-generic-hwe-20.04</value>
             <value>linux-headers-generic-hwe-20.04-edge</value>
             <value>linux-image-generic-lpae-hwe-20.04</value>
             <value>linux-tools-virtual-hwe-20.04</value>
@@ -4534,6 +4593,7 @@
             <value>linux-doc</value>
             <value>linux-cloud-tools-5.13.0-28-generic</value>
             <value>linux-modules-5.13.0-28-generic-lpae</value>
+            <value>linux-headers-5.13.0-28-generic-lpae</value>
             <value>linux-modules-5.13.0-28-generic</value>
             <value>linux-libc-dev</value>
             <value>linux-buildinfo-5.13.0-28-lowlatency</value>
@@ -4553,7 +4613,6 @@
             <value>linux-tools-5.13.0-28-generic-lpae</value>
             <value>linux-tools-5.13.0-28-lowlatency</value>
             <value>linux-tools-5.13.0-28</value>
-            <value>linux-headers-5.13.0-28-generic-lpae</value>
             <value>linux-cloud-tools-common</value>
             <value>linux-modules-5.13.0-28-generic-64k</value>
             <value>linux-headers-5.13.0-28-lowlatency</value>
@@ -4568,9 +4627,9 @@
             <value>linux-modules-extra-5.13.0-1016-oracle</value>
             <value>linux-buildinfo-5.13.0-1016-oracle</value>
             <value>linux-tools-5.13.0-1016-oracle</value>
+            <value>linux-oracle-headers-5.13.0-1016</value>
             <value>linux-image-5.13.0-1016-oracle</value>
             <value>linux-image-unsigned-5.13.0-1016-oracle</value>
-            <value>linux-oracle-headers-5.13.0-1016</value>
             <value>linux-oracle-tools-5.13.0-1016</value>
         </constant_variable>
         <constant_variable id="oval:com.ubuntu.impish:var:526510000040" version="1" datatype="string" comment="Interim Release">
@@ -4780,6 +4839,7 @@
             <value>linux-generic-lpae-hwe-20.04</value>
             <value>linux-virtual-hwe-20.04-edge</value>
             <value>linux-crashdump</value>
+            <value>linux-lowlatency-hwe-20.04-edge</value>
             <value>linux-tools-oem-20.04</value>
             <value>linux-image-extra-virtual-hwe-20.04-edge</value>
             <value>linux-source</value>
@@ -4794,7 +4854,6 @@
             <value>linux-cloud-tools-virtual-hwe-20.04</value>
             <value>linux-tools-virtual</value>
             <value>linux-generic-lpae</value>
-            <value>linux-lowlatency-hwe-20.04-edge</value>
             <value>linux-headers-virtual-hwe-20.04-edge</value>
             <value>linux-headers-generic-64k</value>
             <value>linux-oem-20.04</value>
@@ -4843,7 +4902,7 @@
             <value>linux-image-unsigned-5.13.0-21-generic-64k</value>
             <value>linux-image-5.13.0-21-generic</value>
             <value>linux-cloud-tools-5.13.0-21</value>
-            <value>linux-tools-5.13.0-21-generic-64k</value>
+            <value>linux-cloud-tools-5.13.0-21-lowlatency</value>
             <value>linux-libc-dev</value>
             <value>linux-image-unsigned-5.13.0-21-generic</value>
             <value>linux-headers-5.13.0-21-generic-64k</value>
@@ -4853,7 +4912,6 @@
             <value>linux-cloud-tools-5.13.0-21-generic</value>
             <value>linux-tools-5.13.0-21-generic</value>
             <value>linux-headers-5.13.0-21-lowlatency</value>
-            <value>linux-cloud-tools-5.13.0-21-lowlatency</value>
             <value>linux-modules-5.13.0-21-generic-64k</value>
             <value>linux-modules-extra-5.13.0-21-generic</value>
             <value>linux-tools-5.13.0-21</value>
@@ -4864,6 +4922,7 @@
             <value>linux-image-5.13.0-21-generic-64k</value>
             <value>linux-buildinfo-5.13.0-21-generic-lpae</value>
             <value>linux-image-unsigned-5.13.0-21-lowlatency</value>
+            <value>linux-tools-5.13.0-21-generic-64k</value>
             <value>linux-headers-5.13.0-21-generic</value>
             <value>linux-image-5.13.0-21-lowlatency</value>
             <value>linux-image-5.13.0-21-generic-lpae</value>
@@ -4915,9 +4974,9 @@
             <value>linux-modules-extra-5.13.0-1006-aws</value>
             <value>linux-aws-headers-5.13.0-1006</value>
             <value>linux-aws-tools-5.13.0-1006</value>
-            <value>linux-cloud-tools-5.13.0-1006-aws</value>
             <value>linux-tools-5.13.0-1006-aws</value>
             <value>linux-headers-5.13.0-1006-aws</value>
+            <value>linux-cloud-tools-5.13.0-1006-aws</value>
             <value>linux-buildinfo-5.13.0-1006-aws</value>
             <value>linux-modules-5.13.0-1006-gcp</value>
             <value>linux-modules-5.13.0-1006-aws</value>
@@ -4928,8 +4987,8 @@
         </constant_variable>
         <constant_variable id="oval:com.ubuntu.impish:var:513510000080" version="1" datatype="string" comment="Interim Release">
             <value>linux-image-5.13.0-1005-kvm</value>
-            <value>linux-image-unsigned-5.13.0-1005-kvm</value>
             <value>linux-kvm-headers-5.13.0-1005</value>
+            <value>linux-image-unsigned-5.13.0-1005-kvm</value>
             <value>linux-modules-5.13.0-1005-kvm</value>
             <value>linux-tools-5.13.0-1005-kvm</value>
             <value>linux-headers-5.13.0-1005-kvm</value>
@@ -4970,13 +5029,13 @@
         <constant_variable id="oval:com.ubuntu.impish:var:513510000120" version="1" datatype="string" comment="Interim Release">
             <value>linux-tools-raspi</value>
             <value>linux-modules-extra-raspi-nolpae</value>
+            <value>linux-image-raspi</value>
             <value>linux-image-raspi-nolpae</value>
             <value>linux-raspi-nolpae</value>
             <value>linux-headers-raspi</value>
             <value>linux-tools-raspi-nolpae</value>
             <value>linux-headers-raspi-nolpae</value>
             <value>linux-modules-extra-raspi</value>
-            <value>linux-image-raspi</value>
             <value>linux-raspi</value>
         </constant_variable>
         <constant_variable id="oval:com.ubuntu.impish:var:528010000000" version="1" datatype="string" comment="Interim Release">
@@ -5018,12 +5077,12 @@
         </constant_variable>
         <constant_variable id="oval:com.ubuntu.impish:var:531010000000" version="1" datatype="string" comment="Interim Release">
             <value>libc-bin</value>
-            <value>libc-devtools</value>
             <value>glibc-doc</value>
             <value>libc6-prof</value>
             <value>libc6-i386</value>
             <value>libc6-s390</value>
             <value>libc6-dev-i386</value>
+            <value>libc6-dev-s390</value>
             <value>nscd</value>
             <value>libc6-dev</value>
             <value>libc6-amd64</value>
@@ -5032,7 +5091,7 @@
             <value>libc-dev-bin</value>
             <value>libc6</value>
             <value>locales-all</value>
-            <value>libc6-dev-s390</value>
+            <value>libc-devtools</value>
             <value>glibc-source</value>
             <value>libc6-dev-x32</value>
             <value>locales</value>
@@ -5172,7 +5231,6 @@
         </constant_variable>
         <constant_variable id="oval:com.ubuntu.impish:var:529520000010" version="1" datatype="string" comment="Interim Release">
             <value>linux-cloud-tools-lowlatency-hwe-20.04</value>
-            <value>linux-tools-oem-20.04</value>
             <value>linux-headers-oem-20.04</value>
             <value>linux-cloud-tools-virtual</value>
             <value>linux-cloud-tools-generic-hwe-20.04</value>
@@ -5203,6 +5261,7 @@
             <value>linux-generic-lpae-hwe-20.04</value>
             <value>linux-virtual-hwe-20.04-edge</value>
             <value>linux-crashdump</value>
+            <value>linux-generic-lpae-hwe-20.04-edge</value>
             <value>linux-headers-generic-lpae</value>
             <value>linux-image-extra-virtual-hwe-20.04-edge</value>
             <value>linux-source</value>
@@ -5210,6 +5269,7 @@
             <value>linux-headers-generic-lpae-hwe-20.04</value>
             <value>linux-tools-generic-lpae</value>
             <value>linux-cloud-tools-generic</value>
+            <value>linux-tools-generic-hwe-20.04</value>
             <value>linux-tools-generic-lpae-hwe-20.04-edge</value>
             <value>linux-virtual</value>
             <value>linux-tools-generic-hwe-20.04-edge</value>
@@ -5225,9 +5285,8 @@
             <value>linux-generic-hwe-20.04-edge</value>
             <value>linux-headers-lowlatency</value>
             <value>linux-tools-generic-lpae-hwe-20.04</value>
-            <value>linux-generic-lpae-hwe-20.04-edge</value>
+            <value>linux-tools-oem-20.04</value>
             <value>linux-image-generic-lpae</value>
-            <value>linux-tools-generic-hwe-20.04</value>
             <value>linux-tools-generic</value>
             <value>linux-headers-generic-64k-hwe-20.04-edge</value>
             <value>linux-image-extra-virtual</value>
@@ -5388,11 +5447,11 @@
         </constant_variable>
         <constant_variable id="oval:com.ubuntu.impish:var:529520000130" version="1" datatype="string" comment="Interim Release">
             <value>linux-buildinfo-5.13.0-1014-azure</value>
-            <value>linux-modules-5.13.0-1014-azure</value>
             <value>linux-image-5.13.0-1014-azure</value>
             <value>linux-azure-headers-5.13.0-1014</value>
             <value>linux-azure-tools-5.13.0-1014</value>
             <value>linux-azure-cloud-tools-5.13.0-1014</value>
+            <value>linux-modules-5.13.0-1014-azure</value>
             <value>linux-cloud-tools-5.13.0-1014-azure</value>
             <value>linux-tools-5.13.0-1014-azure</value>
             <value>linux-modules-extra-5.13.0-1014-azure</value>
@@ -5529,10 +5588,10 @@
             <value>firefox-locale-ast</value>
         </constant_variable>
         <constant_variable id="oval:com.ubuntu.impish:var:514230000000" version="1" datatype="string" comment="Interim Release">
-            <value>libnss-winbind</value>
+            <value>registry-tools</value>
             <value>samba-testsuite</value>
             <value>samba</value>
-            <value>registry-tools</value>
+            <value>libnss-winbind</value>
             <value>libpam-winbind</value>
             <value>winbind</value>
             <value>smbclient</value>
@@ -5553,6 +5612,10 @@
             <value>python3-pil.imagetk</value>
             <value>python-pil-doc</value>
             <value>python3-pil</value>
+        </constant_variable>
+        <constant_variable id="oval:com.ubuntu.impish:var:532310000000" version="1" datatype="string" comment="Interim Release">
+            <value>nbd-server</value>
+            <value>nbd-client</value>
         </constant_variable>
         <constant_variable id="oval:com.ubuntu.impish:var:524310000000" version="1" datatype="string" comment="Interim Release">
             <value>aide-dynamic</value>
@@ -5682,7 +5745,6 @@
         </constant_variable>
         <constant_variable id="oval:com.ubuntu.impish:var:516210000010" version="1" datatype="string" comment="Interim Release">
             <value>linux-cloud-tools-lowlatency-hwe-20.04</value>
-            <value>linux-tools-oem-20.04</value>
             <value>linux-headers-oem-20.04</value>
             <value>linux-cloud-tools-virtual</value>
             <value>linux-cloud-tools-generic-hwe-20.04</value>
@@ -5713,8 +5775,8 @@
             <value>linux-generic-64k-hwe-20.04-edge</value>
             <value>linux-generic-lpae-hwe-20.04</value>
             <value>linux-virtual-hwe-20.04-edge</value>
-            <value>linux-generic-lpae-hwe-20.04-edge</value>
             <value>linux-headers-generic-lpae</value>
+            <value>linux-generic-lpae-hwe-20.04-edge</value>
             <value>linux-image-extra-virtual-hwe-20.04-edge</value>
             <value>linux-source</value>
             <value>linux-lowlatency</value>
@@ -5738,6 +5800,7 @@
             <value>linux-generic-hwe-20.04-edge</value>
             <value>linux-headers-lowlatency</value>
             <value>linux-generic</value>
+            <value>linux-tools-oem-20.04</value>
             <value>linux-tools-generic-hwe-20.04</value>
             <value>linux-tools-generic</value>
             <value>linux-headers-generic-64k-hwe-20.04-edge</value>
@@ -5771,6 +5834,7 @@
             <value>linux-cloud-tools-5.13.0-22</value>
             <value>linux-headers-5.13.0-22-lowlatency</value>
             <value>linux-modules-5.13.0-22-generic-64k</value>
+            <value>linux-tools-5.13.0-22-generic-64k</value>
             <value>linux-modules-extra-5.13.0-22-generic</value>
             <value>linux-cloud-tools-5.13.0-22-generic</value>
             <value>linux-buildinfo-5.13.0-22-generic-64k</value>
@@ -5785,7 +5849,6 @@
             <value>linux-tools-5.13.0-22-lowlatency</value>
             <value>linux-modules-5.13.0-22-lowlatency</value>
             <value>linux-buildinfo-5.13.0-22-generic-lpae</value>
-            <value>linux-tools-5.13.0-22-generic-64k</value>
             <value>linux-cloud-tools-common</value>
             <value>linux-headers-5.13.0-22-generic</value>
             <value>linux-libc-dev</value>
@@ -6024,7 +6087,6 @@
             <value>linux-tools-5.13.0-23-generic-64k</value>
             <value>linux-headers-5.13.0-23-generic</value>
             <value>linux-modules-5.13.0-23-lowlatency</value>
-            <value>linux-headers-5.13.0-23-lowlatency</value>
             <value>linux-buildinfo-5.13.0-23-generic-64k</value>
             <value>linux-cloud-tools-5.13.0-23-lowlatency</value>
             <value>linux-cloud-tools-5.13.0-23</value>
@@ -6033,7 +6095,7 @@
             <value>linux-modules-5.13.0-23-generic-lpae</value>
             <value>linux-tools-5.13.0-23-generic-lpae</value>
             <value>linux-image-5.13.0-23-lowlatency</value>
-            <value>linux-tools-5.13.0-23</value>
+            <value>linux-modules-5.13.0-23-generic</value>
             <value>linux-doc</value>
             <value>linux-tools-5.13.0-23-lowlatency</value>
             <value>linux-cloud-tools-common</value>
@@ -6041,10 +6103,11 @@
             <value>linux-headers-5.13.0-23</value>
             <value>linux-libc-dev</value>
             <value>linux-buildinfo-5.13.0-23-generic</value>
+            <value>linux-headers-5.13.0-23-lowlatency</value>
             <value>linux-headers-5.13.0-23-generic-lpae</value>
             <value>linux-image-5.13.0-23-generic-64k</value>
             <value>linux-image-unsigned-5.13.0-23-generic-64k</value>
-            <value>linux-modules-5.13.0-23-generic</value>
+            <value>linux-tools-5.13.0-23</value>
             <value>linux-cloud-tools-5.13.0-23-generic</value>
         </constant_variable>
         <constant_variable id="oval:com.ubuntu.impish:var:520810000040" version="1" datatype="string" comment="Interim Release">
@@ -6098,10 +6161,10 @@
             <value>linux-aws-tools-5.13.0-1008</value>
             <value>linux-image-5.13.0-1008-gcp</value>
             <value>linux-buildinfo-5.13.0-1008-gcp</value>
+            <value>linux-modules-extra-5.13.0-1008-aws</value>
             <value>linux-aws-headers-5.13.0-1008</value>
             <value>linux-headers-5.13.0-1008-aws</value>
             <value>linux-cloud-tools-5.13.0-1008-aws</value>
-            <value>linux-modules-extra-5.13.0-1008-aws</value>
             <value>linux-modules-extra-5.13.0-1008-gcp</value>
             <value>linux-aws-cloud-tools-5.13.0-1008</value>
             <value>linux-buildinfo-5.13.0-1008-aws</value>
@@ -6114,11 +6177,11 @@
         <constant_variable id="oval:com.ubuntu.impish:var:520810000100" version="1" datatype="string" comment="Interim Release">
             <value>linux-modules-5.13.0-1009-azure</value>
             <value>linux-headers-5.13.0-1009-azure</value>
-            <value>linux-azure-cloud-tools-5.13.0-1009</value>
             <value>linux-image-unsigned-5.13.0-1009-azure</value>
             <value>linux-cloud-tools-5.13.0-1009-azure</value>
             <value>linux-tools-5.13.0-1009-azure</value>
             <value>linux-buildinfo-5.13.0-1009-azure</value>
+            <value>linux-azure-cloud-tools-5.13.0-1009</value>
             <value>linux-modules-extra-5.13.0-1009-azure</value>
             <value>linux-azure-tools-5.13.0-1009</value>
             <value>linux-azure-headers-5.13.0-1009</value>
@@ -6138,11 +6201,11 @@
             <value>linux-tools-raspi</value>
             <value>linux-modules-extra-raspi-nolpae</value>
             <value>linux-image-raspi-nolpae</value>
+            <value>linux-headers-raspi</value>
             <value>linux-tools-raspi-nolpae</value>
             <value>linux-headers-raspi-nolpae</value>
             <value>linux-raspi-nolpae</value>
             <value>linux-modules-extra-raspi</value>
-            <value>linux-headers-raspi</value>
             <value>linux-image-raspi</value>
             <value>linux-raspi</value>
         </constant_variable>
@@ -6155,7 +6218,7 @@
         <constant_variable id="oval:com.ubuntu.impish:var:514210000000" version="1" datatype="string" comment="Interim Release">
             <value>samba-testsuite</value>
             <value>samba</value>
-            <value>registry-tools</value>
+            <value>libnss-winbind</value>
             <value>libpam-winbind</value>
             <value>winbind</value>
             <value>smbclient</value>
@@ -6171,13 +6234,13 @@
             <value>samba-common</value>
             <value>ctdb</value>
             <value>samba-libs</value>
-            <value>libnss-winbind</value>
+            <value>registry-tools</value>
         </constant_variable>
         <constant_variable id="oval:com.ubuntu.impish:var:514220000000" version="1" datatype="string" comment="Interim Release">
-            <value>libnss-winbind</value>
+            <value>registry-tools</value>
             <value>samba-testsuite</value>
             <value>samba</value>
-            <value>registry-tools</value>
+            <value>libnss-winbind</value>
             <value>libpam-winbind</value>
             <value>winbind</value>
             <value>smbclient</value>
@@ -6403,7 +6466,7 @@
             <value>nvidia-compute-utils-470-server</value>
             <value>nvidia-headless-no-dkms-470-server</value>
             <value>nvidia-headless-no-dkms-470</value>
-            <value>nvidia-driver-470-server</value>
+            <value>nvidia-dkms-460-server</value>
             <value>nvidia-driver-470</value>
             <value>libnvidia-extra-460-server</value>
             <value>nvidia-dkms-470</value>
@@ -6425,7 +6488,7 @@
             <value>nvidia-driver-460-server</value>
             <value>libnvidia-cfg1-460-server</value>
             <value>libnvidia-decode-470</value>
-            <value>nvidia-dkms-460-server</value>
+            <value>nvidia-driver-470-server</value>
             <value>libnvidia-ifr1-460</value>
             <value>libnvidia-ifr1-465</value>
             <value>nvidia-headless-no-dkms-460-server</value>
@@ -6541,7 +6604,6 @@
             <value>linux-headers-5.13.0-25-lowlatency</value>
             <value>linux-tools-host</value>
             <value>linux-modules-5.13.0-25-lowlatency</value>
-            <value>linux-tools-5.13.0-25</value>
             <value>linux-doc</value>
             <value>linux-image-5.13.0-25-generic</value>
             <value>linux-image-unsigned-5.13.0-25-lowlatency</value>
@@ -6551,18 +6613,19 @@
             <value>linux-image-5.13.0-25-generic-64k</value>
             <value>linux-libc-dev</value>
             <value>linux-modules-5.13.0-25-generic-lpae</value>
-            <value>linux-image-unsigned-5.13.0-25-generic-64k</value>
             <value>linux-buildinfo-5.13.0-25-generic</value>
+            <value>linux-headers-5.13.0-25</value>
             <value>linux-image-5.13.0-25-generic-lpae</value>
             <value>linux-tools-5.13.0-25-lowlatency</value>
+            <value>linux-tools-5.13.0-25</value>
             <value>linux-buildinfo-5.13.0-25-lowlatency</value>
             <value>linux-cloud-tools-5.13.0-25-generic</value>
             <value>linux-headers-5.13.0-25-generic-lpae</value>
             <value>linux-cloud-tools-common</value>
             <value>linux-headers-5.13.0-25-generic</value>
-            <value>linux-headers-5.13.0-25</value>
             <value>linux-image-5.13.0-25-lowlatency</value>
             <value>linux-buildinfo-5.13.0-25-generic-lpae</value>
+            <value>linux-image-unsigned-5.13.0-25-generic-64k</value>
             <value>linux-modules-extra-5.13.0-25-generic</value>
             <value>linux-modules-5.13.0-25-generic-64k</value>
             <value>linux-image-unsigned-5.13.0-25-generic</value>
@@ -6625,11 +6688,11 @@
             <value>linux-generic-hwe-20.04</value>
             <value>linux-cloud-tools-virtual-hwe-20.04</value>
             <value>linux-tools-virtual</value>
-            <value>linux-image-extra-virtual</value>
             <value>linux-generic-lpae</value>
             <value>linux-lowlatency-hwe-20.04-edge</value>
             <value>linux-headers-generic-64k</value>
             <value>linux-oem-20.04</value>
+            <value>linux-image-extra-virtual</value>
             <value>linux-generic</value>
             <value>linux-image-oem-20.04</value>
             <value>linux-generic-hwe-20.04-edge</value>
@@ -6697,8 +6760,8 @@
             <value>linux-headers-aws</value>
             <value>linux-image-aws</value>
             <value>linux-aws</value>
-            <value>linux-tools-aws</value>
             <value>linux-modules-extra-aws</value>
+            <value>linux-tools-aws</value>
         </constant_variable>
         <constant_variable id="oval:com.ubuntu.impish:var:521910000090" version="1" datatype="string" comment="Interim Release">
             <value>linux-aws-cloud-tools-5.13.0-1009</value>
@@ -6755,8 +6818,8 @@
             <value>linux-image-5.13.0-1013-oracle</value>
             <value>linux-image-unsigned-5.13.0-1013-oracle</value>
             <value>linux-oracle-headers-5.13.0-1013</value>
-            <value>linux-buildinfo-5.13.0-1013-oracle</value>
             <value>linux-modules-5.13.0-1013-oracle</value>
+            <value>linux-buildinfo-5.13.0-1013-oracle</value>
             <value>linux-modules-extra-5.13.0-1013-oracle</value>
             <value>linux-tools-5.13.0-1013-oracle</value>
             <value>linux-headers-5.13.0-1013-oracle</value>
@@ -7230,6 +7293,13 @@
             <value>python3-lxml</value>
             <value>python-lxml-doc</value>
         </constant_variable>
+        <constant_variable id="oval:com.ubuntu.impish:var:532410000000" version="1" datatype="string" comment="Interim Release">
+            <value>libxml2</value>
+            <value>libxml2-dev</value>
+            <value>libxml2-utils</value>
+            <value>libxml2-doc</value>
+            <value>python3-libxml2</value>
+        </constant_variable>
         <constant_variable id="oval:com.ubuntu.impish:var:522910000000" version="1" datatype="string" comment="Interim Release">
             <value>firefox-locale-nl</value>
             <value>firefox-locale-nn</value>
@@ -7398,8 +7468,8 @@
         <constant_variable id="oval:com.ubuntu.impish:var:531310000000" version="1" datatype="string" comment="Interim Release">
             <value>openjdk-17-demo</value>
             <value>openjdk-17-jdk</value>
-            <value>openjdk-17-jre-zero</value>
             <value>openjdk-17-jdk-headless</value>
+            <value>openjdk-17-jre-zero</value>
             <value>openjdk-17-source</value>
             <value>openjdk-17-jre-headless</value>
             <value>openjdk-17-jre</value>
@@ -7407,8 +7477,8 @@
         </constant_variable>
         <constant_variable id="oval:com.ubuntu.impish:var:531310000010" version="1" datatype="string" comment="Interim Release">
             <value>openjdk-11-source</value>
-            <value>openjdk-11-doc</value>
             <value>openjdk-11-jre-zero</value>
+            <value>openjdk-11-doc</value>
             <value>openjdk-11-jre-headless</value>
             <value>openjdk-11-jdk</value>
             <value>openjdk-11-jdk-headless</value>
@@ -7615,7 +7685,6 @@
             <value>linux-headers-generic-lpae-hwe-20.04</value>
             <value>linux-tools-generic-lpae</value>
             <value>linux-cloud-tools-generic</value>
-            <value>linux-virtual</value>
             <value>linux-tools-generic-hwe-20.04-edge</value>
             <value>linux-generic-hwe-20.04</value>
             <value>linux-cloud-tools-virtual-hwe-20.04</value>
@@ -7623,13 +7692,14 @@
             <value>linux-tools-virtual</value>
             <value>linux-generic-lpae</value>
             <value>linux-image-generic-64k-hwe-20.04-edge</value>
+            <value>linux-headers-virtual-hwe-20.04-edge</value>
             <value>linux-headers-generic-64k</value>
             <value>linux-oem-20.04</value>
-            <value>linux-headers-virtual-hwe-20.04-edge</value>
+            <value>linux-generic</value>
             <value>linux-tools-generic-lpae-hwe-20.04-edge</value>
             <value>linux-generic-hwe-20.04-edge</value>
+            <value>linux-virtual</value>
             <value>linux-headers-lowlatency</value>
-            <value>linux-generic</value>
             <value>linux-generic-lpae-hwe-20.04-edge</value>
             <value>linux-tools-generic-hwe-20.04</value>
             <value>linux-tools-generic</value>
@@ -7656,8 +7726,8 @@
             <value>linux-modules-5.13.0-1010-kvm</value>
             <value>linux-tools-5.13.0-1010-kvm</value>
             <value>linux-headers-5.13.0-1010-kvm</value>
-            <value>linux-image-5.13.0-1010-kvm</value>
             <value>linux-kvm-headers-5.13.0-1010</value>
+            <value>linux-image-5.13.0-1010-kvm</value>
             <value>linux-image-unsigned-5.13.0-1010-kvm</value>
             <value>linux-kvm-tools-5.13.0-1010</value>
             <value>linux-buildinfo-5.13.0-1010-kvm</value>
@@ -7729,8 +7799,8 @@
             <value>linux-aws-cloud-tools-5.13.0-1011</value>
             <value>linux-modules-extra-5.13.0-1011-aws</value>
             <value>linux-aws-headers-5.13.0-1011</value>
-            <value>linux-modules-5.13.0-1011-aws</value>
             <value>linux-aws-tools-5.13.0-1011</value>
+            <value>linux-modules-5.13.0-1011-aws</value>
             <value>linux-headers-5.13.0-1011-aws</value>
             <value>linux-image-5.13.0-1011-aws</value>
             <value>linux-cloud-tools-5.13.0-1011-aws</value>
@@ -7747,6 +7817,13 @@
             <value>linux-gcp-tools-5.13.0-1012</value>
         </constant_variable>
         <constant_variable id="oval:com.ubuntu.impish:var:524010000110" version="1" datatype="string" comment="Interim Release">
+            <value>linux-headers-aws</value>
+            <value>linux-image-aws</value>
+            <value>linux-tools-aws</value>
+            <value>linux-aws</value>
+            <value>linux-modules-extra-aws</value>
+        </constant_variable>
+        <constant_variable id="oval:com.ubuntu.impish:var:524010000120" version="1" datatype="string" comment="Interim Release">
             <value>linux-tools-5.13.0-1015-oracle</value>
             <value>linux-modules-5.13.0-1015-oracle</value>
             <value>linux-buildinfo-5.13.0-1015-oracle</value>
@@ -7756,13 +7833,6 @@
             <value>linux-headers-5.13.0-1015-oracle</value>
             <value>linux-modules-extra-5.13.0-1015-oracle</value>
             <value>linux-oracle-tools-5.13.0-1015</value>
-        </constant_variable>
-        <constant_variable id="oval:com.ubuntu.impish:var:524010000120" version="1" datatype="string" comment="Interim Release">
-            <value>linux-headers-aws</value>
-            <value>linux-image-aws</value>
-            <value>linux-tools-aws</value>
-            <value>linux-aws</value>
-            <value>linux-modules-extra-aws</value>
         </constant_variable>
         <constant_variable id="oval:com.ubuntu.impish:var:524010000130" version="1" datatype="string" comment="Interim Release">
             <value>linux-tools-raspi</value>
@@ -7939,8 +8009,8 @@
             <value>linux-cloud-tools-5.13.0-35</value>
             <value>linux-modules-5.13.0-35-lowlatency</value>
             <value>linux-modules-extra-5.13.0-35-generic</value>
-            <value>linux-image-unsigned-5.13.0-35-lowlatency</value>
             <value>linux-image-unsigned-5.13.0-35-generic-64k</value>
+            <value>linux-image-unsigned-5.13.0-35-lowlatency</value>
             <value>linux-tools-5.13.0-35</value>
             <value>linux-cloud-tools-5.13.0-35-generic</value>
             <value>linux-headers-5.13.0-35-generic-lpae</value>
@@ -7974,16 +8044,6 @@
             <value>linux-tools-gke</value>
         </constant_variable>
         <constant_variable id="oval:com.ubuntu.impish:var:531710000020" version="1" datatype="string" comment="Interim Release">
-            <value>linux-buildinfo-5.13.0-1016-kvm</value>
-            <value>linux-image-5.13.0-1016-kvm</value>
-            <value>linux-modules-5.13.0-1016-kvm</value>
-            <value>linux-kvm-tools-5.13.0-1016</value>
-            <value>linux-image-unsigned-5.13.0-1016-kvm</value>
-            <value>linux-kvm-headers-5.13.0-1016</value>
-            <value>linux-tools-5.13.0-1016-kvm</value>
-            <value>linux-headers-5.13.0-1016-kvm</value>
-        </constant_variable>
-        <constant_variable id="oval:com.ubuntu.impish:var:531710000030" version="1" datatype="string" comment="Interim Release">
             <value>linux-headers-oem-20.04</value>
             <value>linux-cloud-tools-lowlatency-hwe-20.04</value>
             <value>linux-cloud-tools-generic-hwe-20.04</value>
@@ -7991,7 +8051,6 @@
             <value>linux-tools-generic-64k</value>
             <value>linux-image-virtual</value>
             <value>linux-cloud-tools-virtual-hwe-20.04-edge</value>
-            <value>linux-cloud-tools-virtual-hwe-20.04</value>
             <value>linux-image-lowlatency-hwe-20.04-edge</value>
             <value>linux-headers-generic-hwe-20.04</value>
             <value>linux-image-virtual-hwe-20.04</value>
@@ -8030,6 +8089,7 @@
             <value>linux-tools-lowlatency-hwe-20.04</value>
             <value>linux-tools-generic-hwe-20.04-edge</value>
             <value>linux-generic-hwe-20.04</value>
+            <value>linux-cloud-tools-virtual-hwe-20.04</value>
             <value>linux-tools-virtual</value>
             <value>linux-generic-lpae</value>
             <value>linux-image-generic-64k-hwe-20.04-edge</value>
@@ -8063,13 +8123,13 @@
             <value>linux-headers-virtual-hwe-20.04</value>
             <value>linux-image-lowlatency</value>
         </constant_variable>
-        <constant_variable id="oval:com.ubuntu.impish:var:531710000040" version="1" datatype="string" comment="Interim Release">
+        <constant_variable id="oval:com.ubuntu.impish:var:531710000030" version="1" datatype="string" comment="Interim Release">
             <value>linux-headers-oracle</value>
             <value>linux-image-oracle</value>
             <value>linux-tools-oracle</value>
             <value>linux-oracle</value>
         </constant_variable>
-        <constant_variable id="oval:com.ubuntu.impish:var:531710000050" version="1" datatype="string" comment="Interim Release">
+        <constant_variable id="oval:com.ubuntu.impish:var:531710000040" version="1" datatype="string" comment="Interim Release">
             <value>linux-modules-5.13.0-1017-azure</value>
             <value>linux-cloud-tools-5.13.0-1017-aws</value>
             <value>linux-image-5.13.0-1017-aws</value>
@@ -8093,7 +8153,7 @@
             <value>linux-modules-extra-5.13.0-1017-azure</value>
             <value>linux-image-unsigned-5.13.0-1017-aws</value>
         </constant_variable>
-        <constant_variable id="oval:com.ubuntu.impish:var:531710000060" version="1" datatype="string" comment="Interim Release">
+        <constant_variable id="oval:com.ubuntu.impish:var:531710000050" version="1" datatype="string" comment="Interim Release">
             <value>linux-buildinfo-5.13.0-1020-raspi-nolpae</value>
             <value>linux-image-5.13.0-1020-raspi-nolpae</value>
             <value>linux-modules-extra-5.13.0-1020-raspi</value>
@@ -8109,7 +8169,7 @@
             <value>linux-raspi-headers-5.13.0-1020</value>
             <value>linux-modules-5.13.0-1020-raspi-nolpae</value>
         </constant_variable>
-        <constant_variable id="oval:com.ubuntu.impish:var:531710000070" version="1" datatype="string" comment="Interim Release">
+        <constant_variable id="oval:com.ubuntu.impish:var:531710000060" version="1" datatype="string" comment="Interim Release">
             <value>linux-image-unsigned-5.13.0-1019-gcp</value>
             <value>linux-modules-5.13.0-1019-gcp</value>
             <value>linux-tools-5.13.0-1019-gcp</value>
@@ -8120,7 +8180,7 @@
             <value>linux-gcp-tools-5.13.0-1019</value>
             <value>linux-modules-extra-5.13.0-1019-gcp</value>
         </constant_variable>
-        <constant_variable id="oval:com.ubuntu.impish:var:531710000080" version="1" datatype="string" comment="Interim Release">
+        <constant_variable id="oval:com.ubuntu.impish:var:531710000070" version="1" datatype="string" comment="Interim Release">
             <value>linux-cloud-tools-azure</value>
             <value>linux-tools-azure</value>
             <value>linux-modules-extra-azure</value>
@@ -8128,29 +8188,39 @@
             <value>linux-image-azure</value>
             <value>linux-headers-azure</value>
         </constant_variable>
-        <constant_variable id="oval:com.ubuntu.impish:var:531710000090" version="1" datatype="string" comment="Interim Release">
+        <constant_variable id="oval:com.ubuntu.impish:var:531710000080" version="1" datatype="string" comment="Interim Release">
             <value>linux-kvm</value>
             <value>linux-headers-kvm</value>
             <value>linux-image-kvm</value>
             <value>linux-tools-kvm</value>
         </constant_variable>
-        <constant_variable id="oval:com.ubuntu.impish:var:531710000100" version="1" datatype="string" comment="Interim Release">
+        <constant_variable id="oval:com.ubuntu.impish:var:531710000090" version="1" datatype="string" comment="Interim Release">
             <value>linux-headers-aws</value>
             <value>linux-image-aws</value>
             <value>linux-aws</value>
             <value>linux-modules-extra-aws</value>
             <value>linux-tools-aws</value>
         </constant_variable>
-        <constant_variable id="oval:com.ubuntu.impish:var:531710000110" version="1" datatype="string" comment="Interim Release">
+        <constant_variable id="oval:com.ubuntu.impish:var:531710000100" version="1" datatype="string" comment="Interim Release">
             <value>linux-image-unsigned-5.13.0-1021-oracle</value>
             <value>linux-oracle-tools-5.13.0-1021</value>
             <value>linux-headers-5.13.0-1021-oracle</value>
             <value>linux-modules-extra-5.13.0-1021-oracle</value>
+            <value>linux-modules-5.13.0-1021-oracle</value>
             <value>linux-oracle-headers-5.13.0-1021</value>
             <value>linux-buildinfo-5.13.0-1021-oracle</value>
             <value>linux-tools-5.13.0-1021-oracle</value>
             <value>linux-image-5.13.0-1021-oracle</value>
-            <value>linux-modules-5.13.0-1021-oracle</value>
+        </constant_variable>
+        <constant_variable id="oval:com.ubuntu.impish:var:531710000110" version="1" datatype="string" comment="Interim Release">
+            <value>linux-image-5.13.0-1016-kvm</value>
+            <value>linux-modules-5.13.0-1016-kvm</value>
+            <value>linux-kvm-tools-5.13.0-1016</value>
+            <value>linux-image-unsigned-5.13.0-1016-kvm</value>
+            <value>linux-kvm-headers-5.13.0-1016</value>
+            <value>linux-tools-5.13.0-1016-kvm</value>
+            <value>linux-buildinfo-5.13.0-1016-kvm</value>
+            <value>linux-headers-5.13.0-1016-kvm</value>
         </constant_variable>
         <constant_variable id="oval:com.ubuntu.impish:var:531710000120" version="1" datatype="string" comment="Interim Release">
             <value>linux-tools-raspi</value>
