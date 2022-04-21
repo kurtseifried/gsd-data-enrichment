@@ -60,6 +60,21 @@
 					</thead>
 					<tbody>
 						<tr>
+							<td><a href="/AVG-2669">AVG-2669</a></td>
+							<td>
+								<a href="/CVE-2022-23222">CVE-2022-23222</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/linux-hardened">linux-hardened</a></span>
+							</td>
+							<td>5.15.14-1</td>
+							<td>5.15.15-1</td>
+							<td><span class="orange">High</span></td>
+							<td><span class="purple">Unknown</span></td>
+							<td></td>
+							<td class="center"></td>
+						</tr>
+						<tr>
 							<td><a href="/AVG-2626">AVG-2626</a></td>
 							<td>
 								<a href="/CVE-2021-44228">CVE-2021-44228</a>
@@ -72,25 +87,6 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="red">Vulnerable</span></td>
 							<td><a href="https://bugs.archlinux.org/task/72975">FS#72975</a></td>
-							<td class="center"></td>
-						</tr>
-						<tr>
-							<td><a href="/AVG-2637">AVG-2637</a></td>
-							<td>
-								<a href="/CVE-2021-4102">CVE-2021-4102</a><br />
-								<a href="/CVE-2021-4101">CVE-2021-4101</a><br />
-								<a href="/CVE-2021-4100">CVE-2021-4100</a><br />
-								<a href="/CVE-2021-4099">CVE-2021-4099</a><br />
-								<a href="/CVE-2021-4098">CVE-2021-4098</a>
-							</td>
-							<td class="wrap">
-								<span class="no-wrap"><a href="/package/opera">opera</a></span>
-							</td>
-							<td>82.0.4227.33-1</td>
-							<td></td>
-							<td><span class="red">Critical</span></td>
-							<td><span class="red">Vulnerable</span></td>
-							<td></td>
 							<td class="center"></td>
 						</tr>
 						<tr>
@@ -162,23 +158,6 @@
 							<td class="center"></td>
 						</tr>
 						<tr>
-							<td><a href="/AVG-2542">AVG-2542</a></td>
-							<td>
-								<a href="/CVE-2021-43908">CVE-2021-43908</a><br />
-								<a href="/CVE-2021-43891">CVE-2021-43891</a><br />
-								<a href="/CVE-2021-42322">CVE-2021-42322</a>
-							</td>
-							<td class="wrap">
-								<span class="no-wrap"><a href="/package/code">code</a></span>
-							</td>
-							<td>1.62.0-1</td>
-							<td></td>
-							<td><span class="orange">High</span></td>
-							<td><span class="red">Vulnerable</span></td>
-							<td></td>
-							<td class="center"></td>
-						</tr>
-						<tr>
 							<td><a href="/AVG-2275">AVG-2275</a></td>
 							<td>
 								<a href="/CVE-2021-41259">CVE-2021-41259</a><br />
@@ -188,29 +167,6 @@
 								<span class="no-wrap"><a href="/package/nim">nim</a></span>
 							</td>
 							<td>1.4.8-1</td>
-							<td></td>
-							<td><span class="orange">High</span></td>
-							<td><span class="red">Vulnerable</span></td>
-							<td></td>
-							<td class="center"></td>
-						</tr>
-						<tr>
-							<td><a href="/AVG-1332">AVG-1332</a></td>
-							<td>
-								<a href="/CVE-2021-3827">CVE-2021-3827</a><br />
-								<a href="/CVE-2021-3632">CVE-2021-3632</a><br />
-								<a href="/CVE-2021-3424">CVE-2021-3424</a><br />
-								<a href="/CVE-2021-20262">CVE-2021-20262</a><br />
-								<a href="/CVE-2020-1725">CVE-2020-1725</a><br />
-								<a href="/CVE-2020-1723">CVE-2020-1723</a><br />
-								<a href="/CVE-2020-1717">CVE-2020-1717</a><br />
-								<a href="/CVE-2020-14359">CVE-2020-14359</a><br />
-								<a href="/CVE-2020-10734">CVE-2020-10734</a>
-							</td>
-							<td class="wrap">
-								<span class="no-wrap"><a href="/package/keycloak">keycloak</a></span>
-							</td>
-							<td>15.0.2-1</td>
 							<td></td>
 							<td><span class="orange">High</span></td>
 							<td><span class="red">Vulnerable</span></td>
@@ -323,6 +279,22 @@
 							<td class="center"></td>
 						</tr>
 						<tr>
+							<td><a href="/AVG-2683">AVG-2683</a></td>
+							<td>
+								<a href="/CVE-2022-0002">CVE-2022-0002</a><br />
+								<a href="/CVE-2022-0001">CVE-2022-0001</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/linux-lts">linux-lts</a></span>
+							</td>
+							<td>5.15.34-1</td>
+							<td></td>
+							<td><span class="light_orange">Medium</span></td>
+							<td><span class="red">Vulnerable</span></td>
+							<td></td>
+							<td class="center"></td>
+						</tr>
+						<tr>
 							<td><a href="/AVG-2663">AVG-2663</a></td>
 							<td>
 								<a href="/CVE-2022-24801">CVE-2022-24801</a><br />
@@ -394,36 +366,6 @@
 								<span class="no-wrap"><a href="/package/perl">perl</a></span>
 							</td>
 							<td>5.34.0-3</td>
-							<td></td>
-							<td><span class="light_orange">Medium</span></td>
-							<td><span class="red">Vulnerable</span></td>
-							<td></td>
-							<td class="center"></td>
-						</tr>
-						<tr>
-							<td><a href="/AVG-2628">AVG-2628</a></td>
-							<td>
-								<a href="/CVE-2021-37861">CVE-2021-37861</a>
-							</td>
-							<td class="wrap">
-								<span class="no-wrap"><a href="/package/mattermost">mattermost</a></span>
-							</td>
-							<td>5.39.2-1</td>
-							<td></td>
-							<td><span class="light_orange">Medium</span></td>
-							<td><span class="red">Vulnerable</span></td>
-							<td></td>
-							<td class="center"></td>
-						</tr>
-						<tr>
-							<td><a href="/AVG-2627">AVG-2627</a></td>
-							<td>
-								<a href="/CVE-2021-44847">CVE-2021-44847</a>
-							</td>
-							<td class="wrap">
-								<span class="no-wrap"><a href="/package/toxcore">toxcore</a></span>
-							</td>
-							<td>1:0.2.12-3</td>
 							<td></td>
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="red">Vulnerable</span></td>
@@ -508,22 +450,6 @@
 								<span class="no-wrap"><a href="/package/linux">linux</a></span>
 							</td>
 							<td>5.15.8.arch1-1</td>
-							<td></td>
-							<td><span class="light_orange">Medium</span></td>
-							<td><span class="red">Vulnerable</span></td>
-							<td></td>
-							<td class="center"></td>
-						</tr>
-						<tr>
-							<td><a href="/AVG-2618">AVG-2618</a></td>
-							<td>
-								<a href="/CVE-2021-22568">CVE-2021-22568</a><br />
-								<a href="/CVE-2021-22567">CVE-2021-22567</a>
-							</td>
-							<td class="wrap">
-								<span class="no-wrap"><a href="/package/dart">dart</a></span>
-							</td>
-							<td>2.14.4-1</td>
 							<td></td>
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="red">Vulnerable</span></td>
@@ -630,36 +556,6 @@
 							<td class="center"></td>
 						</tr>
 						<tr>
-							<td><a href="/AVG-2554">AVG-2554</a></td>
-							<td>
-								<a href="/CVE-2021-43616">CVE-2021-43616</a>
-							</td>
-							<td class="wrap">
-								<span class="no-wrap"><a href="/package/npm">npm</a></span>
-							</td>
-							<td>8.1.4-1</td>
-							<td></td>
-							<td><span class="light_orange">Medium</span></td>
-							<td><span class="red">Vulnerable</span></td>
-							<td></td>
-							<td class="center"></td>
-						</tr>
-						<tr>
-							<td><a href="/AVG-2553">AVG-2553</a></td>
-							<td>
-								<a href="/CVE-2021-41229">CVE-2021-41229</a>
-							</td>
-							<td class="wrap">
-								<span class="no-wrap"><a href="/package/bluez">bluez</a></span>
-							</td>
-							<td>5.62-1</td>
-							<td></td>
-							<td><span class="light_orange">Medium</span></td>
-							<td><span class="red">Vulnerable</span></td>
-							<td></td>
-							<td class="center"></td>
-						</tr>
-						<tr>
 							<td><a href="/AVG-1898">AVG-1898</a></td>
 							<td>
 								<a href="/CVE-2021-3947">CVE-2021-3947</a><br />
@@ -704,21 +600,6 @@
 							<td class="center"></td>
 						</tr>
 						<tr>
-							<td><a href="/AVG-2528">AVG-2528</a></td>
-							<td>
-								<a href="/CVE-2021-43398">CVE-2021-43398</a>
-							</td>
-							<td class="wrap">
-								<span class="no-wrap"><a href="/package/crypto++">crypto++</a></span>
-							</td>
-							<td>8.5.0-2</td>
-							<td></td>
-							<td><span class="light_orange">Medium</span></td>
-							<td><span class="red">Vulnerable</span></td>
-							<td></td>
-							<td class="center"></td>
-						</tr>
-						<tr>
 							<td><a href="/AVG-2520">AVG-2520</a></td>
 							<td>
 								<a href="/CVE-2020-23109">CVE-2020-23109</a>
@@ -742,48 +623,6 @@
 								<span class="no-wrap"><a href="/package/gitlab-gitaly">gitlab-gitaly</a></span>
 							</td>
 							<td>14.3.0-3</td>
-							<td></td>
-							<td><span class="light_orange">Medium</span></td>
-							<td><span class="red">Vulnerable</span></td>
-							<td></td>
-							<td class="center"></td>
-						</tr>
-						<tr>
-							<td><a href="/AVG-2479">AVG-2479</a></td>
-							<td>
-								<a href="/CVE-2021-35603">CVE-2021-35603</a><br />
-								<a href="/CVE-2021-35588">CVE-2021-35588</a><br />
-								<a href="/CVE-2021-35586">CVE-2021-35586</a><br />
-								<a href="/CVE-2021-35578">CVE-2021-35578</a><br />
-								<a href="/CVE-2021-35567">CVE-2021-35567</a><br />
-								<a href="/CVE-2021-35565">CVE-2021-35565</a><br />
-								<a href="/CVE-2021-35564">CVE-2021-35564</a><br />
-								<a href="/CVE-2021-35561">CVE-2021-35561</a><br />
-								<a href="/CVE-2021-35559">CVE-2021-35559</a><br />
-								<a href="/CVE-2021-35556">CVE-2021-35556</a><br />
-								<a href="/CVE-2021-35550">CVE-2021-35550</a>
-							</td>
-							<td class="wrap">
-								<span class="no-wrap"><a href="/package/jre8-openjdk-headless">jre8-openjdk-headless</a>, </span>
-								<span class="no-wrap"><a href="/package/jdk8-openjdk">jdk8-openjdk</a></span>
-							</td>
-							<td>8.u292-1</td>
-							<td></td>
-							<td><span class="light_orange">Medium</span></td>
-							<td><span class="red">Vulnerable</span></td>
-							<td></td>
-							<td class="center"></td>
-						</tr>
-						<tr>
-							<td><a href="/AVG-1393">AVG-1393</a></td>
-							<td>
-								<a href="/CVE-2021-3698">CVE-2021-3698</a><br />
-								<a href="/CVE-2020-35850">CVE-2020-35850</a>
-							</td>
-							<td class="wrap">
-								<span class="no-wrap"><a href="/package/cockpit">cockpit</a></span>
-							</td>
-							<td>259-1</td>
 							<td></td>
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="red">Vulnerable</span></td>
@@ -938,36 +777,6 @@
 								<span class="no-wrap"><a href="/package/kube-apiserver">kube-apiserver</a></span>
 							</td>
 							<td>1.23.0-1</td>
-							<td></td>
-							<td><span class="light_orange">Medium</span></td>
-							<td><span class="red">Vulnerable</span></td>
-							<td></td>
-							<td class="center"></td>
-						</tr>
-						<tr>
-							<td><a href="/AVG-2380">AVG-2380</a></td>
-							<td>
-								<a href="/CVE-2021-41072">CVE-2021-41072</a>
-							</td>
-							<td class="wrap">
-								<span class="no-wrap"><a href="/package/squashfs-tools">squashfs-tools</a></span>
-							</td>
-							<td>4.5-1</td>
-							<td></td>
-							<td><span class="light_orange">Medium</span></td>
-							<td><span class="red">Vulnerable</span></td>
-							<td></td>
-							<td class="center"></td>
-						</tr>
-						<tr>
-							<td><a href="/AVG-2363">AVG-2363</a></td>
-							<td>
-								<a href="/CVE-2021-40530">CVE-2021-40530</a>
-							</td>
-							<td class="wrap">
-								<span class="no-wrap"><a href="/package/crypto++">crypto++</a></span>
-							</td>
-							<td>8.5.0-2</td>
 							<td></td>
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="red">Vulnerable</span></td>
@@ -1172,21 +981,6 @@
 							<td class="center"></td>
 						</tr>
 						<tr>
-							<td><a href="/AVG-2185">AVG-2185</a></td>
-							<td>
-								<a href="/CVE-2021-3246">CVE-2021-3246</a>
-							</td>
-							<td class="wrap">
-								<span class="no-wrap"><a href="/package/libsndfile">libsndfile</a></span>
-							</td>
-							<td>1.0.31-1</td>
-							<td></td>
-							<td><span class="light_orange">Medium</span></td>
-							<td><span class="red">Vulnerable</span></td>
-							<td></td>
-							<td class="center"></td>
-						</tr>
-						<tr>
 							<td><a href="/AVG-2178">AVG-2178</a></td>
 							<td>
 								<a href="/CVE-2019-25051">CVE-2019-25051</a>
@@ -1199,53 +993,6 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="red">Vulnerable</span></td>
 							<td><a href="https://bugs.archlinux.org/task/71554">FS#71554</a></td>
-							<td class="center"></td>
-						</tr>
-						<tr>
-							<td><a href="/AVG-2176">AVG-2176</a></td>
-							<td>
-								<a href="/CVE-2021-36976">CVE-2021-36976</a>
-							</td>
-							<td class="wrap">
-								<span class="no-wrap"><a href="/package/libarchive">libarchive</a></span>
-							</td>
-							<td>3.5.2-1</td>
-							<td></td>
-							<td><span class="light_orange">Medium</span></td>
-							<td><span class="red">Vulnerable</span></td>
-							<td></td>
-							<td class="center"></td>
-						</tr>
-						<tr>
-							<td><a href="/AVG-1540">AVG-1540</a></td>
-							<td>
-								<a href="/CVE-2021-3648">CVE-2021-3648</a><br />
-								<a href="/CVE-2021-3530">CVE-2021-3530</a><br />
-								<a href="/CVE-2021-20197">CVE-2021-20197</a>
-							</td>
-							<td class="wrap">
-								<span class="no-wrap"><a href="/package/binutils">binutils</a></span>
-							</td>
-							<td>2.36.1-3</td>
-							<td></td>
-							<td><span class="light_orange">Medium</span></td>
-							<td><span class="red">Vulnerable</span></td>
-							<td></td>
-							<td class="center"></td>
-						</tr>
-						<tr>
-							<td><a href="/AVG-2079">AVG-2079</a></td>
-							<td>
-								<a href="/CVE-2021-34825">CVE-2021-34825</a>
-							</td>
-							<td class="wrap">
-								<span class="no-wrap"><a href="/package/quassel-core">quassel-core</a></span>
-							</td>
-							<td>0.13.1-9</td>
-							<td></td>
-							<td><span class="light_orange">Medium</span></td>
-							<td><span class="red">Vulnerable</span></td>
-							<td><a href="https://bugs.archlinux.org/task/71419">FS#71419</a></td>
 							<td class="center"></td>
 						</tr>
 						<tr>
@@ -1343,21 +1090,6 @@
 							<td class="center"></td>
 						</tr>
 						<tr>
-							<td><a href="/AVG-2092">AVG-2092</a></td>
-							<td>
-								<a href="/CVE-2021-0561">CVE-2021-0561</a>
-							</td>
-							<td class="wrap">
-								<span class="no-wrap"><a href="/package/flac">flac</a></span>
-							</td>
-							<td>1.3.3-3</td>
-							<td></td>
-							<td><span class="light_orange">Medium</span></td>
-							<td><span class="red">Vulnerable</span></td>
-							<td></td>
-							<td class="center"></td>
-						</tr>
-						<tr>
 							<td><a href="/AVG-1390">AVG-1390</a></td>
 							<td>
 								<a href="/CVE-2021-3575">CVE-2021-3575</a><br />
@@ -1389,21 +1121,6 @@
 								<span class="no-wrap"><a href="/package/ming">ming</a></span>
 							</td>
 							<td>0.4.8.r68.g04aee523-3</td>
-							<td></td>
-							<td><span class="light_orange">Medium</span></td>
-							<td><span class="red">Vulnerable</span></td>
-							<td></td>
-							<td class="center"></td>
-						</tr>
-						<tr>
-							<td><a href="/AVG-2036">AVG-2036</a></td>
-							<td>
-								<a href="/CVE-2021-3572">CVE-2021-3572</a>
-							</td>
-							<td class="wrap">
-								<span class="no-wrap"><a href="/package/python-pip">python-pip</a></span>
-							</td>
-							<td>20.3.4-4</td>
 							<td></td>
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="red">Vulnerable</span></td>
@@ -1538,22 +1255,6 @@
 							<td class="center"></td>
 						</tr>
 						<tr>
-							<td><a href="/AVG-1934">AVG-1934</a></td>
-							<td>
-								<a href="/CVE-2019-19918">CVE-2019-19918</a><br />
-								<a href="/CVE-2019-19917">CVE-2019-19917</a>
-							</td>
-							<td class="wrap">
-								<span class="no-wrap"><a href="/package/lout">lout</a></span>
-							</td>
-							<td>3.40-2</td>
-							<td></td>
-							<td><span class="light_orange">Medium</span></td>
-							<td><span class="red">Vulnerable</span></td>
-							<td><a href="https://bugs.archlinux.org/task/70758">FS#70758</a></td>
-							<td class="center"></td>
-						</tr>
-						<tr>
 							<td><a href="/AVG-1892">AVG-1892</a></td>
 							<td>
 								<a href="/CVE-2021-31879">CVE-2021-31879</a>
@@ -1660,95 +1361,6 @@
 							<td class="center"></td>
 						</tr>
 						<tr>
-							<td><a href="/AVG-1643">AVG-1643</a></td>
-							<td>
-								<a href="/CVE-2020-35636">CVE-2020-35636</a><br />
-								<a href="/CVE-2020-35635">CVE-2020-35635</a><br />
-								<a href="/CVE-2020-35634">CVE-2020-35634</a><br />
-								<a href="/CVE-2020-35633">CVE-2020-35633</a><br />
-								<a href="/CVE-2020-35632">CVE-2020-35632</a><br />
-								<a href="/CVE-2020-35631">CVE-2020-35631</a><br />
-								<a href="/CVE-2020-35630">CVE-2020-35630</a><br />
-								<a href="/CVE-2020-35629">CVE-2020-35629</a><br />
-								<a href="/CVE-2020-35628">CVE-2020-35628</a><br />
-								<a href="/CVE-2020-28636">CVE-2020-28636</a><br />
-								<a href="/CVE-2020-28635">CVE-2020-28635</a><br />
-								<a href="/CVE-2020-28634">CVE-2020-28634</a><br />
-								<a href="/CVE-2020-28633">CVE-2020-28633</a><br />
-								<a href="/CVE-2020-28632">CVE-2020-28632</a><br />
-								<a href="/CVE-2020-28631">CVE-2020-28631</a><br />
-								<a href="/CVE-2020-28630">CVE-2020-28630</a><br />
-								<a href="/CVE-2020-28629">CVE-2020-28629</a><br />
-								<a href="/CVE-2020-28628">CVE-2020-28628</a><br />
-								<a href="/CVE-2020-28627">CVE-2020-28627</a><br />
-								<a href="/CVE-2020-28626">CVE-2020-28626</a><br />
-								<a href="/CVE-2020-28625">CVE-2020-28625</a><br />
-								<a href="/CVE-2020-28624">CVE-2020-28624</a><br />
-								<a href="/CVE-2020-28623">CVE-2020-28623</a><br />
-								<a href="/CVE-2020-28622">CVE-2020-28622</a><br />
-								<a href="/CVE-2020-28621">CVE-2020-28621</a><br />
-								<a href="/CVE-2020-28620">CVE-2020-28620</a><br />
-								<a href="/CVE-2020-28619">CVE-2020-28619</a><br />
-								<a href="/CVE-2020-28618">CVE-2020-28618</a><br />
-								<a href="/CVE-2020-28617">CVE-2020-28617</a><br />
-								<a href="/CVE-2020-28616">CVE-2020-28616</a><br />
-								<a href="/CVE-2020-28615">CVE-2020-28615</a><br />
-								<a href="/CVE-2020-28614">CVE-2020-28614</a><br />
-								<a href="/CVE-2020-28613">CVE-2020-28613</a><br />
-								<a href="/CVE-2020-28612">CVE-2020-28612</a><br />
-								<a href="/CVE-2020-28611">CVE-2020-28611</a><br />
-								<a href="/CVE-2020-28610">CVE-2020-28610</a><br />
-								<a href="/CVE-2020-28609">CVE-2020-28609</a><br />
-								<a href="/CVE-2020-28608">CVE-2020-28608</a><br />
-								<a href="/CVE-2020-28607">CVE-2020-28607</a><br />
-								<a href="/CVE-2020-28606">CVE-2020-28606</a><br />
-								<a href="/CVE-2020-28605">CVE-2020-28605</a><br />
-								<a href="/CVE-2020-28604">CVE-2020-28604</a><br />
-								<a href="/CVE-2020-28603">CVE-2020-28603</a><br />
-								<a href="/CVE-2020-28602">CVE-2020-28602</a><br />
-								<a href="/CVE-2020-28601">CVE-2020-28601</a>
-							</td>
-							<td class="wrap">
-								<span class="no-wrap"><a href="/package/cgal">cgal</a></span>
-							</td>
-							<td>4.14.3-2</td>
-							<td></td>
-							<td><span class="light_orange">Medium</span></td>
-							<td><span class="red">Vulnerable</span></td>
-							<td><a href="https://bugs.archlinux.org/task/70043">FS#70043</a></td>
-							<td class="center"></td>
-						</tr>
-						<tr>
-							<td><a href="/AVG-1592">AVG-1592</a></td>
-							<td>
-								<a href="/CVE-2020-28463">CVE-2020-28463</a>
-							</td>
-							<td class="wrap">
-								<span class="no-wrap"><a href="/package/python-reportlab">python-reportlab</a></span>
-							</td>
-							<td>3.6.3-1</td>
-							<td></td>
-							<td><span class="light_orange">Medium</span></td>
-							<td><span class="red">Vulnerable</span></td>
-							<td></td>
-							<td class="center"></td>
-						</tr>
-						<tr>
-							<td><a href="/AVG-1590">AVG-1590</a></td>
-							<td>
-								<a href="/CVE-2020-24491">CVE-2020-24491</a>
-							</td>
-							<td class="wrap">
-								<span class="no-wrap"><a href="/package/intel-ucode">intel-ucode</a></span>
-							</td>
-							<td>20210608-1</td>
-							<td></td>
-							<td><span class="light_orange">Medium</span></td>
-							<td><span class="red">Vulnerable</span></td>
-							<td></td>
-							<td class="center"></td>
-						</tr>
-						<tr>
 							<td><a href="/AVG-1542">AVG-1542</a></td>
 							<td>
 								<a href="/CVE-2021-26843">CVE-2021-26843</a>
@@ -1839,6 +1451,36 @@
 							<td class="center"></td>
 						</tr>
 						<tr>
+							<td><a href="/AVG-2569">AVG-2569</a></td>
+							<td>
+								<a href="/CVE-2021-43668">CVE-2021-43668</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/go-ethereum">go-ethereum</a></span>
+							</td>
+							<td>1.10.13-1</td>
+							<td></td>
+							<td><span class="green">Low</span></td>
+							<td><span class="red">Vulnerable</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-1311">AVG-1311</a></td>
+							<td>
+								<a href="/CVE-2020-11867">CVE-2020-11867</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/audacity">audacity</a></span>
+							</td>
+							<td>1:2.4.1-4</td>
+							<td></td>
+							<td><span class="green">Low</span></td>
+							<td><span class="red">Vulnerable</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
 							<td><a href="/AVG-2644">AVG-2644</a></td>
 							<td>
 								<a href="/CVE-2021-4110">CVE-2021-4110</a>
@@ -1862,57 +1504,6 @@
 								<span class="no-wrap"><a href="/package/ruby-bundler">ruby-bundler</a></span>
 							</td>
 							<td>2.2.26-1</td>
-							<td></td>
-							<td><span class="green">Low</span></td>
-							<td><span class="red">Vulnerable</span></td>
-							<td></td>
-							<td class="center"></td>
-						</tr>
-						<tr>
-							<td><a href="/AVG-2605">AVG-2605</a></td>
-							<td>
-								<a href="/CVE-2021-44420">CVE-2021-44420</a>
-							</td>
-							<td class="wrap">
-								<span class="no-wrap"><a href="/package/python-django">python-django</a></span>
-							</td>
-							<td>3.2.9-3</td>
-							<td></td>
-							<td><span class="green">Low</span></td>
-							<td><span class="red">Vulnerable</span></td>
-							<td></td>
-							<td class="center"></td>
-						</tr>
-						<tr>
-							<td><a href="/AVG-2572">AVG-2572</a></td>
-							<td>
-								<a href="/CVE-2021-4069">CVE-2021-4069</a><br />
-								<a href="/CVE-2021-4019">CVE-2021-4019</a><br />
-								<a href="/CVE-2021-3984">CVE-2021-3984</a><br />
-								<a href="/CVE-2021-3974">CVE-2021-3974</a><br />
-								<a href="/CVE-2021-3973">CVE-2021-3973</a><br />
-								<a href="/CVE-2021-3968">CVE-2021-3968</a>
-							</td>
-							<td class="wrap">
-								<span class="no-wrap"><a href="/package/gvim">gvim</a>, </span>
-								<span class="no-wrap"><a href="/package/vim">vim</a></span>
-							</td>
-							<td>8.2.3582-3</td>
-							<td></td>
-							<td><span class="green">Low</span></td>
-							<td><span class="red">Vulnerable</span></td>
-							<td></td>
-							<td class="center"></td>
-						</tr>
-						<tr>
-							<td><a href="/AVG-2569">AVG-2569</a></td>
-							<td>
-								<a href="/CVE-2021-43668">CVE-2021-43668</a>
-							</td>
-							<td class="wrap">
-								<span class="no-wrap"><a href="/package/go-ethereum">go-ethereum</a></span>
-							</td>
-							<td>1.10.13-1</td>
 							<td></td>
 							<td><span class="green">Low</span></td>
 							<td><span class="red">Vulnerable</span></td>
@@ -1981,21 +1572,6 @@
 							<td class="center"></td>
 						</tr>
 						<tr>
-							<td><a href="/AVG-2535">AVG-2535</a></td>
-							<td>
-								<a href="/CVE-2021-43519">CVE-2021-43519</a>
-							</td>
-							<td class="wrap">
-								<span class="no-wrap"><a href="/package/lua">lua</a></span>
-							</td>
-							<td>5.4.3-1</td>
-							<td></td>
-							<td><span class="green">Low</span></td>
-							<td><span class="red">Vulnerable</span></td>
-							<td></td>
-							<td class="center"></td>
-						</tr>
-						<tr>
 							<td><a href="/AVG-2404">AVG-2404</a></td>
 							<td>
 								<a href="/CVE-2021-32275">CVE-2021-32275</a>
@@ -2004,21 +1580,6 @@
 								<span class="no-wrap"><a href="/package/faust">faust</a></span>
 							</td>
 							<td>2.37.3-1</td>
-							<td></td>
-							<td><span class="green">Low</span></td>
-							<td><span class="red">Vulnerable</span></td>
-							<td></td>
-							<td class="center"></td>
-						</tr>
-						<tr>
-							<td><a href="/AVG-2392">AVG-2392</a></td>
-							<td>
-								<a href="/CVE-2016-20012">CVE-2016-20012</a>
-							</td>
-							<td class="wrap">
-								<span class="no-wrap"><a href="/package/openssh">openssh</a></span>
-							</td>
-							<td>8.8p1-1</td>
 							<td></td>
 							<td><span class="green">Low</span></td>
 							<td><span class="red">Vulnerable</span></td>
@@ -2143,10 +1704,10 @@
 								<a href="/CVE-2020-8562">CVE-2020-8562</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/kube-proxy">kube-proxy</a>, </span>
 								<span class="no-wrap"><a href="/package/kubelet">kubelet</a>, </span>
-								<span class="no-wrap"><a href="/package/kube-scheduler">kube-scheduler</a>, </span>
 								<span class="no-wrap"><a href="/package/kube-controller-manager">kube-controller-manager</a>, </span>
+								<span class="no-wrap"><a href="/package/kube-proxy">kube-proxy</a>, </span>
+								<span class="no-wrap"><a href="/package/kube-scheduler">kube-scheduler</a>, </span>
 								<span class="no-wrap"><a href="/package/kube-apiserver">kube-apiserver</a></span>
 							</td>
 							<td>1.23.0-1</td>
@@ -2217,21 +1778,6 @@
 							<td class="center"></td>
 						</tr>
 						<tr>
-							<td><a href="/AVG-2002">AVG-2002</a></td>
-							<td>
-								<a href="/CVE-2021-3549">CVE-2021-3549</a>
-							</td>
-							<td class="wrap">
-								<span class="no-wrap"><a href="/package/binutils">binutils</a></span>
-							</td>
-							<td>2.36.1-3</td>
-							<td></td>
-							<td><span class="green">Low</span></td>
-							<td><span class="red">Vulnerable</span></td>
-							<td></td>
-							<td class="center"></td>
-						</tr>
-						<tr>
 							<td><a href="/AVG-1974">AVG-1974</a></td>
 							<td>
 								<a href="/CVE-2021-33194">CVE-2021-33194</a>
@@ -2240,21 +1786,6 @@
 								<span class="no-wrap"><a href="/package/golang-golang-x-net">golang-golang-x-net</a></span>
 							</td>
 							<td>0.0.20191210-2</td>
-							<td></td>
-							<td><span class="green">Low</span></td>
-							<td><span class="red">Vulnerable</span></td>
-							<td></td>
-							<td class="center"></td>
-						</tr>
-						<tr>
-							<td><a href="/AVG-1965">AVG-1965</a></td>
-							<td>
-								<a href="/CVE-2021-32618">CVE-2021-32618</a>
-							</td>
-							<td class="wrap">
-								<span class="no-wrap"><a href="/package/python-flask-security-too">python-flask-security-too</a></span>
-							</td>
-							<td>4.0.1-4</td>
 							<td></td>
 							<td><span class="green">Low</span></td>
 							<td><span class="red">Vulnerable</span></td>
@@ -2368,21 +1899,6 @@
 							<td class="center"></td>
 						</tr>
 						<tr>
-							<td><a href="/AVG-1311">AVG-1311</a></td>
-							<td>
-								<a href="/CVE-2020-11867">CVE-2020-11867</a>
-							</td>
-							<td class="wrap">
-								<span class="no-wrap"><a href="/package/audacity">audacity</a></span>
-							</td>
-							<td>1:2.4.1-4</td>
-							<td></td>
-							<td><span class="green">Low</span></td>
-							<td><span class="red">Vulnerable</span></td>
-							<td></td>
-							<td class="center"></td>
-						</tr>
-						<tr>
 							<td><a href="/AVG-366">AVG-366</a></td>
 							<td>
 								<a href="/CVE-2017-11331">CVE-2017-11331</a>
@@ -2398,19 +1914,70 @@
 							<td class="center"></td>
 						</tr>
 						<tr>
-							<td><a href="/AVG-2312">AVG-2312</a></td>
+							<td><a href="/AVG-2679">AVG-2679</a></td>
 							<td>
-								<a href="/CVE-2021-37750">CVE-2021-37750</a>
+								<a href="/CVE-2022-24765">CVE-2022-24765</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/krb5">krb5</a></span>
+								<span class="no-wrap"><a href="/package/git">git</a></span>
 							</td>
-							<td>1.19.2-2</td>
-							<td>1.19.3-1</td>
-							<td><span class="light_orange">Medium</span></td>
-							<td><span class="orange">Testing</span></td>
+							<td>2.35.2-1</td>
+							<td>2.35.3-1</td>
+							<td><span class="purple">Unknown</span></td>
+							<td><span class="green">Fixed</span></td>
 							<td></td>
 							<td class="center"></td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2637">AVG-2637</a></td>
+							<td>
+								<a href="/CVE-2021-4102">CVE-2021-4102</a><br />
+								<a href="/CVE-2021-4101">CVE-2021-4101</a><br />
+								<a href="/CVE-2021-4100">CVE-2021-4100</a><br />
+								<a href="/CVE-2021-4099">CVE-2021-4099</a><br />
+								<a href="/CVE-2021-4098">CVE-2021-4098</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/opera">opera</a></span>
+							</td>
+							<td>82.0.4227.33-1</td>
+							<td>82.0.4227.43-1</td>
+							<td><span class="red">Critical</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2664">AVG-2664</a></td>
+							<td>
+								<a href="/CVE-2022-24783">CVE-2022-24783</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/deno">deno</a></span>
+							</td>
+							<td>1.20.2-1</td>
+							<td>1.20.3-1</td>
+							<td><span class="red">Critical</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2676">AVG-2676</a></td>
+							<td>
+								<a href="/CVE-2022-28209">CVE-2022-28209</a><br />
+								<a href="/CVE-2022-28206">CVE-2022-28206</a><br />
+								<a href="/CVE-2022-28205">CVE-2022-28205</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/mediawiki">mediawiki</a></span>
+							</td>
+							<td>1.37.1-1</td>
+							<td>1.37.2-1</td>
+							<td><span class="red">Critical</span></td>
+							<td><span>Not affected</span></td>
+							<td></td>
+							<td class="center">None</td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-2634">AVG-2634</a></td>
@@ -5709,8 +5276,8 @@
 								<a href="/CVE-2018-11354">CVE-2018-11354</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/wireshark-qt">wireshark-qt</a>, </span>
-								<span class="no-wrap"><a href="/package/wireshark-cli">wireshark-cli</a></span>
+								<span class="no-wrap"><a href="/package/wireshark-cli">wireshark-cli</a>, </span>
+								<span class="no-wrap"><a href="/package/wireshark-qt">wireshark-qt</a></span>
 							</td>
 							<td>2.6.0-1</td>
 							<td>2.6.1-1</td>
@@ -6946,7 +6513,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201707-14">ASA-201707-14</a><br/><a href="/ASA-201707-14">ASA-201707-14</a></td>
+							<td class="center"><a href="/ASA-201707-14">ASA-201707-14</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-342">AVG-342</a></td>
@@ -8331,6 +7898,256 @@
 							<td class="center"><a href="/ASA-201701-1">ASA-201701-1</a></td>
 						</tr>
 						<tr>
+							<td><a href="/AVG-2674">AVG-2674</a></td>
+							<td>
+								<a href="/CVE-2022-28356">CVE-2022-28356</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/linux-hardened">linux-hardened</a></span>
+							</td>
+							<td>5.17.0-1</td>
+							<td>5.17.1-1</td>
+							<td><span class="orange">High</span></td>
+							<td><span>Not affected</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2675">AVG-2675</a></td>
+							<td>
+								<a href="/CVE-2022-28356">CVE-2022-28356</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/linux-lts">linux-lts</a></span>
+							</td>
+							<td>5.17.0-1</td>
+							<td>5.17.1-1</td>
+							<td><span class="orange">High</span></td>
+							<td><span>Not affected</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2671">AVG-2671</a></td>
+							<td>
+								<a href="/CVE-2022-23222">CVE-2022-23222</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/linux-zen">linux-zen</a></span>
+							</td>
+							<td>5.15.14-1</td>
+							<td>5.15.15-1</td>
+							<td><span class="orange">High</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2668">AVG-2668</a></td>
+							<td>
+								<a href="/CVE-2022-23222">CVE-2022-23222</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/linux">linux</a></span>
+							</td>
+							<td>5.15.14-1</td>
+							<td>5.15.15-1</td>
+							<td><span class="orange">High</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2670">AVG-2670</a></td>
+							<td>
+								<a href="/CVE-2022-23222">CVE-2022-23222</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/linux-lts">linux-lts</a></span>
+							</td>
+							<td>5.15.14-1</td>
+							<td>5.15.15-1</td>
+							<td><span class="orange">High</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-1332">AVG-1332</a></td>
+							<td>
+								<a href="/CVE-2021-3827">CVE-2021-3827</a><br />
+								<a href="/CVE-2021-3632">CVE-2021-3632</a><br />
+								<a href="/CVE-2021-3424">CVE-2021-3424</a><br />
+								<a href="/CVE-2021-20262">CVE-2021-20262</a><br />
+								<a href="/CVE-2020-1725">CVE-2020-1725</a><br />
+								<a href="/CVE-2020-1723">CVE-2020-1723</a><br />
+								<a href="/CVE-2020-1717">CVE-2020-1717</a><br />
+								<a href="/CVE-2020-14359">CVE-2020-14359</a><br />
+								<a href="/CVE-2020-10734">CVE-2020-10734</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/keycloak">keycloak</a></span>
+							</td>
+							<td>15.0.2-1</td>
+							<td>16.0.0-1</td>
+							<td><span class="orange">High</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2542">AVG-2542</a></td>
+							<td>
+								<a href="/CVE-2021-43908">CVE-2021-43908</a><br />
+								<a href="/CVE-2021-43891">CVE-2021-43891</a><br />
+								<a href="/CVE-2021-42322">CVE-2021-42322</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/code">code</a></span>
+							</td>
+							<td>1.62.0-1</td>
+							<td>1.63.0-1</td>
+							<td><span class="orange">High</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2678">AVG-2678</a></td>
+							<td>
+								<a href="/CVE-2022-28160">CVE-2022-28160</a><br />
+								<a href="/CVE-2022-28159">CVE-2022-28159</a><br />
+								<a href="/CVE-2022-28158">CVE-2022-28158</a><br />
+								<a href="/CVE-2022-28157">CVE-2022-28157</a><br />
+								<a href="/CVE-2022-28156">CVE-2022-28156</a><br />
+								<a href="/CVE-2022-28155">CVE-2022-28155</a><br />
+								<a href="/CVE-2022-28154">CVE-2022-28154</a><br />
+								<a href="/CVE-2022-28153">CVE-2022-28153</a><br />
+								<a href="/CVE-2022-28152">CVE-2022-28152</a><br />
+								<a href="/CVE-2022-28151">CVE-2022-28151</a><br />
+								<a href="/CVE-2022-28150">CVE-2022-28150</a><br />
+								<a href="/CVE-2022-28149">CVE-2022-28149</a><br />
+								<a href="/CVE-2022-28148">CVE-2022-28148</a><br />
+								<a href="/CVE-2022-28147">CVE-2022-28147</a><br />
+								<a href="/CVE-2022-28146">CVE-2022-28146</a><br />
+								<a href="/CVE-2022-28145">CVE-2022-28145</a><br />
+								<a href="/CVE-2022-28144">CVE-2022-28144</a><br />
+								<a href="/CVE-2022-28143">CVE-2022-28143</a><br />
+								<a href="/CVE-2022-28142">CVE-2022-28142</a><br />
+								<a href="/CVE-2022-28141">CVE-2022-28141</a><br />
+								<a href="/CVE-2022-28140">CVE-2022-28140</a><br />
+								<a href="/CVE-2022-28139">CVE-2022-28139</a><br />
+								<a href="/CVE-2022-28138">CVE-2022-28138</a><br />
+								<a href="/CVE-2022-28137">CVE-2022-28137</a><br />
+								<a href="/CVE-2022-28136">CVE-2022-28136</a><br />
+								<a href="/CVE-2022-28135">CVE-2022-28135</a><br />
+								<a href="/CVE-2022-28134">CVE-2022-28134</a><br />
+								<a href="/CVE-2022-28133">CVE-2022-28133</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/jenkins">jenkins</a></span>
+							</td>
+							<td>0.0.0-1</td>
+							<td></td>
+							<td><span class="orange">High</span></td>
+							<td><span>Not affected</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2673">AVG-2673</a></td>
+							<td>
+								<a href="/CVE-2022-28356">CVE-2022-28356</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/linux">linux</a></span>
+							</td>
+							<td>5.17.0-1</td>
+							<td>5.17.1-1</td>
+							<td><span class="orange">High</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center"></td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2672">AVG-2672</a></td>
+							<td>
+								<a href="/CVE-2022-28356">CVE-2022-28356</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/linux-zen">linux-zen</a></span>
+							</td>
+							<td>5.17.0-1</td>
+							<td>5.17.1-1</td>
+							<td><span class="orange">High</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center"></td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2667">AVG-2667</a></td>
+							<td>
+								<a href="/CVE-2022-28347">CVE-2022-28347</a><br />
+								<a href="/CVE-2022-28346">CVE-2022-28346</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/python-django">python-django</a></span>
+							</td>
+							<td>4.0.3-1</td>
+							<td>4.0.4-1</td>
+							<td><span class="orange">High</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center"><a href="/ASA-202204-9">ASA-202204-9</a></td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2666">AVG-2666</a></td>
+							<td>
+								<a href="/CVE-2022-1271">CVE-2022-1271</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/gzip">gzip</a></span>
+							</td>
+							<td>1.11-1</td>
+							<td>1.12-1</td>
+							<td><span class="orange">High</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center"><a href="/ASA-202204-7">ASA-202204-7</a></td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2665">AVG-2665</a></td>
+							<td>
+								<a href="/CVE-2022-1271">CVE-2022-1271</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/xz">xz</a></span>
+							</td>
+							<td>5.2.5-2</td>
+							<td>5.2.5-3</td>
+							<td><span class="orange">High</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center"><a href="/ASA-202204-8">ASA-202204-8</a></td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2662">AVG-2662</a></td>
+							<td>
+								<a href="/CVE-2022-1160">CVE-2022-1160</a><br />
+								<a href="/CVE-2022-1154">CVE-2022-1154</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/gvim">gvim</a>, </span>
+								<span class="no-wrap"><a href="/package/vim">vim</a></span>
+							</td>
+							<td>8.2.4464-1</td>
+							<td>8.2.4651-1</td>
+							<td><span class="orange">High</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center"></td>
+						</tr>
+						<tr>
 							<td><a href="/AVG-2661">AVG-2661</a></td>
 							<td>
 								<a href="/CVE-2022-0667">CVE-2022-0667</a><br />
@@ -8346,23 +8163,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"></td>
-						</tr>
-						<tr>
-							<td><a href="/AVG-2662">AVG-2662</a></td>
-							<td>
-								<a href="/CVE-2022-1154">CVE-2022-1154</a>
-							</td>
-							<td class="wrap">
-								<span class="no-wrap"><a href="/package/gvim">gvim</a>, </span>
-								<span class="no-wrap"><a href="/package/vim">vim</a></span>
-							</td>
-							<td>8.2.4464-1</td>
-							<td>8.2.4651-1</td>
-							<td><span class="orange">High</span></td>
-							<td><span class="green">Fixed</span></td>
-							<td></td>
-							<td class="center"></td>
+							<td class="center"><a href="/ASA-202204-5">ASA-202204-5</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-2658">AVG-2658</a></td>
@@ -8385,7 +8186,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td><a href="https://bugs.archlinux.org/task/74229">FS#74229</a></td>
-							<td class="center"></td>
+							<td class="center"><a href="/ASA-202204-6">ASA-202204-6</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-2660">AVG-2660</a></td>
@@ -10460,8 +10261,8 @@
 								<a href="/CVE-2021-40823">CVE-2021-40823</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/element-desktop">element-desktop</a>, </span>
-								<span class="no-wrap"><a href="/package/element-web">element-web</a></span>
+								<span class="no-wrap"><a href="/package/element-web">element-web</a>, </span>
+								<span class="no-wrap"><a href="/package/element-desktop">element-desktop</a></span>
 							</td>
 							<td>1.7.34-2</td>
 							<td>1.8.4-1</td>
@@ -11252,7 +11053,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202107-66">ASA-202107-66</a><br/><a href="/ASA-202107-66">ASA-202107-66</a><br/><a href="/ASA-202107-65">ASA-202107-65</a><br/><a href="/ASA-202107-65">ASA-202107-65</a></td>
+							<td class="center"><a href="/ASA-202107-66">ASA-202107-66</a><br/><a href="/ASA-202107-65">ASA-202107-65</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-2204">AVG-2204</a></td>
@@ -11781,7 +11582,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202106-34">ASA-202106-34</a></td>
+							<td class="center"><a href="/ASA-202106-34">ASA-202106-34</a><br/><a href="/ASA-202106-34">ASA-202106-34</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-2086">AVG-2086</a></td>
@@ -12656,7 +12457,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202105-6">ASA-202105-6</a></td>
+							<td class="center"><a href="/ASA-202105-6">ASA-202105-6</a><br/><a href="/ASA-202105-6">ASA-202105-6</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1912">AVG-1912</a></td>
@@ -13612,8 +13413,8 @@
 								<a href="/CVE-2021-26701">CVE-2021-26701</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/dotnet-runtime-3.1">dotnet-runtime-3.1</a>, </span>
-								<span class="no-wrap"><a href="/package/dotnet-sdk-3.1">dotnet-sdk-3.1</a></span>
+								<span class="no-wrap"><a href="/package/dotnet-sdk-3.1">dotnet-sdk-3.1</a>, </span>
+								<span class="no-wrap"><a href="/package/dotnet-runtime-3.1">dotnet-runtime-3.1</a></span>
 							</td>
 							<td>3.1.12.sdk112-3</td>
 							<td>3.1.13.sdk113-1</td>
@@ -13993,7 +13794,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202102-29">ASA-202102-29</a></td>
+							<td class="center"><a href="/ASA-202102-29">ASA-202102-29</a><br/><a href="/ASA-202102-29">ASA-202102-29</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1247">AVG-1247</a></td>
@@ -15000,7 +14801,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202011-23">ASA-202011-23</a></td>
+							<td class="center"><a href="/ASA-202011-23">ASA-202011-23</a><br/><a href="/ASA-202011-23">ASA-202011-23</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1289">AVG-1289</a></td>
@@ -15130,7 +14931,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202011-5">ASA-202011-5</a><br/><a href="/ASA-202011-5">ASA-202011-5</a></td>
+							<td class="center"><a href="/ASA-202011-5">ASA-202011-5</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1255">AVG-1255</a></td>
@@ -15192,7 +14993,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202010-8">ASA-202010-8</a></td>
+							<td class="center"><a href="/ASA-202010-8">ASA-202010-8</a><br/><a href="/ASA-202010-8">ASA-202010-8</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1250">AVG-1250</a></td>
@@ -15258,7 +15059,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202011-4">ASA-202011-4</a></td>
+							<td class="center"><a href="/ASA-202011-4">ASA-202011-4</a><br/><a href="/ASA-202011-4">ASA-202011-4</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1243">AVG-1243</a></td>
@@ -15288,7 +15089,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202010-7">ASA-202010-7</a></td>
+							<td class="center"><a href="/ASA-202010-7">ASA-202010-7</a><br/><a href="/ASA-202010-7">ASA-202010-7</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1207">AVG-1207</a></td>
@@ -15517,7 +15318,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202009-2">ASA-202009-2</a></td>
+							<td class="center"><a href="/ASA-202009-2">ASA-202009-2</a><br/><a href="/ASA-202009-2">ASA-202009-2</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1213">AVG-1213</a></td>
@@ -15781,7 +15582,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202006-10">ASA-202006-10</a></td>
+							<td class="center"><a href="/ASA-202006-10">ASA-202006-10</a><br/><a href="/ASA-202006-10">ASA-202006-10</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1186">AVG-1186</a></td>
@@ -16070,7 +15871,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td><a href="https://bugs.archlinux.org/task/66642">FS#66642</a></td>
-							<td class="center"><a href="/ASA-202005-8">ASA-202005-8</a></td>
+							<td class="center"><a href="/ASA-202005-8">ASA-202005-8</a><br/><a href="/ASA-202005-8">ASA-202005-8</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1150">AVG-1150</a></td>
@@ -16624,7 +16425,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201911-14">ASA-201911-14</a></td>
+							<td class="center"><a href="/ASA-201911-14">ASA-201911-14</a><br/><a href="/ASA-201911-14">ASA-201911-14</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1067">AVG-1067</a></td>
@@ -17501,7 +17302,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201905-3">ASA-201905-3</a><br/><a href="/ASA-201905-3">ASA-201905-3</a></td>
+							<td class="center"><a href="/ASA-201905-3">ASA-201905-3</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-955">AVG-955</a></td>
@@ -18023,7 +17824,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201904-1">ASA-201904-1</a><br/><a href="/ASA-201904-1">ASA-201904-1</a></td>
+							<td class="center"><a href="/ASA-201904-1">ASA-201904-1</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-885">AVG-885</a></td>
@@ -18084,7 +17885,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201903-3">ASA-201903-3</a><br/><a href="/ASA-201903-3">ASA-201903-3</a></td>
+							<td class="center"><a href="/ASA-201903-3">ASA-201903-3</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-878">AVG-878</a></td>
@@ -18294,7 +18095,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201901-12">ASA-201901-12</a></td>
+							<td class="center"><a href="/ASA-201901-12">ASA-201901-12</a><br/><a href="/ASA-201901-12">ASA-201901-12</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-845">AVG-845</a></td>
@@ -18775,7 +18576,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201812-4">ASA-201812-4</a></td>
+							<td class="center"><a href="/ASA-201812-4">ASA-201812-4</a><br/><a href="/ASA-201812-4">ASA-201812-4</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-769">AVG-769</a></td>
@@ -20031,9 +19832,9 @@
 							</td>
 							<td class="wrap">
 								<span class="no-wrap"><a href="/package/mupdf-gl">mupdf-gl</a>, </span>
-								<span class="no-wrap"><a href="/package/mupdf-tools">mupdf-tools</a>, </span>
+								<span class="no-wrap"><a href="/package/libmupdf">libmupdf</a>, </span>
 								<span class="no-wrap"><a href="/package/mupdf">mupdf</a>, </span>
-								<span class="no-wrap"><a href="/package/libmupdf">libmupdf</a></span>
+								<span class="no-wrap"><a href="/package/mupdf-tools">mupdf-tools</a></span>
 							</td>
 							<td>1.12.0-1</td>
 							<td>1.12.0-2</td>
@@ -20048,8 +19849,8 @@
 								<a href="/CVE-2018-1000001">CVE-2018-1000001</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/lib32-glibc">lib32-glibc</a>, </span>
-								<span class="no-wrap"><a href="/package/glibc">glibc</a></span>
+								<span class="no-wrap"><a href="/package/glibc">glibc</a>, </span>
+								<span class="no-wrap"><a href="/package/lib32-glibc">lib32-glibc</a></span>
 							</td>
 							<td>2.26-10</td>
 							<td>2.26-11</td>
@@ -20149,7 +19950,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201801-10">ASA-201801-10</a></td>
+							<td class="center"><a href="/ASA-201801-10">ASA-201801-10</a><br/><a href="/ASA-201801-10">ASA-201801-10</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-579">AVG-579</a></td>
@@ -21063,8 +20864,8 @@
 								<a href="/CVE-2017-15670">CVE-2017-15670</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/lib32-glibc">lib32-glibc</a>, </span>
-								<span class="no-wrap"><a href="/package/glibc">glibc</a></span>
+								<span class="no-wrap"><a href="/package/glibc">glibc</a>, </span>
+								<span class="no-wrap"><a href="/package/lib32-glibc">lib32-glibc</a></span>
 							</td>
 							<td>2.26-8</td>
 							<td>2.26-9</td>
@@ -21083,9 +20884,9 @@
 							</td>
 							<td class="wrap">
 								<span class="no-wrap"><a href="/package/mupdf-gl">mupdf-gl</a>, </span>
-								<span class="no-wrap"><a href="/package/mupdf-tools">mupdf-tools</a>, </span>
+								<span class="no-wrap"><a href="/package/libmupdf">libmupdf</a>, </span>
 								<span class="no-wrap"><a href="/package/mupdf">mupdf</a>, </span>
-								<span class="no-wrap"><a href="/package/libmupdf">libmupdf</a></span>
+								<span class="no-wrap"><a href="/package/mupdf-tools">mupdf-tools</a></span>
 							</td>
 							<td>1.11-4</td>
 							<td>1.11-5</td>
@@ -21439,7 +21240,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201710-8">ASA-201710-8</a><br/><a href="/ASA-201710-8">ASA-201710-8</a></td>
+							<td class="center"><a href="/ASA-201710-8">ASA-201710-8</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-410">AVG-410</a></td>
@@ -23055,7 +22856,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201701-18">ASA-201701-18</a></td>
+							<td class="center"><a href="/ASA-201701-18">ASA-201701-18</a><br/><a href="/ASA-201701-18">ASA-201701-18</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-129">AVG-129</a></td>
@@ -23373,8 +23174,8 @@
 								<a href="/CVE-2016-9373">CVE-2016-9373</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/wireshark-qt">wireshark-qt</a>, </span>
-								<span class="no-wrap"><a href="/package/wireshark-cli">wireshark-cli</a></span>
+								<span class="no-wrap"><a href="/package/wireshark-cli">wireshark-cli</a>, </span>
+								<span class="no-wrap"><a href="/package/wireshark-qt">wireshark-qt</a></span>
 							</td>
 							<td>2.2.1-1</td>
 							<td>2.2.2-1</td>
@@ -23877,6 +23678,444 @@
 							<td><span class="green">Fixed</span></td>
 							<td></td>
 							<td class="center"><a href="/ASA-201612-21">ASA-201612-21</a></td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2092">AVG-2092</a></td>
+							<td>
+								<a href="/CVE-2021-0561">CVE-2021-0561</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/flac">flac</a></span>
+							</td>
+							<td>1.3.3-3</td>
+							<td>1.3.4-1</td>
+							<td><span class="light_orange">Medium</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2312">AVG-2312</a></td>
+							<td>
+								<a href="/CVE-2021-37750">CVE-2021-37750</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/krb5">krb5</a></span>
+							</td>
+							<td>1.19.2-2</td>
+							<td>1.19.3-1</td>
+							<td><span class="light_orange">Medium</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2554">AVG-2554</a></td>
+							<td>
+								<a href="/CVE-2021-43616">CVE-2021-43616</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/npm">npm</a></span>
+							</td>
+							<td>8.1.4-1</td>
+							<td>8.4.1-1</td>
+							<td><span class="light_orange">Medium</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2628">AVG-2628</a></td>
+							<td>
+								<a href="/CVE-2021-37861">CVE-2021-37861</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/mattermost">mattermost</a></span>
+							</td>
+							<td>5.39.1-1</td>
+							<td>5.39.2-1</td>
+							<td><span class="light_orange">Medium</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2627">AVG-2627</a></td>
+							<td>
+								<a href="/CVE-2021-44847">CVE-2021-44847</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/toxcore">toxcore</a></span>
+							</td>
+							<td>1:0.2.12-3</td>
+							<td>1:0.2.13-1</td>
+							<td><span class="light_orange">Medium</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2680">AVG-2680</a></td>
+							<td>
+								<a href="/CVE-2022-0002">CVE-2022-0002</a><br />
+								<a href="/CVE-2022-0001">CVE-2022-0001</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/linux">linux</a></span>
+							</td>
+							<td>5.16.13.arch1-1</td>
+							<td>5.16.14.arch1-1</td>
+							<td><span class="light_orange">Medium</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2681">AVG-2681</a></td>
+							<td>
+								<a href="/CVE-2022-0002">CVE-2022-0002</a><br />
+								<a href="/CVE-2022-0001">CVE-2022-0001</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/linux-zen">linux-zen</a></span>
+							</td>
+							<td>5.16.13.zen1-1</td>
+							<td>5.16.14.zen1-1</td>
+							<td><span class="light_orange">Medium</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2682">AVG-2682</a></td>
+							<td>
+								<a href="/CVE-2022-0002">CVE-2022-0002</a><br />
+								<a href="/CVE-2022-0001">CVE-2022-0001</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/linux-hardened">linux-hardened</a></span>
+							</td>
+							<td>5.12.19.hardened1-1</td>
+							<td>5.13.13.hardened1-1</td>
+							<td><span class="light_orange">Medium</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-1590">AVG-1590</a></td>
+							<td>
+								<a href="/CVE-2020-24491">CVE-2020-24491</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/intel-ucode">intel-ucode</a></span>
+							</td>
+							<td>20210608-1</td>
+							<td>20220207-1</td>
+							<td><span class="light_orange">Medium</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-1592">AVG-1592</a></td>
+							<td>
+								<a href="/CVE-2020-28463">CVE-2020-28463</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/python-reportlab">python-reportlab</a></span>
+							</td>
+							<td>3.5.54-1</td>
+							<td>3.5.55-1</td>
+							<td><span class="light_orange">Medium</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-1393">AVG-1393</a></td>
+							<td>
+								<a href="/CVE-2021-3698">CVE-2021-3698</a><br />
+								<a href="/CVE-2020-35850">CVE-2020-35850</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/cockpit">cockpit</a></span>
+							</td>
+							<td>259-1</td>
+							<td>260-1</td>
+							<td><span class="light_orange">Medium</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2036">AVG-2036</a></td>
+							<td>
+								<a href="/CVE-2021-3572">CVE-2021-3572</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/python-pip">python-pip</a></span>
+							</td>
+							<td>20.3.4-4</td>
+							<td>21.0-1</td>
+							<td><span class="light_orange">Medium</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2079">AVG-2079</a></td>
+							<td>
+								<a href="/CVE-2021-34825">CVE-2021-34825</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/quassel-core">quassel-core</a></span>
+							</td>
+							<td>0.13.1-9</td>
+							<td>0.14.0-1</td>
+							<td><span class="light_orange">Medium</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td><a href="https://bugs.archlinux.org/task/71419">FS#71419</a></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2176">AVG-2176</a></td>
+							<td>
+								<a href="/CVE-2021-36976">CVE-2021-36976</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/libarchive">libarchive</a></span>
+							</td>
+							<td>3.5.2-1</td>
+							<td>3.6.1-1</td>
+							<td><span class="light_orange">Medium</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2185">AVG-2185</a></td>
+							<td>
+								<a href="/CVE-2021-3246">CVE-2021-3246</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/libsndfile">libsndfile</a></span>
+							</td>
+							<td>1.0.31-1</td>
+							<td>1.1.0-1</td>
+							<td><span class="light_orange">Medium</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2618">AVG-2618</a></td>
+							<td>
+								<a href="/CVE-2021-22568">CVE-2021-22568</a><br />
+								<a href="/CVE-2021-22567">CVE-2021-22567</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/dart">dart</a></span>
+							</td>
+							<td>2.14.4-1</td>
+							<td>2.16.1-1</td>
+							<td><span class="light_orange">Medium</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2380">AVG-2380</a></td>
+							<td>
+								<a href="/CVE-2021-41072">CVE-2021-41072</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/squashfs-tools">squashfs-tools</a></span>
+							</td>
+							<td>4.5-1</td>
+							<td>4.5.1-1</td>
+							<td><span class="light_orange">Medium</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2363">AVG-2363</a></td>
+							<td>
+								<a href="/CVE-2021-40530">CVE-2021-40530</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/crypto++">crypto++</a></span>
+							</td>
+							<td>8.5.0-2</td>
+							<td>8.6.0-1</td>
+							<td><span class="light_orange">Medium</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-1934">AVG-1934</a></td>
+							<td>
+								<a href="/CVE-2019-19918">CVE-2019-19918</a><br />
+								<a href="/CVE-2019-19917">CVE-2019-19917</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/lout">lout</a></span>
+							</td>
+							<td>3.40-2</td>
+							<td>3.41-1</td>
+							<td><span class="light_orange">Medium</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td><a href="https://bugs.archlinux.org/task/70758">FS#70758</a></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-1643">AVG-1643</a></td>
+							<td>
+								<a href="/CVE-2020-35636">CVE-2020-35636</a><br />
+								<a href="/CVE-2020-35635">CVE-2020-35635</a><br />
+								<a href="/CVE-2020-35634">CVE-2020-35634</a><br />
+								<a href="/CVE-2020-35633">CVE-2020-35633</a><br />
+								<a href="/CVE-2020-35632">CVE-2020-35632</a><br />
+								<a href="/CVE-2020-35631">CVE-2020-35631</a><br />
+								<a href="/CVE-2020-35630">CVE-2020-35630</a><br />
+								<a href="/CVE-2020-35629">CVE-2020-35629</a><br />
+								<a href="/CVE-2020-35628">CVE-2020-35628</a><br />
+								<a href="/CVE-2020-28636">CVE-2020-28636</a><br />
+								<a href="/CVE-2020-28635">CVE-2020-28635</a><br />
+								<a href="/CVE-2020-28634">CVE-2020-28634</a><br />
+								<a href="/CVE-2020-28633">CVE-2020-28633</a><br />
+								<a href="/CVE-2020-28632">CVE-2020-28632</a><br />
+								<a href="/CVE-2020-28631">CVE-2020-28631</a><br />
+								<a href="/CVE-2020-28630">CVE-2020-28630</a><br />
+								<a href="/CVE-2020-28629">CVE-2020-28629</a><br />
+								<a href="/CVE-2020-28628">CVE-2020-28628</a><br />
+								<a href="/CVE-2020-28627">CVE-2020-28627</a><br />
+								<a href="/CVE-2020-28626">CVE-2020-28626</a><br />
+								<a href="/CVE-2020-28625">CVE-2020-28625</a><br />
+								<a href="/CVE-2020-28624">CVE-2020-28624</a><br />
+								<a href="/CVE-2020-28623">CVE-2020-28623</a><br />
+								<a href="/CVE-2020-28622">CVE-2020-28622</a><br />
+								<a href="/CVE-2020-28621">CVE-2020-28621</a><br />
+								<a href="/CVE-2020-28620">CVE-2020-28620</a><br />
+								<a href="/CVE-2020-28619">CVE-2020-28619</a><br />
+								<a href="/CVE-2020-28618">CVE-2020-28618</a><br />
+								<a href="/CVE-2020-28617">CVE-2020-28617</a><br />
+								<a href="/CVE-2020-28616">CVE-2020-28616</a><br />
+								<a href="/CVE-2020-28615">CVE-2020-28615</a><br />
+								<a href="/CVE-2020-28614">CVE-2020-28614</a><br />
+								<a href="/CVE-2020-28613">CVE-2020-28613</a><br />
+								<a href="/CVE-2020-28612">CVE-2020-28612</a><br />
+								<a href="/CVE-2020-28611">CVE-2020-28611</a><br />
+								<a href="/CVE-2020-28610">CVE-2020-28610</a><br />
+								<a href="/CVE-2020-28609">CVE-2020-28609</a><br />
+								<a href="/CVE-2020-28608">CVE-2020-28608</a><br />
+								<a href="/CVE-2020-28607">CVE-2020-28607</a><br />
+								<a href="/CVE-2020-28606">CVE-2020-28606</a><br />
+								<a href="/CVE-2020-28605">CVE-2020-28605</a><br />
+								<a href="/CVE-2020-28604">CVE-2020-28604</a><br />
+								<a href="/CVE-2020-28603">CVE-2020-28603</a><br />
+								<a href="/CVE-2020-28602">CVE-2020-28602</a><br />
+								<a href="/CVE-2020-28601">CVE-2020-28601</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/cgal">cgal</a></span>
+							</td>
+							<td>4.14.3-2</td>
+							<td>5.4-1</td>
+							<td><span class="light_orange">Medium</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td><a href="https://bugs.archlinux.org/task/70043">FS#70043</a></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-1540">AVG-1540</a></td>
+							<td>
+								<a href="/CVE-2021-3648">CVE-2021-3648</a><br />
+								<a href="/CVE-2021-3530">CVE-2021-3530</a><br />
+								<a href="/CVE-2021-20197">CVE-2021-20197</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/binutils">binutils</a></span>
+							</td>
+							<td>2.36.1-3</td>
+							<td>2.38-1</td>
+							<td><span class="light_orange">Medium</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2479">AVG-2479</a></td>
+							<td>
+								<a href="/CVE-2021-35603">CVE-2021-35603</a><br />
+								<a href="/CVE-2021-35588">CVE-2021-35588</a><br />
+								<a href="/CVE-2021-35586">CVE-2021-35586</a><br />
+								<a href="/CVE-2021-35578">CVE-2021-35578</a><br />
+								<a href="/CVE-2021-35567">CVE-2021-35567</a><br />
+								<a href="/CVE-2021-35565">CVE-2021-35565</a><br />
+								<a href="/CVE-2021-35564">CVE-2021-35564</a><br />
+								<a href="/CVE-2021-35561">CVE-2021-35561</a><br />
+								<a href="/CVE-2021-35559">CVE-2021-35559</a><br />
+								<a href="/CVE-2021-35556">CVE-2021-35556</a><br />
+								<a href="/CVE-2021-35550">CVE-2021-35550</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/jre8-openjdk-headless">jre8-openjdk-headless</a>, </span>
+								<span class="no-wrap"><a href="/package/jdk8-openjdk">jdk8-openjdk</a></span>
+							</td>
+							<td>8.u292-1</td>
+							<td>8.332.u04-1</td>
+							<td><span class="light_orange">Medium</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2553">AVG-2553</a></td>
+							<td>
+								<a href="/CVE-2021-41229">CVE-2021-41229</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/bluez">bluez</a></span>
+							</td>
+							<td>5.62-1</td>
+							<td>5.63-1</td>
+							<td><span class="light_orange">Medium</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2528">AVG-2528</a></td>
+							<td>
+								<a href="/CVE-2021-43398">CVE-2021-43398</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/crypto++">crypto++</a></span>
+							</td>
+							<td>8.5.0-2</td>
+							<td>8.6.0-1</td>
+							<td><span class="light_orange">Medium</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2677">AVG-2677</a></td>
+							<td>
+								<a href="/CVE-2022-28202">CVE-2022-28202</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/mediawiki">mediawiki</a></span>
+							</td>
+							<td>1.37.1-1</td>
+							<td>1.37.2-1</td>
+							<td><span class="light_orange">Medium</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center"></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-2587">AVG-2587</a></td>
@@ -24687,8 +24926,8 @@
 								<a href="/CVE-2021-26423">CVE-2021-26423</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/dotnet-runtime-3.1">dotnet-runtime-3.1</a>, </span>
-								<span class="no-wrap"><a href="/package/dotnet-sdk-3.1">dotnet-sdk-3.1</a></span>
+								<span class="no-wrap"><a href="/package/dotnet-sdk-3.1">dotnet-sdk-3.1</a>, </span>
+								<span class="no-wrap"><a href="/package/dotnet-runtime-3.1">dotnet-runtime-3.1</a></span>
 							</td>
 							<td>3.1.17.sdk117-1</td>
 							<td>3.1.20.sdk120-1</td>
@@ -28094,7 +28333,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202106-53">ASA-202106-53</a></td>
+							<td class="center"><a href="/ASA-202106-53">ASA-202106-53</a><br/><a href="/ASA-202106-53">ASA-202106-53</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-2073">AVG-2073</a></td>
@@ -29428,8 +29667,8 @@
 								<a href="/CVE-2021-31204">CVE-2021-31204</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/dotnet-runtime-3.1">dotnet-runtime-3.1</a>, </span>
-								<span class="no-wrap"><a href="/package/dotnet-sdk-3.1">dotnet-sdk-3.1</a></span>
+								<span class="no-wrap"><a href="/package/dotnet-sdk-3.1">dotnet-sdk-3.1</a>, </span>
+								<span class="no-wrap"><a href="/package/dotnet-runtime-3.1">dotnet-runtime-3.1</a></span>
 							</td>
 							<td>3.1.14.sdk114-1</td>
 							<td>3.1.15.sdk115-1</td>
@@ -29534,7 +29773,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td><a href="https://bugs.archlinux.org/task/70801">FS#70801</a></td>
-							<td class="center"><a href="/ASA-202105-19">ASA-202105-19</a></td>
+							<td class="center"><a href="/ASA-202105-19">ASA-202105-19</a><br/><a href="/ASA-202105-19">ASA-202105-19</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1885">AVG-1885</a></td>
@@ -30309,8 +30548,8 @@
 								<a href="/CVE-2021-21404">CVE-2021-21404</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/syncthing">syncthing</a>, </span>
-								<span class="no-wrap"><a href="/package/syncthing-relaysrv">syncthing-relaysrv</a></span>
+								<span class="no-wrap"><a href="/package/syncthing-relaysrv">syncthing-relaysrv</a>, </span>
+								<span class="no-wrap"><a href="/package/syncthing">syncthing</a></span>
 							</td>
 							<td>1.14.0-1</td>
 							<td>1.15.1-1</td>
@@ -32390,7 +32629,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202102-34">ASA-202102-34</a></td>
+							<td class="center"><a href="/ASA-202102-34">ASA-202102-34</a><br/><a href="/ASA-202102-34">ASA-202102-34</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1587">AVG-1587</a></td>
@@ -32805,8 +33044,8 @@
 								<a href="/CVE-2020-29573">CVE-2020-29573</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/lib32-glibc">lib32-glibc</a>, </span>
-								<span class="no-wrap"><a href="/package/glibc">glibc</a></span>
+								<span class="no-wrap"><a href="/package/glibc">glibc</a>, </span>
+								<span class="no-wrap"><a href="/package/lib32-glibc">lib32-glibc</a></span>
 							</td>
 							<td>2.32-5</td>
 							<td></td>
@@ -36571,7 +36810,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201806-3">ASA-201806-3</a><br/><a href="/ASA-201806-3">ASA-201806-3</a></td>
+							<td class="center"><a href="/ASA-201806-3">ASA-201806-3</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-575">AVG-575</a></td>
@@ -37039,7 +37278,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201711-19">ASA-201711-19</a></td>
+							<td class="center"><a href="/ASA-201711-19">ASA-201711-19</a><br/><a href="/ASA-201711-19">ASA-201711-19</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-486">AVG-486</a></td>
@@ -37992,7 +38231,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201706-17">ASA-201706-17</a></td>
+							<td class="center"><a href="/ASA-201706-17">ASA-201706-17</a><br/><a href="/ASA-201706-17">ASA-201706-17</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-299">AVG-299</a></td>
@@ -38007,7 +38246,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201706-16">ASA-201706-16</a></td>
+							<td class="center"><a href="/ASA-201706-16">ASA-201706-16</a><br/><a href="/ASA-201706-16">ASA-201706-16</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-296">AVG-296</a></td>
@@ -38412,7 +38651,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201710-18">ASA-201710-18</a></td>
+							<td class="center"><a href="/ASA-201710-18">ASA-201710-18</a><br/><a href="/ASA-201710-18">ASA-201710-18</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-222">AVG-222</a></td>
@@ -39036,7 +39275,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201610-5">ASA-201610-5</a></td>
+							<td class="center"><a href="/ASA-201610-5">ASA-201610-5</a><br/><a href="/ASA-201610-5">ASA-201610-5</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-43">AVG-43</a></td>
@@ -39252,6 +39491,102 @@
 							<td><span class="green">Fixed</span></td>
 							<td></td>
 							<td class="center"><a href="/ASA-201610-17">ASA-201610-17</a></td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2605">AVG-2605</a></td>
+							<td>
+								<a href="/CVE-2021-44420">CVE-2021-44420</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/python-django">python-django</a></span>
+							</td>
+							<td>3.2.9-3</td>
+							<td>3.2.10-1</td>
+							<td><span class="green">Low</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2572">AVG-2572</a></td>
+							<td>
+								<a href="/CVE-2021-4069">CVE-2021-4069</a><br />
+								<a href="/CVE-2021-4019">CVE-2021-4019</a><br />
+								<a href="/CVE-2021-3984">CVE-2021-3984</a><br />
+								<a href="/CVE-2021-3974">CVE-2021-3974</a><br />
+								<a href="/CVE-2021-3973">CVE-2021-3973</a><br />
+								<a href="/CVE-2021-3968">CVE-2021-3968</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/gvim">gvim</a>, </span>
+								<span class="no-wrap"><a href="/package/vim">vim</a></span>
+							</td>
+							<td>8.2.3582-3</td>
+							<td>8.2.3741-1</td>
+							<td><span class="green">Low</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2535">AVG-2535</a></td>
+							<td>
+								<a href="/CVE-2021-43519">CVE-2021-43519</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/lua">lua</a></span>
+							</td>
+							<td>5.4.3-1</td>
+							<td>5.4.4-1</td>
+							<td><span class="green">Low</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2002">AVG-2002</a></td>
+							<td>
+								<a href="/CVE-2021-3549">CVE-2021-3549</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/binutils">binutils</a></span>
+							</td>
+							<td>2.36.1-3</td>
+							<td>2.37-1</td>
+							<td><span class="green">Low</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-1965">AVG-1965</a></td>
+							<td>
+								<a href="/CVE-2021-32618">CVE-2021-32618</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/python-flask-security-too">python-flask-security-too</a></span>
+							</td>
+							<td>4.0.1-4</td>
+							<td>4.1.0-1</td>
+							<td><span class="green">Low</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2392">AVG-2392</a></td>
+							<td>
+								<a href="/CVE-2016-20012">CVE-2016-20012</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/openssh">openssh</a></span>
+							</td>
+							<td>8.8p1-1</td>
+							<td>8.9p1-1</td>
+							<td><span class="green">Low</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-2547">AVG-2547</a></td>
@@ -40304,7 +40639,7 @@
 							<td><span class="green">Low</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202106-19">ASA-202106-19</a></td>
+							<td class="center"><a href="/ASA-202106-19">ASA-202106-19</a><br/><a href="/ASA-202106-19">ASA-202106-19</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1964">AVG-1964</a></td>
@@ -41003,8 +41338,8 @@
 								<a href="/CVE-2019-25013">CVE-2019-25013</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/lib32-glibc">lib32-glibc</a>, </span>
-								<span class="no-wrap"><a href="/package/glibc">glibc</a></span>
+								<span class="no-wrap"><a href="/package/glibc">glibc</a>, </span>
+								<span class="no-wrap"><a href="/package/lib32-glibc">lib32-glibc</a></span>
 							</td>
 							<td>2.32-5</td>
 							<td>2.33-1</td>
@@ -41307,8 +41642,8 @@
 								<a href="/CVE-2020-25219">CVE-2020-25219</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/libproxy">libproxy</a>, </span>
-								<span class="no-wrap"><a href="/package/libproxy-webkit">libproxy-webkit</a></span>
+								<span class="no-wrap"><a href="/package/libproxy-webkit">libproxy-webkit</a>, </span>
+								<span class="no-wrap"><a href="/package/libproxy">libproxy</a></span>
 							</td>
 							<td>0.4.15+33+g454a499-2</td>
 							<td>0.4.16-1</td>
@@ -41481,7 +41816,7 @@
 							<td><span class="green">Low</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202003-10">ASA-202003-10</a></td>
+							<td class="center"><a href="/ASA-202003-10">ASA-202003-10</a><br/><a href="/ASA-202003-10">ASA-202003-10</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1070">AVG-1070</a></td>
