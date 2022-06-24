@@ -17,6 +17,6 @@ wget -q https://alas.aws.amazon.com/
 #
 #grep "^<a href=\"CVE-" index.html | cut -d"\"" -f2 | sed 's/\.html$//' | awk -F" " '{print $1",https://www.suse.com/security/cve/"$1".html"}'> suse-cve-mainlist.csv
 
-grep "'/cve/html/CVE" index.html  | cut -d"'" -f4  | awk -F" " '{print $1",https://alas.aws.amazon.com"$1}'| sed 's/^\/cve\/html\///' > amazon-linux-cve-mainlist.csv 
+grep "'/cve/html/CVE" index.html  | cut -d"'" -f4  | awk -F" " '{print $1",https://alas.aws.amazon.com"$1}'| sed 's/^\/cve\/html\///' | sed 's/\.html//'> amazon-linux-cve-mainlist.csv 
 
 cat amazon-linux-cve-mainlist-LASTONE.csv amazon-linux-cve-mainlist-LASTONE.csv amazon-linux-cve-mainlist.csv | sort -n | uniq -u > amazon-linux-cve-mainlist-CURRENT.csv
