@@ -1,0 +1,4 @@
+https://linux.oracle.com/cve/CVE-2022-31747.html
+https://linux.oracle.com/ords/f?p=130:21
+https://linux.oracle.com/ords/f?p=130:21:105526337144153:pg_R_184892817365057473:NO&pg_min_row=1&pg_max_rows=500&pg_rows_fetched=500
+
