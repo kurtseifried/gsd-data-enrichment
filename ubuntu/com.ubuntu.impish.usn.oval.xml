@@ -10,7 +10,7 @@
         <oval:product_name>Canonical USN OVAL Generator</oval:product_name>
         <oval:product_version>1</oval:product_version>
         <oval:schema_version>5.11.1</oval:schema_version>
-        <oval:timestamp>2022-06-24T16:31:41</oval:timestamp>
+        <oval:timestamp>2022-06-25T04:31:37</oval:timestamp>
         <terms_of_use>Copyright (C) 2022 Canonical LTD. All rights reserved. This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 3 of the License. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License version 3 for more details. You should have received a copy of the GNU General Public License version 3 along with this program.  If not, see http://www.gnu.org/licenses/.</terms_of_use>
     </generator>
 
@@ -4695,7 +4695,7 @@
            <linux:object object_ref="oval:com.ubuntu.impish:obj:548710000000"/>
            <linux:state state_ref="oval:com.ubuntu.impish:ste:548710000000"/>
         </linux:dpkginfo_test>
-        <unix:uname_test check="at least one" comment="Is kernel 5.13.0-\d{2}-(generic|generic-64k|generic-lpae|lowlatency) currently running?" id="oval:com.ubuntu.impish:tst:526510000000" version="1">
+        <unix:uname_test check="at least one" comment="Is kernel 5.13.0-\d{2}-(lowlatency|generic-lpae|generic|generic-64k) currently running?" id="oval:com.ubuntu.impish:tst:526510000000" version="1">
            <unix:object object_ref="oval:com.ubuntu.impish:obj:526510000000"/>
            <unix:state state_ref="oval:com.ubuntu.impish:ste:526510000000"/>
         </unix:uname_test>
@@ -4759,7 +4759,7 @@
            <linux:object object_ref="oval:com.ubuntu.impish:obj:519710000000"/>
            <linux:state state_ref="oval:com.ubuntu.impish:ste:519710000000"/>
         </linux:dpkginfo_test>
-        <unix:uname_test check="at least one" comment="Is kernel 5.13.0-\d{2}-(generic|generic-64k|generic-lpae|lowlatency) currently running?" id="oval:com.ubuntu.impish:tst:541710000000" version="1">
+        <unix:uname_test check="at least one" comment="Is kernel 5.13.0-\d{2}-(lowlatency|generic-64k|generic-lpae|generic) currently running?" id="oval:com.ubuntu.impish:tst:541710000000" version="1">
            <unix:object object_ref="oval:com.ubuntu.impish:obj:541710000000"/>
            <unix:state state_ref="oval:com.ubuntu.impish:ste:541710000000"/>
         </unix:uname_test>
@@ -4939,7 +4939,7 @@
            <linux:object object_ref="oval:com.ubuntu.impish:obj:529110000000"/>
            <linux:state state_ref="oval:com.ubuntu.impish:ste:529110000000"/>
         </linux:dpkginfo_test>
-        <unix:uname_test check="at least one" comment="Is kernel 5.13.0-\d{2}-(generic|generic-64k|generic-lpae|lowlatency) currently running?" id="oval:com.ubuntu.impish:tst:529520000000" version="1">
+        <unix:uname_test check="at least one" comment="Is kernel 5.13.0-\d{2}-(lowlatency|generic-64k|generic-lpae|generic) currently running?" id="oval:com.ubuntu.impish:tst:529520000000" version="1">
            <unix:object object_ref="oval:com.ubuntu.impish:obj:529520000000"/>
            <unix:state state_ref="oval:com.ubuntu.impish:ste:529520000000"/>
         </unix:uname_test>
@@ -5031,7 +5031,7 @@
            <linux:object object_ref="oval:com.ubuntu.impish:obj:534510000000"/>
            <linux:state state_ref="oval:com.ubuntu.impish:ste:534510000000"/>
         </linux:dpkginfo_test>
-        <unix:uname_test check="at least one" comment="Is kernel 5.13.0-\d{2}-(generic|generic-64k|generic-lpae|lowlatency) currently running?" id="oval:com.ubuntu.impish:tst:544310000000" version="1">
+        <unix:uname_test check="at least one" comment="Is kernel 5.13.0-\d{2}-(lowlatency|generic-lpae|generic|generic-64k) currently running?" id="oval:com.ubuntu.impish:tst:544310000000" version="1">
            <unix:object object_ref="oval:com.ubuntu.impish:obj:544310000000"/>
            <unix:state state_ref="oval:com.ubuntu.impish:ste:544310000000"/>
         </unix:uname_test>
@@ -5147,7 +5147,7 @@
            <ind:object object_ref="oval:com.ubuntu.impish:obj:548510000030"/>
            <ind:state state_ref="oval:com.ubuntu.impish:ste:548510000030"/>
         </ind:variable_test>
-        <unix:uname_test check="at least one" comment="Is kernel 5.13.0-\d{2}-(generic|generic-64k|generic-lpae|lowlatency) currently running?" id="oval:com.ubuntu.impish:tst:548510000040" version="1">
+        <unix:uname_test check="at least one" comment="Is kernel 5.13.0-\d{2}-(lowlatency|generic-64k|generic-lpae|generic) currently running?" id="oval:com.ubuntu.impish:tst:548510000040" version="1">
            <unix:object object_ref="oval:com.ubuntu.impish:obj:548510000040"/>
            <unix:state state_ref="oval:com.ubuntu.impish:ste:548510000040"/>
         </unix:uname_test>
@@ -5183,7 +5183,7 @@
            <linux:object object_ref="oval:com.ubuntu.impish:obj:520410000000"/>
            <linux:state state_ref="oval:com.ubuntu.impish:ste:520410000000"/>
         </linux:dpkginfo_test>
-        <unix:uname_test check="at least one" comment="Is kernel 5.13.0-\d{2}-(generic|generic-64k|generic-lpae|lowlatency) currently running?" id="oval:com.ubuntu.impish:tst:516210000000" version="1">
+        <unix:uname_test check="at least one" comment="Is kernel 5.13.0-\d{2}-(lowlatency|generic-64k|generic-lpae|generic) currently running?" id="oval:com.ubuntu.impish:tst:516210000000" version="1">
            <unix:object object_ref="oval:com.ubuntu.impish:obj:516210000000"/>
            <unix:state state_ref="oval:com.ubuntu.impish:ste:516210000000"/>
         </unix:uname_test>
@@ -5239,7 +5239,7 @@
            <ind:object object_ref="oval:com.ubuntu.impish:obj:520810000010"/>
            <ind:state state_ref="oval:com.ubuntu.impish:ste:520810000010"/>
         </ind:variable_test>
-        <unix:uname_test check="at least one" comment="Is kernel 5.13.0-\d{2}-(generic|generic-64k|generic-lpae|lowlatency) currently running?" id="oval:com.ubuntu.impish:tst:520810000020" version="1">
+        <unix:uname_test check="at least one" comment="Is kernel 5.13.0-\d{2}-(lowlatency|generic-lpae|generic|generic-64k) currently running?" id="oval:com.ubuntu.impish:tst:520810000020" version="1">
            <unix:object object_ref="oval:com.ubuntu.impish:obj:520810000020"/>
            <unix:state state_ref="oval:com.ubuntu.impish:ste:520810000020"/>
         </unix:uname_test>
@@ -5347,7 +5347,7 @@
            <ind:object object_ref="oval:com.ubuntu.impish:obj:533710000010"/>
            <ind:state state_ref="oval:com.ubuntu.impish:ste:533710000010"/>
         </ind:variable_test>
-        <unix:uname_test check="at least one" comment="Is kernel 5.13.0-\d{2}-(generic|generic-64k|generic-lpae|lowlatency) currently running?" id="oval:com.ubuntu.impish:tst:533710000020" version="1">
+        <unix:uname_test check="at least one" comment="Is kernel 5.13.0-\d{2}-(lowlatency|generic-lpae|generic|generic-64k) currently running?" id="oval:com.ubuntu.impish:tst:533710000020" version="1">
            <unix:object object_ref="oval:com.ubuntu.impish:obj:533710000020"/>
            <unix:state state_ref="oval:com.ubuntu.impish:ste:533710000020"/>
         </unix:uname_test>
@@ -5387,7 +5387,7 @@
            <ind:object object_ref="oval:com.ubuntu.impish:obj:533710000110"/>
            <ind:state state_ref="oval:com.ubuntu.impish:ste:533710000110"/>
         </ind:variable_test>
-        <unix:uname_test check="at least one" comment="Is kernel 5.13.0-\d{2}-(generic|generic-64k|generic-lpae|lowlatency) currently running?" id="oval:com.ubuntu.impish:tst:521910000000" version="1">
+        <unix:uname_test check="at least one" comment="Is kernel 5.13.0-\d{2}-(lowlatency|generic-lpae|generic|generic-64k) currently running?" id="oval:com.ubuntu.impish:tst:521910000000" version="1">
            <unix:object object_ref="oval:com.ubuntu.impish:obj:521910000000"/>
            <unix:state state_ref="oval:com.ubuntu.impish:ste:521910000000"/>
         </unix:uname_test>
@@ -5491,7 +5491,7 @@
            <linux:object object_ref="oval:com.ubuntu.impish:obj:542610000000"/>
            <linux:state state_ref="oval:com.ubuntu.impish:ste:542610000000"/>
         </linux:dpkginfo_test>
-        <unix:uname_test check="at least one" comment="Is kernel 5.13.0-\d{2}-(generic|generic-64k|generic-lpae|lowlatency) currently running?" id="oval:com.ubuntu.impish:tst:513510000000" version="1">
+        <unix:uname_test check="at least one" comment="Is kernel 5.13.0-\d{2}-(lowlatency|generic-64k|generic-lpae|generic) currently running?" id="oval:com.ubuntu.impish:tst:513510000000" version="1">
            <unix:object object_ref="oval:com.ubuntu.impish:obj:513510000000"/>
            <unix:state state_ref="oval:com.ubuntu.impish:ste:513510000000"/>
         </unix:uname_test>
@@ -5587,7 +5587,7 @@
            <ind:object object_ref="oval:com.ubuntu.impish:obj:546810000030"/>
            <ind:state state_ref="oval:com.ubuntu.impish:ste:546810000030"/>
         </ind:variable_test>
-        <unix:uname_test check="at least one" comment="Is kernel 5.13.0-\d{2}-(generic|generic-64k|generic-lpae|lowlatency) currently running?" id="oval:com.ubuntu.impish:tst:546810000040" version="1">
+        <unix:uname_test check="at least one" comment="Is kernel 5.13.0-\d{2}-(lowlatency|generic-64k|generic-lpae|generic) currently running?" id="oval:com.ubuntu.impish:tst:546810000040" version="1">
            <unix:object object_ref="oval:com.ubuntu.impish:obj:546810000040"/>
            <unix:state state_ref="oval:com.ubuntu.impish:ste:546810000040"/>
         </unix:uname_test>
@@ -5715,7 +5715,7 @@
            <ind:object object_ref="oval:com.ubuntu.impish:obj:535820000030"/>
            <ind:state state_ref="oval:com.ubuntu.impish:ste:535820000030"/>
         </ind:variable_test>
-        <unix:uname_test check="at least one" comment="Is kernel 5.13.0-\d{2}-(generic|generic-64k|generic-lpae|lowlatency) currently running?" id="oval:com.ubuntu.impish:tst:535810000000" version="1">
+        <unix:uname_test check="at least one" comment="Is kernel 5.13.0-\d{2}-(lowlatency|generic-lpae|generic|generic-64k) currently running?" id="oval:com.ubuntu.impish:tst:535810000000" version="1">
            <unix:object object_ref="oval:com.ubuntu.impish:obj:535810000000"/>
            <unix:state state_ref="oval:com.ubuntu.impish:ste:535810000000"/>
         </unix:uname_test>
@@ -5887,7 +5887,7 @@
            <ind:object object_ref="oval:com.ubuntu.impish:obj:538310000030"/>
            <ind:state state_ref="oval:com.ubuntu.impish:ste:538310000030"/>
         </ind:variable_test>
-        <unix:uname_test check="at least one" comment="Is kernel 5.13.0-\d{2}-(generic|generic-64k|generic-lpae|lowlatency) currently running?" id="oval:com.ubuntu.impish:tst:538310000040" version="1">
+        <unix:uname_test check="at least one" comment="Is kernel 5.13.0-\d{2}-(lowlatency|generic-64k|generic-lpae|generic) currently running?" id="oval:com.ubuntu.impish:tst:538310000040" version="1">
            <unix:object object_ref="oval:com.ubuntu.impish:obj:538310000040"/>
            <unix:state state_ref="oval:com.ubuntu.impish:ste:538310000040"/>
         </unix:uname_test>
@@ -5927,7 +5927,7 @@
            <ind:object object_ref="oval:com.ubuntu.impish:obj:538310000130"/>
            <ind:state state_ref="oval:com.ubuntu.impish:ste:538310000130"/>
         </ind:variable_test>
-        <unix:uname_test check="at least one" comment="Is kernel 5.13.0-\d{2}-(generic|generic-64k|generic-lpae|lowlatency) currently running?" id="oval:com.ubuntu.impish:tst:524010000000" version="1">
+        <unix:uname_test check="at least one" comment="Is kernel 5.13.0-\d{2}-(lowlatency|generic-lpae|generic|generic-64k) currently running?" id="oval:com.ubuntu.impish:tst:524010000000" version="1">
            <unix:object object_ref="oval:com.ubuntu.impish:obj:524010000000"/>
            <unix:state state_ref="oval:com.ubuntu.impish:ste:524010000000"/>
         </unix:uname_test>
@@ -6035,7 +6035,7 @@
            <linux:object object_ref="oval:com.ubuntu.impish:obj:512610000000"/>
            <linux:state state_ref="oval:com.ubuntu.impish:ste:512610000000"/>
         </linux:dpkginfo_test>
-        <unix:uname_test check="at least one" comment="Is kernel 5.13.0-\d{2}-(generic|generic-64k|generic-lpae|lowlatency) currently running?" id="oval:com.ubuntu.impish:tst:531710000000" version="1">
+        <unix:uname_test check="at least one" comment="Is kernel 5.13.0-\d{2}-(lowlatency|generic-64k|generic-lpae|generic) currently running?" id="oval:com.ubuntu.impish:tst:531710000000" version="1">
            <unix:object object_ref="oval:com.ubuntu.impish:obj:531710000000"/>
            <unix:state state_ref="oval:com.ubuntu.impish:ste:531710000000"/>
         </unix:uname_test>
@@ -7163,7 +7163,7 @@
            <linux:evr datatype="evr_string" operation="less than">0:2.4.48-3.1ubuntu3.5</linux:evr>
         </linux:dpkginfo_state>
         <unix:uname_state id="oval:com.ubuntu.impish:ste:526510000000" version="1">
-           <unix:os_release operation="pattern match">5.13.0-\d{2}-(generic|generic-64k|generic-lpae|lowlatency)</unix:os_release>
+           <unix:os_release operation="pattern match">5.13.0-\d{2}-(lowlatency|generic-lpae|generic|generic-64k)</unix:os_release>
         </unix:uname_state>
         <ind:variable_state id="oval:com.ubuntu.impish:ste:526510000010" version="1">
             <ind:value operation="greater than" datatype="debian_evr_string" var_ref="oval:com.ubuntu.impish:var:526510000000" var_check="at least one" />
@@ -7211,7 +7211,7 @@
            <linux:evr datatype="evr_string" operation="less than">0:2.16.0-0.21.10.1</linux:evr>
         </linux:dpkginfo_state>
         <unix:uname_state id="oval:com.ubuntu.impish:ste:541710000000" version="1">
-           <unix:os_release operation="pattern match">5.13.0-\d{2}-(generic|generic-64k|generic-lpae|lowlatency)</unix:os_release>
+           <unix:os_release operation="pattern match">5.13.0-\d{2}-(lowlatency|generic-64k|generic-lpae|generic)</unix:os_release>
         </unix:uname_state>
         <ind:variable_state id="oval:com.ubuntu.impish:ste:541710000010" version="1">
             <ind:value operation="greater than" datatype="debian_evr_string" var_ref="oval:com.ubuntu.impish:var:541710000000" var_check="at least one" />
@@ -7346,7 +7346,7 @@
            <linux:evr datatype="evr_string" operation="less than">0:3.4.3-2ubuntu0.1</linux:evr>
         </linux:dpkginfo_state>
         <unix:uname_state id="oval:com.ubuntu.impish:ste:529520000000" version="1">
-           <unix:os_release operation="pattern match">5.13.0-\d{2}-(generic|generic-64k|generic-lpae|lowlatency)</unix:os_release>
+           <unix:os_release operation="pattern match">5.13.0-\d{2}-(lowlatency|generic-64k|generic-lpae|generic)</unix:os_release>
         </unix:uname_state>
         <ind:variable_state id="oval:com.ubuntu.impish:ste:529520000010" version="1">
             <ind:value operation="greater than" datatype="debian_evr_string" var_ref="oval:com.ubuntu.impish:var:529520000000" var_check="at least one" />
@@ -7415,7 +7415,7 @@
            <linux:evr datatype="evr_string" operation="less than">1:91.7.0+build2-0ubuntu0.21.10.1</linux:evr>
         </linux:dpkginfo_state>
         <unix:uname_state id="oval:com.ubuntu.impish:ste:544310000000" version="1">
-           <unix:os_release operation="pattern match">5.13.0-\d{2}-(generic|generic-64k|generic-lpae|lowlatency)</unix:os_release>
+           <unix:os_release operation="pattern match">5.13.0-\d{2}-(lowlatency|generic-lpae|generic|generic-64k)</unix:os_release>
         </unix:uname_state>
         <ind:variable_state id="oval:com.ubuntu.impish:ste:544310000010" version="1">
             <ind:value operation="greater than" datatype="debian_evr_string" var_ref="oval:com.ubuntu.impish:var:544310000000" var_check="at least one" />
@@ -7502,7 +7502,7 @@
             <ind:value operation="greater than" datatype="debian_evr_string" var_ref="oval:com.ubuntu.impish:var:548510000020" var_check="at least one" />
         </ind:variable_state>
         <unix:uname_state id="oval:com.ubuntu.impish:ste:548510000040" version="1">
-           <unix:os_release operation="pattern match">5.13.0-\d{2}-(generic|generic-64k|generic-lpae|lowlatency)</unix:os_release>
+           <unix:os_release operation="pattern match">5.13.0-\d{2}-(lowlatency|generic-64k|generic-lpae|generic)</unix:os_release>
         </unix:uname_state>
         <ind:variable_state id="oval:com.ubuntu.impish:ste:548510000050" version="1">
             <ind:value operation="greater than" datatype="debian_evr_string" var_ref="oval:com.ubuntu.impish:var:548510000040" var_check="at least one" />
@@ -7529,7 +7529,7 @@
            <linux:evr datatype="evr_string" operation="less than">2:2.2.24-1ubuntu1.2</linux:evr>
         </linux:dpkginfo_state>
         <unix:uname_state id="oval:com.ubuntu.impish:ste:516210000000" version="1">
-           <unix:os_release operation="pattern match">5.13.0-\d{2}-(generic|generic-64k|generic-lpae|lowlatency)</unix:os_release>
+           <unix:os_release operation="pattern match">5.13.0-\d{2}-(lowlatency|generic-64k|generic-lpae|generic)</unix:os_release>
         </unix:uname_state>
         <ind:variable_state id="oval:com.ubuntu.impish:ste:516210000010" version="1">
             <ind:value operation="greater than" datatype="debian_evr_string" var_ref="oval:com.ubuntu.impish:var:516210000000" var_check="at least one" />
@@ -7571,7 +7571,7 @@
             <ind:value operation="greater than" datatype="debian_evr_string" var_ref="oval:com.ubuntu.impish:var:520810000000" var_check="at least one" />
         </ind:variable_state>
         <unix:uname_state id="oval:com.ubuntu.impish:ste:520810000020" version="1">
-           <unix:os_release operation="pattern match">5.13.0-\d{2}-(generic|generic-64k|generic-lpae|lowlatency)</unix:os_release>
+           <unix:os_release operation="pattern match">5.13.0-\d{2}-(lowlatency|generic-lpae|generic|generic-64k)</unix:os_release>
         </unix:uname_state>
         <ind:variable_state id="oval:com.ubuntu.impish:ste:520810000030" version="1">
             <ind:value operation="greater than" datatype="debian_evr_string" var_ref="oval:com.ubuntu.impish:var:520810000020" var_check="at least one" />
@@ -7652,7 +7652,7 @@
             <ind:value operation="greater than" datatype="debian_evr_string" var_ref="oval:com.ubuntu.impish:var:533710000000" var_check="at least one" />
         </ind:variable_state>
         <unix:uname_state id="oval:com.ubuntu.impish:ste:533710000020" version="1">
-           <unix:os_release operation="pattern match">5.13.0-\d{2}-(generic|generic-64k|generic-lpae|lowlatency)</unix:os_release>
+           <unix:os_release operation="pattern match">5.13.0-\d{2}-(lowlatency|generic-lpae|generic|generic-64k)</unix:os_release>
         </unix:uname_state>
         <ind:variable_state id="oval:com.ubuntu.impish:ste:533710000030" version="1">
             <ind:value operation="greater than" datatype="debian_evr_string" var_ref="oval:com.ubuntu.impish:var:533710000020" var_check="at least one" />
@@ -7682,7 +7682,7 @@
             <ind:value operation="greater than" datatype="debian_evr_string" var_ref="oval:com.ubuntu.impish:var:533710000100" var_check="at least one" />
         </ind:variable_state>
         <unix:uname_state id="oval:com.ubuntu.impish:ste:521910000000" version="1">
-           <unix:os_release operation="pattern match">5.13.0-\d{2}-(generic|generic-64k|generic-lpae|lowlatency)</unix:os_release>
+           <unix:os_release operation="pattern match">5.13.0-\d{2}-(lowlatency|generic-lpae|generic|generic-64k)</unix:os_release>
         </unix:uname_state>
         <ind:variable_state id="oval:com.ubuntu.impish:ste:521910000010" version="1">
             <ind:value operation="greater than" datatype="debian_evr_string" var_ref="oval:com.ubuntu.impish:var:521910000000" var_check="at least one" />
@@ -7760,7 +7760,7 @@
            <linux:evr datatype="evr_string" operation="less than">0:3.5-4ubuntu2.1</linux:evr>
         </linux:dpkginfo_state>
         <unix:uname_state id="oval:com.ubuntu.impish:ste:513510000000" version="1">
-           <unix:os_release operation="pattern match">5.13.0-\d{2}-(generic|generic-64k|generic-lpae|lowlatency)</unix:os_release>
+           <unix:os_release operation="pattern match">5.13.0-\d{2}-(lowlatency|generic-64k|generic-lpae|generic)</unix:os_release>
         </unix:uname_state>
         <ind:variable_state id="oval:com.ubuntu.impish:ste:513510000010" version="1">
             <ind:value operation="greater than" datatype="debian_evr_string" var_ref="oval:com.ubuntu.impish:var:513510000000" var_check="at least one" />
@@ -7832,7 +7832,7 @@
             <ind:value operation="greater than" datatype="debian_evr_string" var_ref="oval:com.ubuntu.impish:var:546810000020" var_check="at least one" />
         </ind:variable_state>
         <unix:uname_state id="oval:com.ubuntu.impish:ste:546810000040" version="1">
-           <unix:os_release operation="pattern match">5.13.0-\d{2}-(generic|generic-64k|generic-lpae|lowlatency)</unix:os_release>
+           <unix:os_release operation="pattern match">5.13.0-\d{2}-(lowlatency|generic-64k|generic-lpae|generic)</unix:os_release>
         </unix:uname_state>
         <ind:variable_state id="oval:com.ubuntu.impish:ste:546810000050" version="1">
             <ind:value operation="greater than" datatype="debian_evr_string" var_ref="oval:com.ubuntu.impish:var:546810000040" var_check="at least one" />
@@ -7928,7 +7928,7 @@
             <ind:value operation="greater than" datatype="debian_evr_string" var_ref="oval:com.ubuntu.impish:var:535820000020" var_check="at least one" />
         </ind:variable_state>
         <unix:uname_state id="oval:com.ubuntu.impish:ste:535810000000" version="1">
-           <unix:os_release operation="pattern match">5.13.0-\d{2}-(generic|generic-64k|generic-lpae|lowlatency)</unix:os_release>
+           <unix:os_release operation="pattern match">5.13.0-\d{2}-(lowlatency|generic-lpae|generic|generic-64k)</unix:os_release>
         </unix:uname_state>
         <ind:variable_state id="oval:com.ubuntu.impish:ste:535810000010" version="1">
             <ind:value operation="greater than" datatype="debian_evr_string" var_ref="oval:com.ubuntu.impish:var:535810000000" var_check="at least one" />
@@ -8057,7 +8057,7 @@
             <ind:value operation="greater than" datatype="debian_evr_string" var_ref="oval:com.ubuntu.impish:var:538310000020" var_check="at least one" />
         </ind:variable_state>
         <unix:uname_state id="oval:com.ubuntu.impish:ste:538310000040" version="1">
-           <unix:os_release operation="pattern match">5.13.0-\d{2}-(generic|generic-64k|generic-lpae|lowlatency)</unix:os_release>
+           <unix:os_release operation="pattern match">5.13.0-\d{2}-(lowlatency|generic-64k|generic-lpae|generic)</unix:os_release>
         </unix:uname_state>
         <ind:variable_state id="oval:com.ubuntu.impish:ste:538310000050" version="1">
             <ind:value operation="greater than" datatype="debian_evr_string" var_ref="oval:com.ubuntu.impish:var:538310000040" var_check="at least one" />
@@ -8087,7 +8087,7 @@
             <ind:value operation="greater than" datatype="debian_evr_string" var_ref="oval:com.ubuntu.impish:var:538310000120" var_check="at least one" />
         </ind:variable_state>
         <unix:uname_state id="oval:com.ubuntu.impish:ste:524010000000" version="1">
-           <unix:os_release operation="pattern match">5.13.0-\d{2}-(generic|generic-64k|generic-lpae|lowlatency)</unix:os_release>
+           <unix:os_release operation="pattern match">5.13.0-\d{2}-(lowlatency|generic-lpae|generic|generic-64k)</unix:os_release>
         </unix:uname_state>
         <ind:variable_state id="oval:com.ubuntu.impish:ste:524010000010" version="1">
             <ind:value operation="greater than" datatype="debian_evr_string" var_ref="oval:com.ubuntu.impish:var:524010000000" var_check="at least one" />
@@ -8168,7 +8168,7 @@
            <linux:evr datatype="evr_string" operation="less than">1:9.16.15-1ubuntu1.1</linux:evr>
         </linux:dpkginfo_state>
         <unix:uname_state id="oval:com.ubuntu.impish:ste:531710000000" version="1">
-           <unix:os_release operation="pattern match">5.13.0-\d{2}-(generic|generic-64k|generic-lpae|lowlatency)</unix:os_release>
+           <unix:os_release operation="pattern match">5.13.0-\d{2}-(lowlatency|generic-64k|generic-lpae|generic)</unix:os_release>
         </unix:uname_state>
         <ind:variable_state id="oval:com.ubuntu.impish:ste:531710000010" version="1">
             <ind:value operation="greater than" datatype="debian_evr_string" var_ref="oval:com.ubuntu.impish:var:531710000000" var_check="at least one" />

@@ -3353,7 +3353,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202101-25">ASA-202101-25</a><br/><a href="/ASA-202101-25">ASA-202101-25</a></td>
+							<td class="center"><a href="/ASA-202101-25">ASA-202101-25</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1240">AVG-1240</a></td>
@@ -7200,7 +7200,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201705-21">ASA-201705-21</a><br/><a href="/ASA-201705-21">ASA-201705-21</a></td>
+							<td class="center"><a href="/ASA-201705-21">ASA-201705-21</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-247">AVG-247</a></td>
@@ -7215,7 +7215,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201704-4">ASA-201704-4</a><br/><a href="/ASA-201704-4">ASA-201704-4</a></td>
+							<td class="center"><a href="/ASA-201704-4">ASA-201704-4</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-240">AVG-240</a></td>
@@ -10060,7 +10060,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202112-4">ASA-202112-4</a><br/><a href="/ASA-202112-4">ASA-202112-4</a></td>
+							<td class="center"><a href="/ASA-202112-4">ASA-202112-4</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-2596">AVG-2596</a></td>
@@ -10075,7 +10075,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202112-3">ASA-202112-3</a><br/><a href="/ASA-202112-3">ASA-202112-3</a></td>
+							<td class="center"><a href="/ASA-202112-3">ASA-202112-3</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-2525">AVG-2525</a></td>
@@ -17478,7 +17478,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202002-2">ASA-202002-2</a><br/><a href="/ASA-202002-2">ASA-202002-2</a></td>
+							<td class="center"><a href="/ASA-202002-2">ASA-202002-2</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1083">AVG-1083</a></td>
@@ -17771,7 +17771,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201910-9">ASA-201910-9</a><br/><a href="/ASA-201910-9">ASA-201910-9</a></td>
+							<td class="center"><a href="/ASA-201910-9">ASA-201910-9</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1045">AVG-1045</a></td>
@@ -39444,7 +39444,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201705-25">ASA-201705-25</a><br/><a href="/ASA-201705-25">ASA-201705-25</a></td>
+							<td class="center"><a href="/ASA-201705-25">ASA-201705-25</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-274">AVG-274</a></td>
@@ -43590,7 +43590,7 @@
 							<td><span class="green">Low</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201705-17">ASA-201705-17</a><br/><a href="/ASA-201705-17">ASA-201705-17</a></td>
+							<td class="center"><a href="/ASA-201705-17">ASA-201705-17</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-182">AVG-182</a></td>
