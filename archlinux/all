@@ -4339,7 +4339,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201911-12">ASA-201911-12</a><br/><a href="/ASA-201911-12">ASA-201911-12</a></td>
+							<td class="center"><a href="/ASA-201911-12">ASA-201911-12</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1065">AVG-1065</a></td>
@@ -4369,7 +4369,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201911-10">ASA-201911-10</a><br/><a href="/ASA-201911-10">ASA-201911-10</a></td>
+							<td class="center"><a href="/ASA-201911-10">ASA-201911-10</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1063">AVG-1063</a></td>
@@ -12194,7 +12194,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202107-49">ASA-202107-49</a><br/><a href="/ASA-202107-49">ASA-202107-49</a></td>
+							<td class="center"><a href="/ASA-202107-49">ASA-202107-49</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-2181">AVG-2181</a></td>
@@ -12212,7 +12212,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202107-48">ASA-202107-48</a><br/><a href="/ASA-202107-48">ASA-202107-48</a></td>
+							<td class="center"><a href="/ASA-202107-48">ASA-202107-48</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-2221">AVG-2221</a></td>
@@ -12752,7 +12752,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202107-23">ASA-202107-23</a><br/><a href="/ASA-202107-23">ASA-202107-23</a></td>
+							<td class="center"><a href="/ASA-202107-23">ASA-202107-23</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-2125">AVG-2125</a></td>
@@ -16275,7 +16275,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202010-3">ASA-202010-3</a><br/><a href="/ASA-202010-3">ASA-202010-3</a></td>
+							<td class="center"><a href="/ASA-202010-3">ASA-202010-3</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1248">AVG-1248</a></td>
@@ -16292,7 +16292,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202010-2">ASA-202010-2</a><br/><a href="/ASA-202010-2">ASA-202010-2</a></td>
+							<td class="center"><a href="/ASA-202010-2">ASA-202010-2</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1252">AVG-1252</a></td>
@@ -17315,7 +17315,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202004-4">ASA-202004-4</a><br/><a href="/ASA-202004-4">ASA-202004-4</a></td>
+							<td class="center"><a href="/ASA-202004-4">ASA-202004-4</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1121">AVG-1121</a></td>
@@ -17414,7 +17414,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202003-6">ASA-202003-6</a><br/><a href="/ASA-202003-6">ASA-202003-6</a></td>
+							<td class="center"><a href="/ASA-202003-6">ASA-202003-6</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1107">AVG-1107</a></td>
@@ -18197,7 +18197,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201906-15">ASA-201906-15</a><br/><a href="/ASA-201906-15">ASA-201906-15</a></td>
+							<td class="center"><a href="/ASA-201906-15">ASA-201906-15</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-984">AVG-984</a></td>
@@ -18231,7 +18231,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201906-13">ASA-201906-13</a><br/><a href="/ASA-201906-13">ASA-201906-13</a></td>
+							<td class="center"><a href="/ASA-201906-13">ASA-201906-13</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-981">AVG-981</a></td>
@@ -18492,7 +18492,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201905-4">ASA-201905-4</a><br/><a href="/ASA-201905-4">ASA-201905-4</a></td>
+							<td class="center"><a href="/ASA-201905-4">ASA-201905-4</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-956">AVG-956</a></td>
@@ -18522,7 +18522,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201905-2">ASA-201905-2</a><br/><a href="/ASA-201905-2">ASA-201905-2</a></td>
+							<td class="center"><a href="/ASA-201905-2">ASA-201905-2</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-953">AVG-953</a></td>
@@ -19983,7 +19983,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201808-6">ASA-201808-6</a><br/><a href="/ASA-201808-6">ASA-201808-6</a></td>
+							<td class="center"><a href="/ASA-201808-6">ASA-201808-6</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-748">AVG-748</a></td>
@@ -20013,7 +20013,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201808-4">ASA-201808-4</a><br/><a href="/ASA-201808-4">ASA-201808-4</a></td>
+							<td class="center"><a href="/ASA-201808-4">ASA-201808-4</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-745">AVG-745</a></td>
@@ -20611,7 +20611,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201803-8">ASA-201803-8</a></td>
+							<td class="center"><a href="/ASA-201803-8">ASA-201803-8</a><br/><a href="/ASA-201803-8">ASA-201803-8</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-648">AVG-648</a></td>
@@ -21255,7 +21255,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td><a href="https://bugs.archlinux.org/task/56832">FS#56832</a></td>
-							<td class="center"><a href="/ASA-201801-3">ASA-201801-3</a><br/><a href="/ASA-201801-3">ASA-201801-3</a></td>
+							<td class="center"><a href="/ASA-201801-3">ASA-201801-3</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-570">AVG-570</a></td>
@@ -21476,7 +21476,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td><a href="https://bugs.archlinux.org/task/56832">FS#56832</a></td>
-							<td class="center"><a href="/ASA-201801-1">ASA-201801-1</a><br/><a href="/ASA-201801-1">ASA-201801-1</a></td>
+							<td class="center"><a href="/ASA-201801-1">ASA-201801-1</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-546">AVG-546</a></td>
@@ -22198,7 +22198,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201710-24">ASA-201710-24</a><br/><a href="/ASA-201710-24">ASA-201710-24</a></td>
+							<td class="center"><a href="/ASA-201710-24">ASA-201710-24</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-444">AVG-444</a></td>
@@ -22213,7 +22213,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201710-26">ASA-201710-26</a><br/><a href="/ASA-201710-26">ASA-201710-26</a></td>
+							<td class="center"><a href="/ASA-201710-26">ASA-201710-26</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-443">AVG-443</a></td>
@@ -22350,7 +22350,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201709-22">ASA-201709-22</a><br/><a href="/ASA-201709-22">ASA-201709-22</a></td>
+							<td class="center"><a href="/ASA-201709-22">ASA-201709-22</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-417">AVG-417</a></td>
@@ -22472,7 +22472,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td><a href="https://bugs.archlinux.org/task/55601">FS#55601</a></td>
-							<td class="center"><a href="/ASA-201709-12">ASA-201709-12</a><br/><a href="/ASA-201709-12">ASA-201709-12</a></td>
+							<td class="center"><a href="/ASA-201709-12">ASA-201709-12</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-393">AVG-393</a></td>
@@ -22502,7 +22502,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td><a href="https://bugs.archlinux.org/task/55601">FS#55601</a></td>
-							<td class="center"><a href="/ASA-201709-9">ASA-201709-9</a><br/><a href="/ASA-201709-9">ASA-201709-9</a></td>
+							<td class="center"><a href="/ASA-201709-9">ASA-201709-9</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-390">AVG-390</a></td>
@@ -22834,7 +22834,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201706-30">ASA-201706-30</a><br/><a href="/ASA-201706-30">ASA-201706-30</a></td>
+							<td class="center"><a href="/ASA-201706-30">ASA-201706-30</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-317">AVG-317</a></td>
@@ -22898,7 +22898,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201706-31">ASA-201706-31</a><br/><a href="/ASA-201706-31">ASA-201706-31</a></td>
+							<td class="center"><a href="/ASA-201706-31">ASA-201706-31</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-310">AVG-310</a></td>
@@ -23598,7 +23598,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td><a href="https://bugs.archlinux.org/task/53242">FS#53242</a></td>
-							<td class="center"><a href="/ASA-201703-13">ASA-201703-13</a><br/><a href="/ASA-201703-13">ASA-201703-13</a></td>
+							<td class="center"><a href="/ASA-201703-13">ASA-201703-13</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-200">AVG-200</a></td>
@@ -23628,7 +23628,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td><a href="https://bugs.archlinux.org/task/53242">FS#53242</a></td>
-							<td class="center"><a href="/ASA-201703-8">ASA-201703-8</a><br/><a href="/ASA-201703-8">ASA-201703-8</a></td>
+							<td class="center"><a href="/ASA-201703-8">ASA-201703-8</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-191">AVG-191</a></td>
@@ -23727,7 +23727,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201702-18">ASA-201702-18</a><br/><a href="/ASA-201702-18">ASA-201702-18</a></td>
+							<td class="center"><a href="/ASA-201702-18">ASA-201702-18</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-178">AVG-178</a></td>
@@ -23745,7 +23745,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201702-17">ASA-201702-17</a><br/><a href="/ASA-201702-17">ASA-201702-17</a></td>
+							<td class="center"><a href="/ASA-201702-17">ASA-201702-17</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-169">AVG-169</a></td>
@@ -24116,7 +24116,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201612-14">ASA-201612-14</a><br/><a href="/ASA-201612-14">ASA-201612-14</a></td>
+							<td class="center"><a href="/ASA-201612-14">ASA-201612-14</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-101">AVG-101</a></td>
@@ -24131,7 +24131,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201612-10">ASA-201612-10</a><br/><a href="/ASA-201612-10">ASA-201612-10</a></td>
+							<td class="center"><a href="/ASA-201612-10">ASA-201612-10</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-98">AVG-98</a></td>
@@ -24146,7 +24146,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201612-8">ASA-201612-8</a><br/><a href="/ASA-201612-8">ASA-201612-8</a></td>
+							<td class="center"><a href="/ASA-201612-8">ASA-201612-8</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-96">AVG-96</a></td>
@@ -24176,7 +24176,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201612-6">ASA-201612-6</a><br/><a href="/ASA-201612-6">ASA-201612-6</a></td>
+							<td class="center"><a href="/ASA-201612-6">ASA-201612-6</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-89">AVG-89</a></td>
@@ -24611,7 +24611,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201610-14">ASA-201610-14</a><br/><a href="/ASA-201610-14">ASA-201610-14</a></td>
+							<td class="center"><a href="/ASA-201610-14">ASA-201610-14</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-47">AVG-47</a></td>
@@ -30378,7 +30378,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202106-14">ASA-202106-14</a><br/><a href="/ASA-202106-14">ASA-202106-14</a></td>
+							<td class="center"><a href="/ASA-202106-14">ASA-202106-14</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1954">AVG-1954</a></td>
@@ -34329,7 +34329,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202102-23">ASA-202102-23</a><br/><a href="/ASA-202102-23">ASA-202102-23</a></td>
+							<td class="center"><a href="/ASA-202102-23">ASA-202102-23</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1503">AVG-1503</a></td>
@@ -34559,7 +34559,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202101-31">ASA-202101-31</a><br/><a href="/ASA-202101-31">ASA-202101-31</a></td>
+							<td class="center"><a href="/ASA-202101-31">ASA-202101-31</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1442">AVG-1442</a></td>
@@ -34574,7 +34574,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202101-33">ASA-202101-33</a><br/><a href="/ASA-202101-33">ASA-202101-33</a></td>
+							<td class="center"><a href="/ASA-202101-33">ASA-202101-33</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1445">AVG-1445</a></td>
@@ -36306,7 +36306,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td><a href="https://bugs.archlinux.org/task/63977">FS#63977</a></td>
-							<td class="center"><a href="/ASA-201910-2">ASA-201910-2</a><br/><a href="/ASA-201910-2">ASA-201910-2</a></td>
+							<td class="center"><a href="/ASA-201910-2">ASA-201910-2</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1035">AVG-1035</a></td>
@@ -40033,7 +40033,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201701-38">ASA-201701-38</a><br/><a href="/ASA-201701-38">ASA-201701-38</a></td>
+							<td class="center"><a href="/ASA-201701-38">ASA-201701-38</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-150">AVG-150</a></td>
@@ -40063,7 +40063,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201701-32">ASA-201701-32</a><br/><a href="/ASA-201701-32">ASA-201701-32</a></td>
+							<td class="center"><a href="/ASA-201701-32">ASA-201701-32</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-148">AVG-148</a></td>
@@ -43167,7 +43167,7 @@
 							<td><span class="green">Low</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201811-1">ASA-201811-1</a><br/><a href="/ASA-201811-1">ASA-201811-1</a></td>
+							<td class="center"><a href="/ASA-201811-1">ASA-201811-1</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-764">AVG-764</a></td>
