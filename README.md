@@ -39,3 +39,7 @@ The stub file will be:
 Once we touch or create a JSON file we run it through the print-json.py to ensure the JSON isn't mangled and to fix the spacing (2 spaces, not 4).
 
 We go against VENDOR-[SOURCENAME]-CVE-CURRENT.csv to speed things up.
+
+## Meta sources
+
+* https://github.com/nexB/vulnerablecode/tree/main/vulnerabilities/importers
