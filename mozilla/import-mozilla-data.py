@@ -4,21 +4,13 @@ import os
 import json
 import re
 
-# RUN FROM gsd-database/
+# RUN FROM gsd-database/ - add a check for this?
 
 cve_feed_json = "../gsd-data-enrichment/mozilla/cve-feed.json"
 
 # Read the cve-feed.json
-
 with open(cve_feed_json, 'r') as mozilla_json_file:
     mozilla_cve_data = json.load(mozilla_json_file)
-
-# Validate it?
-
-# Check CVE ID's for correctness, lookup table:
-# CVE-2016-528 should be CVE-2016-5281
-
-# write to the GSD-YEAR-INTEGER.json file, specifically namespaces:mozilla.org
 
 def CVEID_toGSDfilepath(CVE_ID):
     elements = CVE_ID.split("-")
@@ -31,7 +23,6 @@ def CVEID_toGSDfilepath(CVE_ID):
 def set_file_indent(file):
     # This code breaks in 2030 and.or after we assign 1 million GSDs per year
     file_name = os.path.basename(file)
-
     # We match the years 2021 through 2029, 1 million and up so that's guaranteed GSD space only
     # GSD bot uses 2 space for indent
     # The CVE Bot uses the default 4 spaces, hence the need for checking
@@ -51,9 +42,7 @@ for entry in mozilla_cve_data:
     if CVE_ID == "CVE-2016-528":
         pass
     else:
-        # handle it
         GSD_file_path = CVEID_toGSDfilepath(CVE_ID)
-#        print(GSD_file_path)
         # Check if file exists? if not write to the namespace, write the file and done
         # If exists read it in, add the mozilla.org key, write the file and done
         if os.path.exists(GSD_file_path):
@@ -71,4 +60,6 @@ for entry in mozilla_cve_data:
                 f.write(output)
             print(GSD_file_path)
         else:
+            # Fix this if we encounter a missing GSD file
             print("ERROR: " + CVE_ID)
+            quit()
