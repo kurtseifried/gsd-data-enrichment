@@ -100,6 +100,13 @@ The GSD has a semi automated vulnerbility from the Linux Kernel
 ## Amazon Linux
 ## ArchLinux
 ## Mageia
+
+The GSD has a semi automated data feed, we have also worked with them to correct a bug in their data feed (https://bugs.mageia.org/show_bug.cgi?id=30148), the Mageie project was very responsive and fixed it quickly.
+
+## mozilla.org
+
+The GSD has a semi automated data feed, we have also worked with them to correct a bug in their data feed (https://bugzilla.mozilla.org/show_bug.cgi?id=1790613), the Mozilla Foundation was very responsive and fixed it quickly.
+
 ## Oracle Linux
 ## Red Hat
 ## Rocky Linux
