@@ -43,3 +43,65 @@ We go against VENDOR-[SOURCENAME]-CVE-CURRENT.csv to speed things up.
 ## Meta sources
 
 * https://github.com/nexB/vulnerablecode/tree/main/vulnerabilities/importers
+
+
+# Data enrichment sources and notes
+
+The GSD currently pulls several data feeds in using a variety of automated and semi automated tools.
+
+# broad feeds
+
+## cve.org
+
+* @joshbressers robot pulls this in daily
+* contains reserved entries with no data even when they are public
+
+## nvd.nist.gov
+
+* @joshbressers robot pulls this in daily
+* does not contain reserved entries, only contains CVE sourced data currently
+
+## GHSA
+
+## osv.dev
+
+## GitLabs
+
+## Packetstorm
+
+## mend.io
+
+# OSV Ecosystem specific
+
+## Android
+## crates.io (Rust)
+## Debian
+
+The official OSV schema specifies source packages only, the GSD also include binary packages
+
+## GitHub Actions
+## Go
+## Hex (Erlang)
+## Linux (Kernel)
+
+The GSD has a semi automated vulnerbility from the Linux Kernel
+
+## Maven
+## npm
+## NuGet
+## OSS-Fuzz
+## Packagist (PHP)
+## Pub (Dart)
+## PyPI
+## RubyGems
+
+# Other ecosystems
+
+## Amazon Linux
+## ArchLinux
+## Mageia
+## Oracle Linux
+## Red Hat
+## Rocky Linux
+## SUSE
+## Ubuntu
