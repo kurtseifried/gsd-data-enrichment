@@ -60,6 +60,12 @@ for entry in mozilla_cve_data:
                 f.write(output)
             print(GSD_file_path)
         else:
-            # Fix this if we encounter a missing GSD file
-            print("ERROR: " + CVE_ID)
-            quit()
+            GSD_data = {}
+            GSD_data["namespaces"] = {}
+            GSD_data["namespaces"]["mozilla.org"] = entry
+            file_indent = set_file_indent(GSD_file_path)
+            output = json.dumps(GSD_data, indent=file_indent)
+            with open(GSD_file_path, "w") as f:
+                f.write(output)
+            print(GSD_file_path)
+
