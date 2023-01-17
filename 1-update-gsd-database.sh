@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# git keeps losing the execute bit
+chmod +x ../gsd-tools/local-scripts/print-json.py
+
 # run from gsd-database directory
 
 ../gsd-data-enrichment/add-CVE-URL-CSV.sh ../gsd-data-enrichment/amazon-linux/amazon-linux-cve-mainlist-CURRENT.csv
