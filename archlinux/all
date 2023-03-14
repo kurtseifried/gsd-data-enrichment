@@ -60,6 +60,125 @@
 					</thead>
 					<tbody>
 						<tr>
+							<td><a href="/AVG-2827">AVG-2827</a></td>
+							<td>
+								<a href="/CVE-2022-1537">CVE-2022-1537</a><br />
+								<a href="/CVE-2022-0436">CVE-2022-0436</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/grunt-cli">grunt-cli</a></span>
+							</td>
+							<td>1.5.2-1</td>
+							<td>1.5.3-1</td>
+							<td><span class="purple">Unknown</span></td>
+							<td><span class="purple">Unknown</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2820">AVG-2820</a></td>
+							<td>
+								<a href="/CVE-2022-32893">CVE-2022-32893</a><br />
+								<a href="/CVE-2022-32891">CVE-2022-32891</a><br />
+								<a href="/CVE-2022-32886">CVE-2022-32886</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/wpewebkit">wpewebkit</a></span>
+							</td>
+							<td>2.36.7-1</td>
+							<td>2.36.8-1</td>
+							<td><span class="purple">Unknown</span></td>
+							<td><span class="purple">Unknown</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2819">AVG-2819</a></td>
+							<td>
+								<a href="/CVE-2022-32893">CVE-2022-32893</a><br />
+								<a href="/CVE-2022-32891">CVE-2022-32891</a><br />
+								<a href="/CVE-2022-32886">CVE-2022-32886</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/webkit2gtk">webkit2gtk</a></span>
+							</td>
+							<td>2.36.7-1</td>
+							<td>2.36.8-1</td>
+							<td><span class="purple">Unknown</span></td>
+							<td><span class="purple">Unknown</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2818">AVG-2818</a></td>
+							<td>
+								<a href="/CVE-2022-32293">CVE-2022-32293</a><br />
+								<a href="/CVE-2022-32292">CVE-2022-32292</a><br />
+								<a href="/CVE-2022-23098">CVE-2022-23098</a><br />
+								<a href="/CVE-2022-23097">CVE-2022-23097</a><br />
+								<a href="/CVE-2022-23096">CVE-2022-23096</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/connman">connman</a></span>
+							</td>
+							<td>1.41-1</td>
+							<td></td>
+							<td><span class="purple">Unknown</span></td>
+							<td><span class="purple">Unknown</span></td>
+							<td></td>
+							<td class="center"></td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2816">AVG-2816</a></td>
+							<td>
+								<a href="/CVE-2022-41318">CVE-2022-41318</a><br />
+								<a href="/CVE-2022-41317">CVE-2022-41317</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/squid">squid</a></span>
+							</td>
+							<td>5.6-1</td>
+							<td>5.7-1</td>
+							<td><span class="purple">Unknown</span></td>
+							<td><span class="purple">Unknown</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2812">AVG-2812</a></td>
+							<td>
+								<a href="/CVE-2022-38784">CVE-2022-38784</a><br />
+								<a href="/CVE-2022-27337">CVE-2022-27337</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/poppler-glib">poppler-glib</a>, </span>
+								<span class="no-wrap"><a href="/package/poppler">poppler</a>, </span>
+								<span class="no-wrap"><a href="/package/poppler-qt6">poppler-qt6</a>, </span>
+								<span class="no-wrap"><a href="/package/poppler-qt5">poppler-qt5</a></span>
+							</td>
+							<td>22.08.0-1</td>
+							<td>22.08.0-2</td>
+							<td><span class="purple">Unknown</span></td>
+							<td><span class="purple">Unknown</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2809">AVG-2809</a></td>
+							<td>
+								<a href="/CVE-2022-41323">CVE-2022-41323</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/python-django">python-django</a></span>
+							</td>
+							<td>4.1-1</td>
+							<td>4.1.2-1</td>
+							<td><span class="purple">Unknown</span></td>
+							<td><span class="purple">Unknown</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
 							<td><a href="/AVG-2799">AVG-2799</a></td>
 							<td>
 								<a href="/CVE-2022-0546">CVE-2022-0546</a><br />
@@ -156,6 +275,125 @@
 							<td class="center"></td>
 						</tr>
 						<tr>
+							<td><a href="/AVG-2837">AVG-2837</a></td>
+							<td>
+								<a href="/CVE-2023-25012">CVE-2023-25012</a><br />
+								<a href="/CVE-2023-23454">CVE-2023-23454</a><br />
+								<a href="/CVE-2022-47946">CVE-2022-47946</a><br />
+								<a href="/CVE-2022-47943">CVE-2022-47943</a><br />
+								<a href="/CVE-2022-43750">CVE-2022-43750</a><br />
+								<a href="/CVE-2022-42896">CVE-2022-42896</a><br />
+								<a href="/CVE-2022-42895">CVE-2022-42895</a><br />
+								<a href="/CVE-2022-41849">CVE-2022-41849</a><br />
+								<a href="/CVE-2022-39842">CVE-2022-39842</a><br />
+								<a href="/CVE-2022-36946">CVE-2022-36946</a><br />
+								<a href="/CVE-2022-3649">CVE-2022-3649</a><br />
+								<a href="/CVE-2022-3545">CVE-2022-3545</a><br />
+								<a href="/CVE-2022-3544">CVE-2022-3544</a><br />
+								<a href="/CVE-2022-34495">CVE-2022-34495</a><br />
+								<a href="/CVE-2022-2978">CVE-2022-2978</a><br />
+								<a href="/CVE-2022-2153">CVE-2022-2153</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/linux">linux</a></span>
+							</td>
+							<td>6.0.12-1</td>
+							<td>6.1-1</td>
+							<td><span class="orange">High</span></td>
+							<td><span class="purple">Unknown</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2836">AVG-2836</a></td>
+							<td>
+								<a href="/CVE-2023-25012">CVE-2023-25012</a><br />
+								<a href="/CVE-2023-23454">CVE-2023-23454</a><br />
+								<a href="/CVE-2022-47946">CVE-2022-47946</a><br />
+								<a href="/CVE-2022-47943">CVE-2022-47943</a><br />
+								<a href="/CVE-2022-43750">CVE-2022-43750</a><br />
+								<a href="/CVE-2022-42896">CVE-2022-42896</a><br />
+								<a href="/CVE-2022-42895">CVE-2022-42895</a><br />
+								<a href="/CVE-2022-41849">CVE-2022-41849</a><br />
+								<a href="/CVE-2022-39842">CVE-2022-39842</a><br />
+								<a href="/CVE-2022-36946">CVE-2022-36946</a><br />
+								<a href="/CVE-2022-3649">CVE-2022-3649</a><br />
+								<a href="/CVE-2022-3545">CVE-2022-3545</a><br />
+								<a href="/CVE-2022-3544">CVE-2022-3544</a><br />
+								<a href="/CVE-2022-34495">CVE-2022-34495</a><br />
+								<a href="/CVE-2022-2978">CVE-2022-2978</a><br />
+								<a href="/CVE-2022-2153">CVE-2022-2153</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/linux-zen">linux-zen</a></span>
+							</td>
+							<td>6.0.12-1</td>
+							<td>6.1-1</td>
+							<td><span class="orange">High</span></td>
+							<td><span class="purple">Unknown</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2835">AVG-2835</a></td>
+							<td>
+								<a href="/CVE-2023-25012">CVE-2023-25012</a><br />
+								<a href="/CVE-2023-23454">CVE-2023-23454</a><br />
+								<a href="/CVE-2022-47946">CVE-2022-47946</a><br />
+								<a href="/CVE-2022-47943">CVE-2022-47943</a><br />
+								<a href="/CVE-2022-43750">CVE-2022-43750</a><br />
+								<a href="/CVE-2022-42896">CVE-2022-42896</a><br />
+								<a href="/CVE-2022-42895">CVE-2022-42895</a><br />
+								<a href="/CVE-2022-41849">CVE-2022-41849</a><br />
+								<a href="/CVE-2022-39842">CVE-2022-39842</a><br />
+								<a href="/CVE-2022-36946">CVE-2022-36946</a><br />
+								<a href="/CVE-2022-3649">CVE-2022-3649</a><br />
+								<a href="/CVE-2022-3545">CVE-2022-3545</a><br />
+								<a href="/CVE-2022-3544">CVE-2022-3544</a><br />
+								<a href="/CVE-2022-34495">CVE-2022-34495</a><br />
+								<a href="/CVE-2022-2978">CVE-2022-2978</a><br />
+								<a href="/CVE-2022-2153">CVE-2022-2153</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/linux-hardened">linux-hardened</a></span>
+							</td>
+							<td>6.0.19-1</td>
+							<td>6.1-1</td>
+							<td><span class="orange">High</span></td>
+							<td><span class="purple">Unknown</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2834">AVG-2834</a></td>
+							<td>
+								<a href="/CVE-2023-25012">CVE-2023-25012</a><br />
+								<a href="/CVE-2023-23454">CVE-2023-23454</a><br />
+								<a href="/CVE-2022-47946">CVE-2022-47946</a><br />
+								<a href="/CVE-2022-47943">CVE-2022-47943</a><br />
+								<a href="/CVE-2022-43750">CVE-2022-43750</a><br />
+								<a href="/CVE-2022-42896">CVE-2022-42896</a><br />
+								<a href="/CVE-2022-42895">CVE-2022-42895</a><br />
+								<a href="/CVE-2022-41849">CVE-2022-41849</a><br />
+								<a href="/CVE-2022-39842">CVE-2022-39842</a><br />
+								<a href="/CVE-2022-36946">CVE-2022-36946</a><br />
+								<a href="/CVE-2022-3649">CVE-2022-3649</a><br />
+								<a href="/CVE-2022-3545">CVE-2022-3545</a><br />
+								<a href="/CVE-2022-34495">CVE-2022-34495</a><br />
+								<a href="/CVE-2022-2978">CVE-2022-2978</a><br />
+								<a href="/CVE-2022-2153">CVE-2022-2153</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/linux-lts">linux-lts</a></span>
+							</td>
+							<td>5.15.94-1</td>
+							<td>6.1-1</td>
+							<td><span class="orange">High</span></td>
+							<td><span class="purple">Unknown</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
 							<td><a href="/AVG-2764">AVG-2764</a></td>
 							<td>
 								<a href="/CVE-2022-24790">CVE-2022-24790</a><br />
@@ -168,6 +406,21 @@
 							<td>5.6.3-1</td>
 							<td>5.6.4-1</td>
 							<td><span class="orange">High</span></td>
+							<td><span class="purple">Unknown</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2826">AVG-2826</a></td>
+							<td>
+								<a href="/CVE-2022-33070">CVE-2022-33070</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/protobuf-c">protobuf-c</a></span>
+							</td>
+							<td>1.4.0-4</td>
+							<td>1.4.1-1</td>
+							<td><span class="light_orange">Medium</span></td>
 							<td><span class="purple">Unknown</span></td>
 							<td></td>
 							<td class="center">None</td>
@@ -1684,9 +1937,9 @@
 							<td class="wrap">
 								<span class="no-wrap"><a href="/package/kube-apiserver">kube-apiserver</a>, </span>
 								<span class="no-wrap"><a href="/package/kube-controller-manager">kube-controller-manager</a>, </span>
-								<span class="no-wrap"><a href="/package/kubelet">kubelet</a>, </span>
+								<span class="no-wrap"><a href="/package/kube-scheduler">kube-scheduler</a>, </span>
 								<span class="no-wrap"><a href="/package/kube-proxy">kube-proxy</a>, </span>
-								<span class="no-wrap"><a href="/package/kube-scheduler">kube-scheduler</a></span>
+								<span class="no-wrap"><a href="/package/kubelet">kubelet</a></span>
 							</td>
 							<td>1.23.0-1</td>
 							<td></td>
@@ -1890,6 +2143,393 @@
 							<td><span class="red">Vulnerable</span></td>
 							<td></td>
 							<td class="center"></td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2840">AVG-2840</a></td>
+							<td>
+								<a href="/CVE-2022-42265">CVE-2022-42265</a><br />
+								<a href="/CVE-2022-42264">CVE-2022-42264</a><br />
+								<a href="/CVE-2022-42263">CVE-2022-42263</a><br />
+								<a href="/CVE-2022-42259">CVE-2022-42259</a><br />
+								<a href="/CVE-2022-42258">CVE-2022-42258</a><br />
+								<a href="/CVE-2022-42257">CVE-2022-42257</a><br />
+								<a href="/CVE-2022-42256">CVE-2022-42256</a><br />
+								<a href="/CVE-2022-42255">CVE-2022-42255</a><br />
+								<a href="/CVE-2022-42254">CVE-2022-42254</a><br />
+								<a href="/CVE-2022-34684">CVE-2022-34684</a><br />
+								<a href="/CVE-2022-34682">CVE-2022-34682</a><br />
+								<a href="/CVE-2022-34680">CVE-2022-34680</a><br />
+								<a href="/CVE-2022-34679">CVE-2022-34679</a><br />
+								<a href="/CVE-2022-34678">CVE-2022-34678</a><br />
+								<a href="/CVE-2022-34677">CVE-2022-34677</a><br />
+								<a href="/CVE-2022-34676">CVE-2022-34676</a><br />
+								<a href="/CVE-2022-34674">CVE-2022-34674</a><br />
+								<a href="/CVE-2022-34673">CVE-2022-34673</a><br />
+								<a href="/CVE-2022-34670">CVE-2022-34670</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/nvidia-dkms">nvidia-dkms</a></span>
+							</td>
+							<td>525.60.10-1</td>
+							<td>525.60.11-1</td>
+							<td><span class="purple">Unknown</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2839">AVG-2839</a></td>
+							<td>
+								<a href="/CVE-2022-42265">CVE-2022-42265</a><br />
+								<a href="/CVE-2022-42264">CVE-2022-42264</a><br />
+								<a href="/CVE-2022-42263">CVE-2022-42263</a><br />
+								<a href="/CVE-2022-42259">CVE-2022-42259</a><br />
+								<a href="/CVE-2022-42258">CVE-2022-42258</a><br />
+								<a href="/CVE-2022-42257">CVE-2022-42257</a><br />
+								<a href="/CVE-2022-42256">CVE-2022-42256</a><br />
+								<a href="/CVE-2022-42255">CVE-2022-42255</a><br />
+								<a href="/CVE-2022-42254">CVE-2022-42254</a><br />
+								<a href="/CVE-2022-34684">CVE-2022-34684</a><br />
+								<a href="/CVE-2022-34682">CVE-2022-34682</a><br />
+								<a href="/CVE-2022-34680">CVE-2022-34680</a><br />
+								<a href="/CVE-2022-34679">CVE-2022-34679</a><br />
+								<a href="/CVE-2022-34678">CVE-2022-34678</a><br />
+								<a href="/CVE-2022-34677">CVE-2022-34677</a><br />
+								<a href="/CVE-2022-34676">CVE-2022-34676</a><br />
+								<a href="/CVE-2022-34674">CVE-2022-34674</a><br />
+								<a href="/CVE-2022-34673">CVE-2022-34673</a><br />
+								<a href="/CVE-2022-34670">CVE-2022-34670</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/nvidia-lts">nvidia-lts</a></span>
+							</td>
+							<td>525.60.10-1</td>
+							<td>525.60.11-1</td>
+							<td><span class="purple">Unknown</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2838">AVG-2838</a></td>
+							<td>
+								<a href="/CVE-2022-42265">CVE-2022-42265</a><br />
+								<a href="/CVE-2022-42264">CVE-2022-42264</a><br />
+								<a href="/CVE-2022-42263">CVE-2022-42263</a><br />
+								<a href="/CVE-2022-42259">CVE-2022-42259</a><br />
+								<a href="/CVE-2022-42258">CVE-2022-42258</a><br />
+								<a href="/CVE-2022-42257">CVE-2022-42257</a><br />
+								<a href="/CVE-2022-42256">CVE-2022-42256</a><br />
+								<a href="/CVE-2022-42255">CVE-2022-42255</a><br />
+								<a href="/CVE-2022-42254">CVE-2022-42254</a><br />
+								<a href="/CVE-2022-34684">CVE-2022-34684</a><br />
+								<a href="/CVE-2022-34682">CVE-2022-34682</a><br />
+								<a href="/CVE-2022-34680">CVE-2022-34680</a><br />
+								<a href="/CVE-2022-34679">CVE-2022-34679</a><br />
+								<a href="/CVE-2022-34678">CVE-2022-34678</a><br />
+								<a href="/CVE-2022-34677">CVE-2022-34677</a><br />
+								<a href="/CVE-2022-34676">CVE-2022-34676</a><br />
+								<a href="/CVE-2022-34674">CVE-2022-34674</a><br />
+								<a href="/CVE-2022-34673">CVE-2022-34673</a><br />
+								<a href="/CVE-2022-34670">CVE-2022-34670</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/nvidia">nvidia</a></span>
+							</td>
+							<td>525.60.10-1</td>
+							<td>525.60.11-1</td>
+							<td><span class="purple">Unknown</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2833">AVG-2833</a></td>
+							<td>
+								<a href="/CVE-2023-25139">CVE-2023-25139</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/lib32-glibc">lib32-glibc</a>, </span>
+								<span class="no-wrap"><a href="/package/glibc">glibc</a></span>
+							</td>
+							<td>2.37-1</td>
+							<td>2.37-2</td>
+							<td><span class="purple">Unknown</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center"></td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2832">AVG-2832</a></td>
+							<td>
+								<a href="/CVE-2023-25136">CVE-2023-25136</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/openssh">openssh</a></span>
+							</td>
+							<td>9.1p1-3</td>
+							<td>9.2p1-1</td>
+							<td><span class="purple">Unknown</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2828">AVG-2828</a></td>
+							<td>
+								<a href="/CVE-2022-45141">CVE-2022-45141</a><br />
+								<a href="/CVE-2022-42898">CVE-2022-42898</a><br />
+								<a href="/CVE-2022-38023">CVE-2022-38023</a><br />
+								<a href="/CVE-2022-37967">CVE-2022-37967</a><br />
+								<a href="/CVE-2022-37966">CVE-2022-37966</a><br />
+								<a href="/CVE-2022-3492">CVE-2022-3492</a><br />
+								<a href="/CVE-2022-3437">CVE-2022-3437</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/samba">samba</a></span>
+							</td>
+							<td>4.17.4-4</td>
+							<td>4.17.5-1</td>
+							<td><span class="purple">Unknown</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2824">AVG-2824</a></td>
+							<td>
+								<a href="/CVE-2022-37436">CVE-2022-37436</a><br />
+								<a href="/CVE-2022-36760">CVE-2022-36760</a><br />
+								<a href="/CVE-2006-20001">CVE-2006-20001</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/apache">apache</a></span>
+							</td>
+							<td>2.4.54-3</td>
+							<td>2.4.55-1</td>
+							<td><span class="purple">Unknown</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2823">AVG-2823</a></td>
+							<td>
+								<a href="/CVE-2022-41767">CVE-2022-41767</a><br />
+								<a href="/CVE-2022-41765">CVE-2022-41765</a><br />
+								<a href="/CVE-2022-34912">CVE-2022-34912</a><br />
+								<a href="/CVE-2022-34911">CVE-2022-34911</a><br />
+								<a href="/CVE-2022-31091">CVE-2022-31091</a><br />
+								<a href="/CVE-2022-31090">CVE-2022-31090</a><br />
+								<a href="/CVE-2022-31043">CVE-2022-31043</a><br />
+								<a href="/CVE-2022-31042">CVE-2022-31042</a><br />
+								<a href="/CVE-2022-29248">CVE-2022-29248</a><br />
+								<a href="/CVE-2022-28203">CVE-2022-28203</a><br />
+								<a href="/CVE-2022-28201">CVE-2022-28201</a><br />
+								<a href="/CVE-2021-44856">CVE-2021-44856</a><br />
+								<a href="/CVE-2021-44855">CVE-2021-44855</a><br />
+								<a href="/CVE-2021-44854">CVE-2021-44854</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/mediawiki">mediawiki</a></span>
+							</td>
+							<td>1.38.2-1</td>
+							<td>1.38.3-1</td>
+							<td><span class="purple">Unknown</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2822">AVG-2822</a></td>
+							<td>
+								<a href="/CVE-2022-41556">CVE-2022-41556</a><br />
+								<a href="/CVE-2022-37797">CVE-2022-37797</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/lighttpd">lighttpd</a></span>
+							</td>
+							<td>1.4.66-1</td>
+							<td>1.4.67-1</td>
+							<td><span class="purple">Unknown</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2817">AVG-2817</a></td>
+							<td>
+								<a href="/CVE-2022-32208">CVE-2022-32208</a><br />
+								<a href="/CVE-2022-32207">CVE-2022-32207</a><br />
+								<a href="/CVE-2022-32206">CVE-2022-32206</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/libcurl-gnutls">libcurl-gnutls</a>, </span>
+								<span class="no-wrap"><a href="/package/libcurl-compat">libcurl-compat</a>, </span>
+								<span class="no-wrap"><a href="/package/curl">curl</a></span>
+							</td>
+							<td>7.83.1-1</td>
+							<td>7.84.0-1</td>
+							<td><span class="purple">Unknown</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2815">AVG-2815</a></td>
+							<td>
+								<a href="/CVE-2022-40674">CVE-2022-40674</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/expat">expat</a></span>
+							</td>
+							<td>2.4.8-1</td>
+							<td>2.4.9-1</td>
+							<td><span class="purple">Unknown</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2814">AVG-2814</a></td>
+							<td>
+								<a href="/CVE-2022-40617">CVE-2022-40617</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/strongswan">strongswan</a></span>
+							</td>
+							<td>5.9.7-1</td>
+							<td>5.9.8-1</td>
+							<td><span class="purple">Unknown</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2813">AVG-2813</a></td>
+							<td>
+								<a href="/CVE-2022-38171">CVE-2022-38171</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/xpdf">xpdf</a></span>
+							</td>
+							<td>4.03-1</td>
+							<td>4.04-1</td>
+							<td><span class="purple">Unknown</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2811">AVG-2811</a></td>
+							<td>
+								<a href="/CVE-2022-38178">CVE-2022-38178</a><br />
+								<a href="/CVE-2022-3080">CVE-2022-3080</a><br />
+								<a href="/CVE-2022-2795">CVE-2022-2795</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/bind">bind</a></span>
+							</td>
+							<td>9.18.6-1</td>
+							<td>9.18.7-1</td>
+							<td><span class="purple">Unknown</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2810">AVG-2810</a></td>
+							<td>
+								<a href="/CVE-2022-36359">CVE-2022-36359</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/python-django">python-django</a></span>
+							</td>
+							<td>4.0.6-1</td>
+							<td>4.0.7-1</td>
+							<td><span class="purple">Unknown</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2808">AVG-2808</a></td>
+							<td>
+								<a href="/CVE-2022-23833">CVE-2022-23833</a><br />
+								<a href="/CVE-2022-22818">CVE-2022-22818</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/python-django">python-django</a></span>
+							</td>
+							<td>3.2.10-1</td>
+							<td>4.0.2-1</td>
+							<td><span class="purple">Unknown</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2807">AVG-2807</a></td>
+							<td>
+								<a href="/CVE-2022-3140">CVE-2022-3140</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/libreoffice-still">libreoffice-still</a></span>
+							</td>
+							<td>7.3.5-3</td>
+							<td>7.3.6-1</td>
+							<td><span class="purple">Unknown</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2806">AVG-2806</a></td>
+							<td>
+								<a href="/CVE-2022-3140">CVE-2022-3140</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/libreoffice-fresh">libreoffice-fresh</a></span>
+							</td>
+							<td>7.4.0-4</td>
+							<td>7.4.1-1</td>
+							<td><span class="purple">Unknown</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2805">AVG-2805</a></td>
+							<td>
+								<a href="/CVE-2022-42012">CVE-2022-42012</a><br />
+								<a href="/CVE-2022-42011">CVE-2022-42011</a><br />
+								<a href="/CVE-2022-42010">CVE-2022-42010</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/dbus">dbus</a></span>
+							</td>
+							<td>1.14.3-1</td>
+							<td>1.14.4-1</td>
+							<td><span class="purple">Unknown</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2804">AVG-2804</a></td>
+							<td>
+								<a href="/CVE-2022-47629">CVE-2022-47629</a><br />
+								<a href="/CVE-2022-3515">CVE-2022-3515</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/libksba">libksba</a></span>
+							</td>
+							<td>1.6.2-1</td>
+							<td>1.6.3-1</td>
+							<td><span class="purple">Unknown</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-2798">AVG-2798</a></td>
@@ -2291,7 +2931,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202210-1">ASA-202210-1</a><br/><a href="/ASA-202210-1">ASA-202210-1</a></td>
+							<td class="center"><a href="/ASA-202210-1">ASA-202210-1</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-2803">AVG-2803</a></td>
@@ -2310,7 +2950,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202210-4">ASA-202210-4</a><br/><a href="/ASA-202210-4">ASA-202210-4</a></td>
+							<td class="center"><a href="/ASA-202210-4">ASA-202210-4</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-2802">AVG-2802</a></td>
@@ -2329,7 +2969,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202210-3">ASA-202210-3</a><br/><a href="/ASA-202210-3">ASA-202210-3</a></td>
+							<td class="center"><a href="/ASA-202210-3">ASA-202210-3</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-2801">AVG-2801</a></td>
@@ -2348,7 +2988,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202210-2">ASA-202210-2</a><br/><a href="/ASA-202210-2">ASA-202210-2</a></td>
+							<td class="center"><a href="/ASA-202210-2">ASA-202210-2</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-2718">AVG-2718</a></td>
@@ -3570,7 +4210,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202101-42">ASA-202101-42</a><br/><a href="/ASA-202101-42">ASA-202101-42</a></td>
+							<td class="center"><a href="/ASA-202101-42">ASA-202101-42</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1440">AVG-1440</a></td>
@@ -3600,7 +4240,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202101-5">ASA-202101-5</a></td>
+							<td class="center"><a href="/ASA-202101-5">ASA-202101-5</a><br/><a href="/ASA-202101-5">ASA-202101-5</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1348">AVG-1348</a></td>
@@ -3650,7 +4290,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202011-12">ASA-202011-12</a></td>
+							<td class="center"><a href="/ASA-202011-12">ASA-202011-12</a><br/><a href="/ASA-202011-12">ASA-202011-12</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1265">AVG-1265</a></td>
@@ -3665,7 +4305,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202011-6">ASA-202011-6</a></td>
+							<td class="center"><a href="/ASA-202011-6">ASA-202011-6</a><br/><a href="/ASA-202011-6">ASA-202011-6</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1262">AVG-1262</a></td>
@@ -3746,7 +4386,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202011-1">ASA-202011-1</a></td>
+							<td class="center"><a href="/ASA-202011-1">ASA-202011-1</a><br/><a href="/ASA-202011-1">ASA-202011-1</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1238">AVG-1238</a></td>
@@ -3964,7 +4604,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202005-3">ASA-202005-3</a></td>
+							<td class="center"><a href="/ASA-202005-3">ASA-202005-3</a><br/><a href="/ASA-202005-3">ASA-202005-3</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1147">AVG-1147</a></td>
@@ -4113,7 +4753,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202004-8">ASA-202004-8</a></td>
+							<td class="center"><a href="/ASA-202004-8">ASA-202004-8</a><br/><a href="/ASA-202004-8">ASA-202004-8</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1125">AVG-1125</a></td>
@@ -4129,7 +4769,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202004-6">ASA-202004-6</a></td>
+							<td class="center"><a href="/ASA-202004-6">ASA-202004-6</a><br/><a href="/ASA-202004-6">ASA-202004-6</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1115">AVG-1115</a></td>
@@ -4191,7 +4831,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202003-8">ASA-202003-8</a></td>
+							<td class="center"><a href="/ASA-202003-8">ASA-202003-8</a><br/><a href="/ASA-202003-8">ASA-202003-8</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1103">AVG-1103</a></td>
@@ -4278,7 +4918,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202002-5">ASA-202002-5</a></td>
+							<td class="center"><a href="/ASA-202002-5">ASA-202002-5</a><br/><a href="/ASA-202002-5">ASA-202002-5</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1092">AVG-1092</a></td>
@@ -4395,7 +5035,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202001-3">ASA-202001-3</a></td>
+							<td class="center"><a href="/ASA-202001-3">ASA-202001-3</a><br/><a href="/ASA-202001-3">ASA-202001-3</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1084">AVG-1084</a></td>
@@ -4416,7 +5056,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202001-1">ASA-202001-1</a></td>
+							<td class="center"><a href="/ASA-202001-1">ASA-202001-1</a><br/><a href="/ASA-202001-1">ASA-202001-1</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1076">AVG-1076</a></td>
@@ -4526,7 +5166,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201912-1">ASA-201912-1</a></td>
+							<td class="center"><a href="/ASA-201912-1">ASA-201912-1</a><br/><a href="/ASA-201912-1">ASA-201912-1</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1066">AVG-1066</a></td>
@@ -4541,7 +5181,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201911-12">ASA-201911-12</a><br/><a href="/ASA-201911-12">ASA-201911-12</a></td>
+							<td class="center"><a href="/ASA-201911-12">ASA-201911-12</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1065">AVG-1065</a></td>
@@ -4556,7 +5196,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201911-11">ASA-201911-11</a><br/><a href="/ASA-201911-11">ASA-201911-11</a></td>
+							<td class="center"><a href="/ASA-201911-11">ASA-201911-11</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1064">AVG-1064</a></td>
@@ -4571,7 +5211,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201911-10">ASA-201911-10</a><br/><a href="/ASA-201911-10">ASA-201911-10</a></td>
+							<td class="center"><a href="/ASA-201911-10">ASA-201911-10</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1063">AVG-1063</a></td>
@@ -4586,7 +5226,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201911-9">ASA-201911-9</a><br/><a href="/ASA-201911-9">ASA-201911-9</a></td>
+							<td class="center"><a href="/ASA-201911-9">ASA-201911-9</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1062">AVG-1062</a></td>
@@ -4676,7 +5316,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201910-16">ASA-201910-16</a></td>
+							<td class="center"><a href="/ASA-201910-16">ASA-201910-16</a><br/><a href="/ASA-201910-16">ASA-201910-16</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1054">AVG-1054</a></td>
@@ -4861,7 +5501,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201907-4">ASA-201907-4</a></td>
+							<td class="center"><a href="/ASA-201907-4">ASA-201907-4</a><br/><a href="/ASA-201907-4">ASA-201907-4</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-998">AVG-998</a></td>
@@ -4907,7 +5547,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201906-18">ASA-201906-18</a></td>
+							<td class="center"><a href="/ASA-201906-18">ASA-201906-18</a><br/><a href="/ASA-201906-18">ASA-201906-18</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-989">AVG-989</a></td>
@@ -5011,7 +5651,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201905-9">ASA-201905-9</a></td>
+							<td class="center"><a href="/ASA-201905-9">ASA-201905-9</a><br/><a href="/ASA-201905-9">ASA-201905-9</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-965">AVG-965</a></td>
@@ -5197,7 +5837,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201903-14">ASA-201903-14</a></td>
+							<td class="center"><a href="/ASA-201903-14">ASA-201903-14</a><br/><a href="/ASA-201903-14">ASA-201903-14</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-926">AVG-926</a></td>
@@ -5251,7 +5891,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201903-11">ASA-201903-11</a></td>
+							<td class="center"><a href="/ASA-201903-11">ASA-201903-11</a><br/><a href="/ASA-201903-11">ASA-201903-11</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-924">AVG-924</a></td>
@@ -5385,7 +6025,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201902-2">ASA-201902-2</a></td>
+							<td class="center"><a href="/ASA-201902-2">ASA-201902-2</a><br/><a href="/ASA-201902-2">ASA-201902-2</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-861">AVG-861</a></td>
@@ -5499,7 +6139,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201812-9">ASA-201812-9</a></td>
+							<td class="center"><a href="/ASA-201812-9">ASA-201812-9</a><br/><a href="/ASA-201812-9">ASA-201812-9</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-827">AVG-827</a></td>
@@ -5686,7 +6326,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201810-14">ASA-201810-14</a></td>
+							<td class="center"><a href="/ASA-201810-14">ASA-201810-14</a><br/><a href="/ASA-201810-14">ASA-201810-14</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-782">AVG-782</a></td>
@@ -5767,7 +6407,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201810-6">ASA-201810-6</a></td>
+							<td class="center"><a href="/ASA-201810-6">ASA-201810-6</a><br/><a href="/ASA-201810-6">ASA-201810-6</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-751">AVG-751</a></td>
@@ -5857,7 +6497,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201806-14">ASA-201806-14</a></td>
+							<td class="center"><a href="/ASA-201806-14">ASA-201806-14</a><br/><a href="/ASA-201806-14">ASA-201806-14</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-714">AVG-714</a></td>
@@ -5904,8 +6544,8 @@
 								<a href="/CVE-2018-11354">CVE-2018-11354</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/wireshark-qt">wireshark-qt</a>, </span>
-								<span class="no-wrap"><a href="/package/wireshark-cli">wireshark-cli</a></span>
+								<span class="no-wrap"><a href="/package/wireshark-cli">wireshark-cli</a>, </span>
+								<span class="no-wrap"><a href="/package/wireshark-qt">wireshark-qt</a></span>
 							</td>
 							<td>2.6.0-1</td>
 							<td>2.6.1-1</td>
@@ -6072,7 +6712,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201805-10">ASA-201805-10</a></td>
+							<td class="center"><a href="/ASA-201805-10">ASA-201805-10</a><br/><a href="/ASA-201805-10">ASA-201805-10</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-692">AVG-692</a></td>
@@ -6262,7 +6902,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201803-13">ASA-201803-13</a></td>
+							<td class="center"><a href="/ASA-201803-13">ASA-201803-13</a><br/><a href="/ASA-201803-13">ASA-201803-13</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-651">AVG-651</a></td>
@@ -6286,8 +6926,8 @@
 								<a href="/CVE-2012-6706">CVE-2012-6706</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/libunrar">libunrar</a>, </span>
-								<span class="no-wrap"><a href="/package/unrar">unrar</a></span>
+								<span class="no-wrap"><a href="/package/unrar">unrar</a>, </span>
+								<span class="no-wrap"><a href="/package/libunrar">libunrar</a></span>
 							</td>
 							<td>1:5.5.4-1</td>
 							<td>1:5.5.5-1</td>
@@ -6556,7 +7196,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201711-23">ASA-201711-23</a></td>
+							<td class="center"><a href="/ASA-201711-23">ASA-201711-23</a><br/><a href="/ASA-201711-23">ASA-201711-23</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-491">AVG-491</a></td>
@@ -6878,7 +7518,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201708-3">ASA-201708-3</a></td>
+							<td class="center"><a href="/ASA-201708-3">ASA-201708-3</a><br/><a href="/ASA-201708-3">ASA-201708-3</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-369">AVG-369</a></td>
@@ -7282,7 +7922,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201706-19">ASA-201706-19</a></td>
+							<td class="center"><a href="/ASA-201706-19">ASA-201706-19</a><br/><a href="/ASA-201706-19">ASA-201706-19</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-289">AVG-289</a></td>
@@ -7387,7 +8027,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201704-6">ASA-201704-6</a></td>
+							<td class="center"><a href="/ASA-201704-6">ASA-201704-6</a><br/><a href="/ASA-201704-6">ASA-201704-6</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-248">AVG-248</a></td>
@@ -7614,7 +8254,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201703-3">ASA-201703-3</a></td>
+							<td class="center"><a href="/ASA-201703-3">ASA-201703-3</a><br/><a href="/ASA-201703-3">ASA-201703-3</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-193">AVG-193</a></td>
@@ -7825,7 +8465,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201701-39">ASA-201701-39</a></td>
+							<td class="center"><a href="/ASA-201701-39">ASA-201701-39</a><br/><a href="/ASA-201701-39">ASA-201701-39</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-156">AVG-156</a></td>
@@ -7903,7 +8543,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td><a href="https://bugs.archlinux.org/task/52481">FS#52481</a></td>
-							<td class="center"><a href="/ASA-201701-20">ASA-201701-20</a><br/><a href="/ASA-201701-20">ASA-201701-20</a></td>
+							<td class="center"><a href="/ASA-201701-20">ASA-201701-20</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-111">AVG-111</a></td>
@@ -7977,7 +8617,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201612-15">ASA-201612-15</a></td>
+							<td class="center"><a href="/ASA-201612-15">ASA-201612-15</a><br/><a href="/ASA-201612-15">ASA-201612-15</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-99">AVG-99</a></td>
@@ -8074,7 +8714,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201612-1">ASA-201612-1</a></td>
+							<td class="center"><a href="/ASA-201612-1">ASA-201612-1</a><br/><a href="/ASA-201612-1">ASA-201612-1</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-87">AVG-87</a></td>
@@ -8090,7 +8730,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td><a href="https://bugs.archlinux.org/task/54842">FS#54842</a></td>
-							<td class="center"><a href="/ASA-201707-18">ASA-201707-18</a></td>
+							<td class="center"><a href="/ASA-201707-18">ASA-201707-18</a><br/><a href="/ASA-201707-18">ASA-201707-18</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-86">AVG-86</a></td>
@@ -8154,7 +8794,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201611-27">ASA-201611-27</a></td>
+							<td class="center"><a href="/ASA-201611-27">ASA-201611-27</a><br/><a href="/ASA-201611-27">ASA-201611-27</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-85">AVG-85</a></td>
@@ -8218,7 +8858,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201611-26">ASA-201611-26</a></td>
+							<td class="center"><a href="/ASA-201611-26">ASA-201611-26</a><br/><a href="/ASA-201611-26">ASA-201611-26</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-73">AVG-73</a></td>
@@ -8283,7 +8923,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201611-16">ASA-201611-16</a></td>
+							<td class="center"><a href="/ASA-201611-16">ASA-201611-16</a><br/><a href="/ASA-201611-16">ASA-201611-16</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-56">AVG-56</a></td>
@@ -8421,7 +9061,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201609-22">ASA-201609-22</a></td>
+							<td class="center"><a href="/ASA-201609-22">ASA-201609-22</a><br/><a href="/ASA-201609-22">ASA-201609-22</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1">AVG-1</a></td>
@@ -8467,7 +9107,7 @@
 							<td><span class="red">Critical</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td><a href="https://bugs.archlinux.org/task/54842">FS#54842</a></td>
-							<td class="center"><a href="/ASA-201707-17">ASA-201707-17</a></td>
+							<td class="center"><a href="/ASA-201707-17">ASA-201707-17</a><br/><a href="/ASA-201707-17">ASA-201707-17</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-14">AVG-14</a></td>
@@ -8526,6 +9166,21 @@
 							<td class="center"><a href="/ASA-201701-1">ASA-201701-1</a></td>
 						</tr>
 						<tr>
+							<td><a href="/AVG-2821">AVG-2821</a></td>
+							<td>
+								<a href="/CVE-2022-37434">CVE-2022-37434</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/zlib">zlib</a></span>
+							</td>
+							<td>1:1.2.12-2</td>
+							<td>1:1.2.12-3</td>
+							<td><span class="orange">High</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
 							<td><a href="/AVG-2710">AVG-2710</a></td>
 							<td>
 								<a href="/CVE-2022-29917">CVE-2022-29917</a><br />
@@ -8554,8 +9209,8 @@
 								<a href="/CVE-2022-1154">CVE-2022-1154</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/gvim">gvim</a>, </span>
-								<span class="no-wrap"><a href="/package/vim">vim</a></span>
+								<span class="no-wrap"><a href="/package/vim">vim</a>, </span>
+								<span class="no-wrap"><a href="/package/gvim">gvim</a></span>
 							</td>
 							<td>8.2.4464-1</td>
 							<td>8.2.4651-1</td>
@@ -8992,8 +9647,8 @@
 								<a href="/CVE-2021-4192">CVE-2021-4192</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/gvim">gvim</a>, </span>
-								<span class="no-wrap"><a href="/package/vim">vim</a></span>
+								<span class="no-wrap"><a href="/package/vim">vim</a>, </span>
+								<span class="no-wrap"><a href="/package/gvim">gvim</a></span>
 							</td>
 							<td>8.2.4150-1</td>
 							<td>8.2.4151-1</td>
@@ -9465,8 +10120,8 @@
 								<a href="/CVE-2022-21426">CVE-2022-21426</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/jre8-openjdk-headless">jre8-openjdk-headless</a>, </span>
 								<span class="no-wrap"><a href="/package/jre8-openjdk">jre8-openjdk</a>, </span>
+								<span class="no-wrap"><a href="/package/jre8-openjdk-headless">jre8-openjdk-headless</a>, </span>
 								<span class="no-wrap"><a href="/package/jdk8-openjdk">jdk8-openjdk</a></span>
 							</td>
 							<td>8.322-1</td>
@@ -9487,8 +10142,8 @@
 							</td>
 							<td class="wrap">
 								<span class="no-wrap"><a href="/package/jre11-openjdk-headless">jre11-openjdk-headless</a>, </span>
-								<span class="no-wrap"><a href="/package/jre11-openjdk">jre11-openjdk</a>, </span>
-								<span class="no-wrap"><a href="/package/jdk11-openjdk">jdk11-openjdk</a></span>
+								<span class="no-wrap"><a href="/package/jdk11-openjdk">jdk11-openjdk</a>, </span>
+								<span class="no-wrap"><a href="/package/jre11-openjdk">jre11-openjdk</a></span>
 							</td>
 							<td>11.0.14.1-1</td>
 							<td>11.0.15.u2-1</td>
@@ -9508,9 +10163,9 @@
 								<a href="/CVE-2022-21426">CVE-2022-21426</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/jre17-openjdk">jre17-openjdk</a>, </span>
+								<span class="no-wrap"><a href="/package/jdk17-openjdk">jdk17-openjdk</a>, </span>
 								<span class="no-wrap"><a href="/package/jre17-openjdk-headless">jre17-openjdk-headless</a>, </span>
-								<span class="no-wrap"><a href="/package/jdk17-openjdk">jdk17-openjdk</a></span>
+								<span class="no-wrap"><a href="/package/jre17-openjdk">jre17-openjdk</a></span>
 							</td>
 							<td>17.0.2-1</td>
 							<td>17.0.3.u7-2</td>
@@ -9530,8 +10185,8 @@
 							</td>
 							<td class="wrap">
 								<span class="no-wrap"><a href="/package/jre-openjdk-headless">jre-openjdk-headless</a>, </span>
-								<span class="no-wrap"><a href="/package/jre-openjdk">jre-openjdk</a>, </span>
-								<span class="no-wrap"><a href="/package/jdk-openjdk">jdk-openjdk</a></span>
+								<span class="no-wrap"><a href="/package/jdk-openjdk">jdk-openjdk</a>, </span>
+								<span class="no-wrap"><a href="/package/jre-openjdk">jre-openjdk</a></span>
 							</td>
 							<td>18-1</td>
 							<td>18.0.1u10-1</td>
@@ -9827,7 +10482,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td><a href="https://bugs.archlinux.org/task/74229">FS#74229</a></td>
-							<td class="center"><a href="/ASA-202204-6">ASA-202204-6</a></td>
+							<td class="center"><a href="/ASA-202204-6">ASA-202204-6</a><br/><a href="/ASA-202204-6">ASA-202204-6</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-2659">AVG-2659</a></td>
@@ -9931,7 +10586,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202204-1">ASA-202204-1</a><br/><a href="/ASA-202204-1">ASA-202204-1</a></td>
+							<td class="center"><a href="/ASA-202204-1">ASA-202204-1</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1621">AVG-1621</a></td>
@@ -10202,7 +10857,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202112-8">ASA-202112-8</a></td>
+							<td class="center"><a href="/ASA-202112-8">ASA-202112-8</a><br/><a href="/ASA-202112-8">ASA-202112-8</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-2600">AVG-2600</a></td>
@@ -10760,7 +11415,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202111-2">ASA-202111-2</a></td>
+							<td class="center"><a href="/ASA-202111-2">ASA-202111-2</a><br/><a href="/ASA-202111-2">ASA-202111-2</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-2410">AVG-2410</a></td>
@@ -11963,7 +12618,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202109-2">ASA-202109-2</a></td>
+							<td class="center"><a href="/ASA-202109-2">ASA-202109-2</a><br/><a href="/ASA-202109-2">ASA-202109-2</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-2300">AVG-2300</a></td>
@@ -12089,8 +12744,8 @@
 								<a href="/CVE-2021-32751">CVE-2021-32751</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/gradle-src">gradle-src</a>, </span>
-								<span class="no-wrap"><a href="/package/gradle">gradle</a></span>
+								<span class="no-wrap"><a href="/package/gradle">gradle</a>, </span>
+								<span class="no-wrap"><a href="/package/gradle-src">gradle-src</a></span>
 							</td>
 							<td>7.1.1-1</td>
 							<td>7.2-1</td>
@@ -12229,7 +12884,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202108-14">ASA-202108-14</a></td>
+							<td class="center"><a href="/ASA-202108-14">ASA-202108-14</a><br/><a href="/ASA-202108-14">ASA-202108-14</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-2271">AVG-2271</a></td>
@@ -12463,7 +13118,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202107-49">ASA-202107-49</a><br/><a href="/ASA-202107-49">ASA-202107-49</a></td>
+							<td class="center"><a href="/ASA-202107-49">ASA-202107-49</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-2181">AVG-2181</a></td>
@@ -12481,7 +13136,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202107-48">ASA-202107-48</a><br/><a href="/ASA-202107-48">ASA-202107-48</a></td>
+							<td class="center"><a href="/ASA-202107-48">ASA-202107-48</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-2221">AVG-2221</a></td>
@@ -12704,7 +13359,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202107-50">ASA-202107-50</a><br/><a href="/ASA-202107-50">ASA-202107-50</a></td>
+							<td class="center"><a href="/ASA-202107-50">ASA-202107-50</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-2184">AVG-2184</a></td>
@@ -12721,7 +13376,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202107-51">ASA-202107-51</a><br/><a href="/ASA-202107-51">ASA-202107-51</a></td>
+							<td class="center"><a href="/ASA-202107-51">ASA-202107-51</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-2200">AVG-2200</a></td>
@@ -12964,7 +13619,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202107-20">ASA-202107-20</a></td>
+							<td class="center"><a href="/ASA-202107-20">ASA-202107-20</a><br/><a href="/ASA-202107-20">ASA-202107-20</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-2144">AVG-2144</a></td>
@@ -13483,7 +14138,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202106-3">ASA-202106-3</a></td>
+							<td class="center"><a href="/ASA-202106-3">ASA-202106-3</a><br/><a href="/ASA-202106-3">ASA-202106-3</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1819">AVG-1819</a></td>
@@ -13961,8 +14616,8 @@
 								<a href="/CVE-2021-29427">CVE-2021-29427</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/gradle-src">gradle-src</a>, </span>
-								<span class="no-wrap"><a href="/package/gradle">gradle</a></span>
+								<span class="no-wrap"><a href="/package/gradle">gradle</a>, </span>
+								<span class="no-wrap"><a href="/package/gradle-src">gradle-src</a></span>
 							</td>
 							<td>6.8.3-1</td>
 							<td>7.0-1</td>
@@ -13984,7 +14639,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202105-5">ASA-202105-5</a></td>
+							<td class="center"><a href="/ASA-202105-5">ASA-202105-5</a><br/><a href="/ASA-202105-5">ASA-202105-5</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1926">AVG-1926</a></td>
@@ -14448,7 +15103,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202104-3">ASA-202104-3</a></td>
+							<td class="center"><a href="/ASA-202104-3">ASA-202104-3</a><br/><a href="/ASA-202104-3">ASA-202104-3</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1756">AVG-1756</a></td>
@@ -15601,7 +16256,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202102-1">ASA-202102-1</a></td>
+							<td class="center"><a href="/ASA-202102-1">ASA-202102-1</a><br/><a href="/ASA-202102-1">ASA-202102-1</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1483">AVG-1483</a></td>
@@ -16120,7 +16775,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202012-25">ASA-202012-25</a></td>
+							<td class="center"><a href="/ASA-202012-25">ASA-202012-25</a><br/><a href="/ASA-202012-25">ASA-202012-25</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1353">AVG-1353</a></td>
@@ -16245,7 +16900,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202011-23">ASA-202011-23</a></td>
+							<td class="center"><a href="/ASA-202011-23">ASA-202011-23</a><br/><a href="/ASA-202011-23">ASA-202011-23</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1289">AVG-1289</a></td>
@@ -16328,7 +16983,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202011-14">ASA-202011-14</a><br/><a href="/ASA-202011-14">ASA-202011-14</a></td>
+							<td class="center"><a href="/ASA-202011-14">ASA-202011-14</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1278">AVG-1278</a></td>
@@ -16422,7 +17077,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202010-9">ASA-202010-9</a><br/><a href="/ASA-202010-9">ASA-202010-9</a></td>
+							<td class="center"><a href="/ASA-202010-9">ASA-202010-9</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1253">AVG-1253</a></td>
@@ -16454,7 +17109,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202010-4">ASA-202010-4</a><br/><a href="/ASA-202010-4">ASA-202010-4</a></td>
+							<td class="center"><a href="/ASA-202010-4">ASA-202010-4</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1249">AVG-1249</a></td>
@@ -16471,7 +17126,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202010-3">ASA-202010-3</a><br/><a href="/ASA-202010-3">ASA-202010-3</a></td>
+							<td class="center"><a href="/ASA-202010-3">ASA-202010-3</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1248">AVG-1248</a></td>
@@ -16488,7 +17143,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202010-2">ASA-202010-2</a><br/><a href="/ASA-202010-2">ASA-202010-2</a></td>
+							<td class="center"><a href="/ASA-202010-2">ASA-202010-2</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1252">AVG-1252</a></td>
@@ -16503,7 +17158,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202011-4">ASA-202011-4</a></td>
+							<td class="center"><a href="/ASA-202011-4">ASA-202011-4</a><br/><a href="/ASA-202011-4">ASA-202011-4</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1243">AVG-1243</a></td>
@@ -16674,7 +17329,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202009-10">ASA-202009-10</a></td>
+							<td class="center"><a href="/ASA-202009-10">ASA-202009-10</a><br/><a href="/ASA-202009-10">ASA-202009-10</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1234">AVG-1234</a></td>
@@ -16710,7 +17365,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td><a href="https://bugs.archlinux.org/task/67807">FS#67807</a></td>
-							<td class="center"><a href="/ASA-202009-8">ASA-202009-8</a><br/><a href="/ASA-202009-8">ASA-202009-8</a></td>
+							<td class="center"><a href="/ASA-202009-8">ASA-202009-8</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1225">AVG-1225</a></td>
@@ -17131,7 +17786,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202006-1">ASA-202006-1</a></td>
+							<td class="center"><a href="/ASA-202006-1">ASA-202006-1</a><br/><a href="/ASA-202006-1">ASA-202006-1</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1174">AVG-1174</a></td>
@@ -17511,7 +18166,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202004-4">ASA-202004-4</a><br/><a href="/ASA-202004-4">ASA-202004-4</a></td>
+							<td class="center"><a href="/ASA-202004-4">ASA-202004-4</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1121">AVG-1121</a></td>
@@ -17526,7 +18181,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202004-3">ASA-202004-3</a><br/><a href="/ASA-202004-3">ASA-202004-3</a></td>
+							<td class="center"><a href="/ASA-202004-3">ASA-202004-3</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1120">AVG-1120</a></td>
@@ -17541,7 +18196,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202004-2">ASA-202004-2</a><br/><a href="/ASA-202004-2">ASA-202004-2</a></td>
+							<td class="center"><a href="/ASA-202004-2">ASA-202004-2</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1118">AVG-1118</a></td>
@@ -17610,7 +18265,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202003-6">ASA-202003-6</a><br/><a href="/ASA-202003-6">ASA-202003-6</a></td>
+							<td class="center"><a href="/ASA-202003-6">ASA-202003-6</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1107">AVG-1107</a></td>
@@ -18028,7 +18683,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201911-3">ASA-201911-3</a><br/><a href="/ASA-201911-3">ASA-201911-3</a></td>
+							<td class="center"><a href="/ASA-201911-3">ASA-201911-3</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1043">AVG-1043</a></td>
@@ -18093,7 +18748,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201909-2">ASA-201909-2</a></td>
+							<td class="center"><a href="/ASA-201909-2">ASA-201909-2</a><br/><a href="/ASA-201909-2">ASA-201909-2</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1028">AVG-1028</a></td>
@@ -18297,7 +18952,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201906-20">ASA-201906-20</a></td>
+							<td class="center"><a href="/ASA-201906-20">ASA-201906-20</a><br/><a href="/ASA-201906-20">ASA-201906-20</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-996">AVG-996</a></td>
@@ -18361,7 +19016,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201906-12">ASA-201906-12</a><br/><a href="/ASA-201906-12">ASA-201906-12</a></td>
+							<td class="center"><a href="/ASA-201906-12">ASA-201906-12</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-985">AVG-985</a></td>
@@ -18378,7 +19033,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201906-15">ASA-201906-15</a><br/><a href="/ASA-201906-15">ASA-201906-15</a></td>
+							<td class="center"><a href="/ASA-201906-15">ASA-201906-15</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-984">AVG-984</a></td>
@@ -18395,7 +19050,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201906-14">ASA-201906-14</a><br/><a href="/ASA-201906-14">ASA-201906-14</a></td>
+							<td class="center"><a href="/ASA-201906-14">ASA-201906-14</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-983">AVG-983</a></td>
@@ -18412,7 +19067,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201906-13">ASA-201906-13</a><br/><a href="/ASA-201906-13">ASA-201906-13</a></td>
+							<td class="center"><a href="/ASA-201906-13">ASA-201906-13</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-981">AVG-981</a></td>
@@ -18673,7 +19328,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201905-4">ASA-201905-4</a><br/><a href="/ASA-201905-4">ASA-201905-4</a></td>
+							<td class="center"><a href="/ASA-201905-4">ASA-201905-4</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-956">AVG-956</a></td>
@@ -18703,7 +19358,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201905-2">ASA-201905-2</a><br/><a href="/ASA-201905-2">ASA-201905-2</a></td>
+							<td class="center"><a href="/ASA-201905-2">ASA-201905-2</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-953">AVG-953</a></td>
@@ -19096,7 +19751,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201902-16">ASA-201902-16</a></td>
+							<td class="center"><a href="/ASA-201902-16">ASA-201902-16</a><br/><a href="/ASA-201902-16">ASA-201902-16</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-895">AVG-895</a></td>
@@ -19195,7 +19850,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201908-14">ASA-201908-14</a></td>
+							<td class="center"><a href="/ASA-201908-14">ASA-201908-14</a><br/><a href="/ASA-201908-14">ASA-201908-14</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-883">AVG-883</a></td>
@@ -19451,7 +20106,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201901-12">ASA-201901-12</a></td>
+							<td class="center"><a href="/ASA-201901-12">ASA-201901-12</a><br/><a href="/ASA-201901-12">ASA-201901-12</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-845">AVG-845</a></td>
@@ -19552,7 +20207,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201906-3">ASA-201906-3</a><br/><a href="/ASA-201906-3">ASA-201906-3</a></td>
+							<td class="center"><a href="/ASA-201906-3">ASA-201906-3</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-829">AVG-829</a></td>
@@ -19788,7 +20443,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td><a href="https://bugs.archlinux.org/task/60599">FS#60599</a></td>
-							<td class="center"><a href="/ASA-201811-18">ASA-201811-18</a></td>
+							<td class="center"><a href="/ASA-201811-18">ASA-201811-18</a><br/><a href="/ASA-201811-18">ASA-201811-18</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-790">AVG-790</a></td>
@@ -19806,7 +20461,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td><a href="https://bugs.archlinux.org/task/60599">FS#60599</a></td>
-							<td class="center"><a href="/ASA-201811-17">ASA-201811-17</a></td>
+							<td class="center"><a href="/ASA-201811-17">ASA-201811-17</a><br/><a href="/ASA-201811-17">ASA-201811-17</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-788">AVG-788</a></td>
@@ -20149,7 +20804,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201808-7">ASA-201808-7</a><br/><a href="/ASA-201808-7">ASA-201808-7</a></td>
+							<td class="center"><a href="/ASA-201808-7">ASA-201808-7</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-749">AVG-749</a></td>
@@ -20164,7 +20819,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201808-6">ASA-201808-6</a><br/><a href="/ASA-201808-6">ASA-201808-6</a></td>
+							<td class="center"><a href="/ASA-201808-6">ASA-201808-6</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-748">AVG-748</a></td>
@@ -20179,7 +20834,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201808-5">ASA-201808-5</a><br/><a href="/ASA-201808-5">ASA-201808-5</a></td>
+							<td class="center"><a href="/ASA-201808-5">ASA-201808-5</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-747">AVG-747</a></td>
@@ -20194,7 +20849,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201808-4">ASA-201808-4</a><br/><a href="/ASA-201808-4">ASA-201808-4</a></td>
+							<td class="center"><a href="/ASA-201808-4">ASA-201808-4</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-745">AVG-745</a></td>
@@ -20504,7 +21159,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201806-5">ASA-201806-5</a></td>
+							<td class="center"><a href="/ASA-201806-5">ASA-201806-5</a><br/><a href="/ASA-201806-5">ASA-201806-5</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-713">AVG-713</a></td>
@@ -20889,7 +21544,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201803-9">ASA-201803-9</a><br/><a href="/ASA-201803-9">ASA-201803-9</a></td>
+							<td class="center"><a href="/ASA-201803-9">ASA-201803-9</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-641">AVG-641</a></td>
@@ -21168,10 +21823,10 @@
 								<a href="/CVE-2017-17858">CVE-2017-17858</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/mupdf-gl">mupdf-gl</a>, </span>
-								<span class="no-wrap"><a href="/package/mupdf">mupdf</a>, </span>
 								<span class="no-wrap"><a href="/package/libmupdf">libmupdf</a>, </span>
-								<span class="no-wrap"><a href="/package/mupdf-tools">mupdf-tools</a></span>
+								<span class="no-wrap"><a href="/package/mupdf-gl">mupdf-gl</a>, </span>
+								<span class="no-wrap"><a href="/package/mupdf-tools">mupdf-tools</a>, </span>
+								<span class="no-wrap"><a href="/package/mupdf">mupdf</a></span>
 							</td>
 							<td>1.12.0-1</td>
 							<td>1.12.0-2</td>
@@ -21194,7 +21849,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201801-18">ASA-201801-18</a><br/><a href="/ASA-201801-18">ASA-201801-18</a><br/><a href="/ASA-201801-19">ASA-201801-19</a><br/><a href="/ASA-201801-19">ASA-201801-19</a></td>
+							<td class="center"><a href="/ASA-201801-18">ASA-201801-18</a><br/><a href="/ASA-201801-19">ASA-201801-19</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-589">AVG-589</a></td>
@@ -21336,7 +21991,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201801-6">ASA-201801-6</a><br/><a href="/ASA-201801-6">ASA-201801-6</a></td>
+							<td class="center"><a href="/ASA-201801-6">ASA-201801-6</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-576">AVG-576</a></td>
@@ -21386,7 +22041,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td><a href="https://bugs.archlinux.org/task/56832">FS#56832</a></td>
-							<td class="center"><a href="/ASA-201801-4">ASA-201801-4</a><br/><a href="/ASA-201801-4">ASA-201801-4</a></td>
+							<td class="center"><a href="/ASA-201801-4">ASA-201801-4</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-572">AVG-572</a></td>
@@ -21436,7 +22091,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td><a href="https://bugs.archlinux.org/task/56832">FS#56832</a></td>
-							<td class="center"><a href="/ASA-201801-3">ASA-201801-3</a><br/><a href="/ASA-201801-3">ASA-201801-3</a></td>
+							<td class="center"><a href="/ASA-201801-3">ASA-201801-3</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-570">AVG-570</a></td>
@@ -21556,7 +22211,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201801-2">ASA-201801-2</a><br/><a href="/ASA-201801-2">ASA-201801-2</a></td>
+							<td class="center"><a href="/ASA-201801-2">ASA-201801-2</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-560">AVG-560</a></td>
@@ -21657,7 +22312,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td><a href="https://bugs.archlinux.org/task/56832">FS#56832</a></td>
-							<td class="center"><a href="/ASA-201801-1">ASA-201801-1</a><br/><a href="/ASA-201801-1">ASA-201801-1</a></td>
+							<td class="center"><a href="/ASA-201801-1">ASA-201801-1</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-546">AVG-546</a></td>
@@ -22209,7 +22864,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201801-9">ASA-201801-9</a><br/><a href="/ASA-201801-9">ASA-201801-9</a><br/><a href="/ASA-201801-8">ASA-201801-8</a><br/><a href="/ASA-201801-8">ASA-201801-8</a></td>
+							<td class="center"><a href="/ASA-201801-9">ASA-201801-9</a><br/><a href="/ASA-201801-8">ASA-201801-8</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-458">AVG-458</a></td>
@@ -22220,10 +22875,10 @@
 								<a href="/CVE-2017-14685">CVE-2017-14685</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/mupdf-gl">mupdf-gl</a>, </span>
-								<span class="no-wrap"><a href="/package/mupdf">mupdf</a>, </span>
 								<span class="no-wrap"><a href="/package/libmupdf">libmupdf</a>, </span>
-								<span class="no-wrap"><a href="/package/mupdf-tools">mupdf-tools</a></span>
+								<span class="no-wrap"><a href="/package/mupdf-gl">mupdf-gl</a>, </span>
+								<span class="no-wrap"><a href="/package/mupdf-tools">mupdf-tools</a>, </span>
+								<span class="no-wrap"><a href="/package/mupdf">mupdf</a></span>
 							</td>
 							<td>1.11-4</td>
 							<td>1.11-5</td>
@@ -22364,7 +23019,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201710-25">ASA-201710-25</a><br/><a href="/ASA-201710-25">ASA-201710-25</a></td>
+							<td class="center"><a href="/ASA-201710-25">ASA-201710-25</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-445">AVG-445</a></td>
@@ -22379,7 +23034,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201710-24">ASA-201710-24</a><br/><a href="/ASA-201710-24">ASA-201710-24</a></td>
+							<td class="center"><a href="/ASA-201710-24">ASA-201710-24</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-444">AVG-444</a></td>
@@ -22394,7 +23049,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201710-26">ASA-201710-26</a><br/><a href="/ASA-201710-26">ASA-201710-26</a></td>
+							<td class="center"><a href="/ASA-201710-26">ASA-201710-26</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-443">AVG-443</a></td>
@@ -22531,7 +23186,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201709-22">ASA-201709-22</a><br/><a href="/ASA-201709-22">ASA-201709-22</a></td>
+							<td class="center"><a href="/ASA-201709-22">ASA-201709-22</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-417">AVG-417</a></td>
@@ -22638,7 +23293,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td><a href="https://bugs.archlinux.org/task/55602">FS#55602</a></td>
-							<td class="center"><a href="/ASA-201709-4">ASA-201709-4</a><br/><a href="/ASA-201709-4">ASA-201709-4</a></td>
+							<td class="center"><a href="/ASA-201709-4">ASA-201709-4</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-394">AVG-394</a></td>
@@ -22653,7 +23308,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td><a href="https://bugs.archlinux.org/task/55601">FS#55601</a></td>
-							<td class="center"><a href="/ASA-201709-12">ASA-201709-12</a><br/><a href="/ASA-201709-12">ASA-201709-12</a></td>
+							<td class="center"><a href="/ASA-201709-12">ASA-201709-12</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-393">AVG-393</a></td>
@@ -22668,7 +23323,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td><a href="https://bugs.archlinux.org/task/55601">FS#55601</a></td>
-							<td class="center"><a href="/ASA-201709-8">ASA-201709-8</a><br/><a href="/ASA-201709-8">ASA-201709-8</a></td>
+							<td class="center"><a href="/ASA-201709-8">ASA-201709-8</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-392">AVG-392</a></td>
@@ -22683,7 +23338,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td><a href="https://bugs.archlinux.org/task/55601">FS#55601</a></td>
-							<td class="center"><a href="/ASA-201709-9">ASA-201709-9</a><br/><a href="/ASA-201709-9">ASA-201709-9</a></td>
+							<td class="center"><a href="/ASA-201709-9">ASA-201709-9</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-390">AVG-390</a></td>
@@ -22715,7 +23370,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201709-2">ASA-201709-2</a><br/><a href="/ASA-201709-2">ASA-201709-2</a></td>
+							<td class="center"><a href="/ASA-201709-2">ASA-201709-2</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-374">AVG-374</a></td>
@@ -22799,8 +23454,8 @@
 								<a href="/CVE-2017-11109">CVE-2017-11109</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/gvim">gvim</a>, </span>
-								<span class="no-wrap"><a href="/package/vim">vim</a></span>
+								<span class="no-wrap"><a href="/package/vim">vim</a>, </span>
+								<span class="no-wrap"><a href="/package/gvim">gvim</a></span>
 							</td>
 							<td>8.0.0628-1</td>
 							<td>8.0.0722-1</td>
@@ -23015,7 +23670,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201706-30">ASA-201706-30</a><br/><a href="/ASA-201706-30">ASA-201706-30</a></td>
+							<td class="center"><a href="/ASA-201706-30">ASA-201706-30</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-317">AVG-317</a></td>
@@ -23064,7 +23719,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201706-28">ASA-201706-28</a><br/><a href="/ASA-201706-28">ASA-201706-28</a></td>
+							<td class="center"><a href="/ASA-201706-28">ASA-201706-28</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-313">AVG-313</a></td>
@@ -23079,7 +23734,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201706-31">ASA-201706-31</a><br/><a href="/ASA-201706-31">ASA-201706-31</a></td>
+							<td class="center"><a href="/ASA-201706-31">ASA-201706-31</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-310">AVG-310</a></td>
@@ -23109,7 +23764,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201706-22">ASA-201706-22</a><br/><a href="/ASA-201706-22">ASA-201706-22</a></td>
+							<td class="center"><a href="/ASA-201706-22">ASA-201706-22</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-307">AVG-307</a></td>
@@ -23124,7 +23779,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201706-23">ASA-201706-23</a><br/><a href="/ASA-201706-23">ASA-201706-23</a></td>
+							<td class="center"><a href="/ASA-201706-23">ASA-201706-23</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-304">AVG-304</a></td>
@@ -23248,7 +23903,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201705-24">ASA-201705-24</a><br/><a href="/ASA-201705-24">ASA-201705-24</a></td>
+							<td class="center"><a href="/ASA-201705-24">ASA-201705-24</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-279">AVG-279</a></td>
@@ -23605,7 +24260,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201703-15">ASA-201703-15</a></td>
+							<td class="center"><a href="/ASA-201703-15">ASA-201703-15</a><br/><a href="/ASA-201703-15">ASA-201703-15</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-218">AVG-218</a></td>
@@ -23779,7 +24434,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td><a href="https://bugs.archlinux.org/task/53242">FS#53242</a></td>
-							<td class="center"><a href="/ASA-201703-13">ASA-201703-13</a><br/><a href="/ASA-201703-13">ASA-201703-13</a></td>
+							<td class="center"><a href="/ASA-201703-13">ASA-201703-13</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-200">AVG-200</a></td>
@@ -23794,7 +24449,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td><a href="https://bugs.archlinux.org/task/53242">FS#53242</a></td>
-							<td class="center"><a href="/ASA-201703-6">ASA-201703-6</a><br/><a href="/ASA-201703-6">ASA-201703-6</a></td>
+							<td class="center"><a href="/ASA-201703-6">ASA-201703-6</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-192">AVG-192</a></td>
@@ -23809,7 +24464,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td><a href="https://bugs.archlinux.org/task/53242">FS#53242</a></td>
-							<td class="center"><a href="/ASA-201703-8">ASA-201703-8</a><br/><a href="/ASA-201703-8">ASA-201703-8</a></td>
+							<td class="center"><a href="/ASA-201703-8">ASA-201703-8</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-191">AVG-191</a></td>
@@ -23908,7 +24563,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201702-18">ASA-201702-18</a><br/><a href="/ASA-201702-18">ASA-201702-18</a></td>
+							<td class="center"><a href="/ASA-201702-18">ASA-201702-18</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-178">AVG-178</a></td>
@@ -23926,7 +24581,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201702-17">ASA-201702-17</a><br/><a href="/ASA-201702-17">ASA-201702-17</a></td>
+							<td class="center"><a href="/ASA-201702-17">ASA-201702-17</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-169">AVG-169</a></td>
@@ -24297,7 +24952,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201612-14">ASA-201612-14</a><br/><a href="/ASA-201612-14">ASA-201612-14</a></td>
+							<td class="center"><a href="/ASA-201612-14">ASA-201612-14</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-101">AVG-101</a></td>
@@ -24312,7 +24967,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201612-10">ASA-201612-10</a><br/><a href="/ASA-201612-10">ASA-201612-10</a></td>
+							<td class="center"><a href="/ASA-201612-10">ASA-201612-10</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-98">AVG-98</a></td>
@@ -24327,7 +24982,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201612-8">ASA-201612-8</a><br/><a href="/ASA-201612-8">ASA-201612-8</a></td>
+							<td class="center"><a href="/ASA-201612-8">ASA-201612-8</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-96">AVG-96</a></td>
@@ -24342,7 +24997,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201612-7">ASA-201612-7</a><br/><a href="/ASA-201612-7">ASA-201612-7</a></td>
+							<td class="center"><a href="/ASA-201612-7">ASA-201612-7</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-95">AVG-95</a></td>
@@ -24357,7 +25012,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201612-6">ASA-201612-6</a><br/><a href="/ASA-201612-6">ASA-201612-6</a></td>
+							<td class="center"><a href="/ASA-201612-6">ASA-201612-6</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-89">AVG-89</a></td>
@@ -24511,8 +25166,8 @@
 								<a href="/CVE-2016-9373">CVE-2016-9373</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/wireshark-qt">wireshark-qt</a>, </span>
-								<span class="no-wrap"><a href="/package/wireshark-cli">wireshark-cli</a></span>
+								<span class="no-wrap"><a href="/package/wireshark-cli">wireshark-cli</a>, </span>
+								<span class="no-wrap"><a href="/package/wireshark-qt">wireshark-qt</a></span>
 							</td>
 							<td>2.2.1-1</td>
 							<td>2.2.2-1</td>
@@ -24777,7 +25432,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201610-11">ASA-201610-11</a><br/><a href="/ASA-201610-11">ASA-201610-11</a></td>
+							<td class="center"><a href="/ASA-201610-11">ASA-201610-11</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-48">AVG-48</a></td>
@@ -24792,7 +25447,7 @@
 							<td><span class="orange">High</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201610-14">ASA-201610-14</a><br/><a href="/ASA-201610-14">ASA-201610-14</a></td>
+							<td class="center"><a href="/ASA-201610-14">ASA-201610-14</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-47">AVG-47</a></td>
@@ -25015,6 +25670,67 @@
 							<td><span class="green">Fixed</span></td>
 							<td></td>
 							<td class="center"><a href="/ASA-201612-21">ASA-201612-21</a></td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2831">AVG-2831</a></td>
+							<td>
+								<a href="/CVE-2023-24998">CVE-2023-24998</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/tomcat8">tomcat8</a></span>
+							</td>
+							<td>8.5.84-1</td>
+							<td>8.5.85-1</td>
+							<td><span class="light_orange">Medium</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2830">AVG-2830</a></td>
+							<td>
+								<a href="/CVE-2023-24998">CVE-2023-24998</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/tomcat9">tomcat9</a></span>
+							</td>
+							<td>9.0.70-1</td>
+							<td>9.0.71-1</td>
+							<td><span class="light_orange">Medium</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2829">AVG-2829</a></td>
+							<td>
+								<a href="/CVE-2023-24998">CVE-2023-24998</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/tomcat10">tomcat10</a></span>
+							</td>
+							<td>10.1.4-1</td>
+							<td>10.1.5-1</td>
+							<td><span class="light_orange">Medium</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
+						</tr>
+						<tr>
+							<td><a href="/AVG-2825">AVG-2825</a></td>
+							<td>
+								<a href="/CVE-2022-1941">CVE-2022-1941</a>
+							</td>
+							<td class="wrap">
+								<span class="no-wrap"><a href="/package/python-protobuf">python-protobuf</a>, </span>
+								<span class="no-wrap"><a href="/package/protobuf">protobuf</a></span>
+							</td>
+							<td>21.5-1</td>
+							<td>21.6-1</td>
+							<td><span class="light_orange">Medium</span></td>
+							<td><span class="green">Fixed</span></td>
+							<td></td>
+							<td class="center">None</td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-2679">AVG-2679</a></td>
@@ -26634,8 +27350,8 @@
 								<a href="/CVE-2021-35556">CVE-2021-35556</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/jre-openjdk-headless">jre-openjdk-headless</a>, </span>
-								<span class="no-wrap"><a href="/package/jdk-openjdk">jdk-openjdk</a></span>
+								<span class="no-wrap"><a href="/package/jdk-openjdk">jdk-openjdk</a>, </span>
+								<span class="no-wrap"><a href="/package/jre-openjdk-headless">jre-openjdk-headless</a></span>
 							</td>
 							<td>17.u35-1</td>
 							<td>17.0.1.u12-1</td>
@@ -27593,8 +28309,8 @@
 								<a href="/CVE-2021-3796">CVE-2021-3796</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/gvim">gvim</a>, </span>
-								<span class="no-wrap"><a href="/package/vim">vim</a></span>
+								<span class="no-wrap"><a href="/package/vim">vim</a>, </span>
+								<span class="no-wrap"><a href="/package/gvim">gvim</a></span>
 							</td>
 							<td>8.2.3412-1</td>
 							<td>8.2.3441-1</td>
@@ -27879,8 +28595,8 @@
 								<a href="/CVE-2021-3770">CVE-2021-3770</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/gvim">gvim</a>, </span>
-								<span class="no-wrap"><a href="/package/vim">vim</a></span>
+								<span class="no-wrap"><a href="/package/vim">vim</a>, </span>
+								<span class="no-wrap"><a href="/package/gvim">gvim</a></span>
 							</td>
 							<td>8.2.3340-1</td>
 							<td>8.2.3412-1</td>
@@ -29192,7 +29908,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202107-35">ASA-202107-35</a></td>
+							<td class="center"><a href="/ASA-202107-35">ASA-202107-35</a><br/><a href="/ASA-202107-35">ASA-202107-35</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-2177">AVG-2177</a></td>
@@ -29617,8 +30333,8 @@
 								<a href="/CVE-2021-2163">CVE-2021-2163</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/jre-openjdk-headless">jre-openjdk-headless</a>, </span>
-								<span class="no-wrap"><a href="/package/jdk-openjdk">jdk-openjdk</a></span>
+								<span class="no-wrap"><a href="/package/jdk-openjdk">jdk-openjdk</a>, </span>
+								<span class="no-wrap"><a href="/package/jre-openjdk-headless">jre-openjdk-headless</a></span>
 							</td>
 							<td>15.0.2.u7-1</td>
 							<td>16.0.1.u9-1</td>
@@ -31132,7 +31848,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202106-15">ASA-202106-15</a><br/><a href="/ASA-202106-15">ASA-202106-15</a></td>
+							<td class="center"><a href="/ASA-202106-15">ASA-202106-15</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1944">AVG-1944</a></td>
@@ -31194,7 +31910,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td><a href="https://bugs.archlinux.org/task/70801">FS#70801</a></td>
-							<td class="center"><a href="/ASA-202105-19">ASA-202105-19</a></td>
+							<td class="center"><a href="/ASA-202105-19">ASA-202105-19</a><br/><a href="/ASA-202105-19">ASA-202105-19</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1885">AVG-1885</a></td>
@@ -31969,8 +32685,8 @@
 								<a href="/CVE-2021-21404">CVE-2021-21404</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/syncthing">syncthing</a>, </span>
-								<span class="no-wrap"><a href="/package/syncthing-relaysrv">syncthing-relaysrv</a></span>
+								<span class="no-wrap"><a href="/package/syncthing-relaysrv">syncthing-relaysrv</a>, </span>
+								<span class="no-wrap"><a href="/package/syncthing">syncthing</a></span>
 							</td>
 							<td>1.14.0-1</td>
 							<td>1.15.1-1</td>
@@ -34017,7 +34733,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202102-36">ASA-202102-36</a><br/><a href="/ASA-202102-36">ASA-202102-36</a></td>
+							<td class="center"><a href="/ASA-202102-36">ASA-202102-36</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1577">AVG-1577</a></td>
@@ -34078,7 +34794,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202102-31">ASA-202102-31</a><br/><a href="/ASA-202102-31">ASA-202102-31</a></td>
+							<td class="center"><a href="/ASA-202102-31">ASA-202102-31</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1568">AVG-1568</a></td>
@@ -34501,7 +35217,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202102-23">ASA-202102-23</a><br/><a href="/ASA-202102-23">ASA-202102-23</a></td>
+							<td class="center"><a href="/ASA-202102-23">ASA-202102-23</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1503">AVG-1503</a></td>
@@ -34731,7 +35447,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202101-31">ASA-202101-31</a><br/><a href="/ASA-202101-31">ASA-202101-31</a></td>
+							<td class="center"><a href="/ASA-202101-31">ASA-202101-31</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1442">AVG-1442</a></td>
@@ -34746,7 +35462,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202101-33">ASA-202101-33</a><br/><a href="/ASA-202101-33">ASA-202101-33</a></td>
+							<td class="center"><a href="/ASA-202101-33">ASA-202101-33</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1445">AVG-1445</a></td>
@@ -34761,7 +35477,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202101-30">ASA-202101-30</a><br/><a href="/ASA-202101-30">ASA-202101-30</a></td>
+							<td class="center"><a href="/ASA-202101-30">ASA-202101-30</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1443">AVG-1443</a></td>
@@ -34776,7 +35492,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202101-32">ASA-202101-32</a><br/><a href="/ASA-202101-32">ASA-202101-32</a></td>
+							<td class="center"><a href="/ASA-202101-32">ASA-202101-32</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-867">AVG-867</a></td>
@@ -35763,7 +36479,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td><a href="https://bugs.archlinux.org/task/68613">FS#68613</a></td>
-							<td class="center"><a href="/ASA-202011-20">ASA-202011-20</a></td>
+							<td class="center"><a href="/ASA-202011-20">ASA-202011-20</a><br/><a href="/ASA-202011-20">ASA-202011-20</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1282">AVG-1282</a></td>
@@ -35811,7 +36527,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202011-10">ASA-202011-10</a><br/><a href="/ASA-202011-10">ASA-202011-10</a></td>
+							<td class="center"><a href="/ASA-202011-10">ASA-202011-10</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1266">AVG-1266</a></td>
@@ -36351,7 +37067,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201911-13">ASA-201911-13</a></td>
+							<td class="center"><a href="/ASA-201911-13">ASA-201911-13</a><br/><a href="/ASA-201911-13">ASA-201911-13</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1057">AVG-1057</a></td>
@@ -36509,7 +37225,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201908-11">ASA-201908-11</a></td>
+							<td class="center"><a href="/ASA-201908-11">ASA-201908-11</a><br/><a href="/ASA-201908-11">ASA-201908-11</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1024">AVG-1024</a></td>
@@ -36593,7 +37309,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201908-8">ASA-201908-8</a><br/><a href="/ASA-201908-8">ASA-201908-8</a><br/><a href="/ASA-201908-7">ASA-201908-7</a><br/><a href="/ASA-201908-7">ASA-201908-7</a></td>
+							<td class="center"><a href="/ASA-201908-8">ASA-201908-8</a><br/><a href="/ASA-201908-7">ASA-201908-7</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1015">AVG-1015</a></td>
@@ -37745,8 +38461,8 @@
 								<a href="/CVE-2017-1000382">CVE-2017-1000382</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/gvim">gvim</a>, </span>
-								<span class="no-wrap"><a href="/package/vim">vim</a></span>
+								<span class="no-wrap"><a href="/package/vim">vim</a>, </span>
+								<span class="no-wrap"><a href="/package/gvim">gvim</a></span>
 							</td>
 							<td>8.0.1530-1</td>
 							<td>8.0.1531-1</td>
@@ -38512,7 +39228,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201711-18">ASA-201711-18</a><br/><a href="/ASA-201711-18">ASA-201711-18</a></td>
+							<td class="center"><a href="/ASA-201711-18">ASA-201711-18</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-485">AVG-485</a></td>
@@ -38528,7 +39244,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201711-17">ASA-201711-17</a><br/><a href="/ASA-201711-17">ASA-201711-17</a></td>
+							<td class="center"><a href="/ASA-201711-17">ASA-201711-17</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-481">AVG-481</a></td>
@@ -39584,7 +40300,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201705-23">ASA-201705-23</a><br/><a href="/ASA-201705-23">ASA-201705-23</a></td>
+							<td class="center"><a href="/ASA-201705-23">ASA-201705-23</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-264">AVG-264</a></td>
@@ -39744,7 +40460,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201704-10">ASA-201704-10</a></td>
+							<td class="center"><a href="/ASA-201704-10">ASA-201704-10</a><br/><a href="/ASA-201704-10">ASA-201704-10</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-233">AVG-233</a></td>
@@ -39835,7 +40551,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201710-18">ASA-201710-18</a><br/><a href="/ASA-201710-18">ASA-201710-18</a></td>
+							<td class="center"><a href="/ASA-201710-18">ASA-201710-18</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-222">AVG-222</a></td>
@@ -40023,8 +40739,8 @@
 								<a href="/CVE-2017-5953">CVE-2017-5953</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/gvim">gvim</a>, </span>
-								<span class="no-wrap"><a href="/package/vim">vim</a></span>
+								<span class="no-wrap"><a href="/package/vim">vim</a>, </span>
+								<span class="no-wrap"><a href="/package/gvim">gvim</a></span>
 							</td>
 							<td>8.0.0321-1</td>
 							<td>8.0.0322-1</td>
@@ -40095,7 +40811,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201701-38">ASA-201701-38</a><br/><a href="/ASA-201701-38">ASA-201701-38</a></td>
+							<td class="center"><a href="/ASA-201701-38">ASA-201701-38</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-150">AVG-150</a></td>
@@ -40110,7 +40826,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201701-35">ASA-201701-35</a><br/><a href="/ASA-201701-35">ASA-201701-35</a></td>
+							<td class="center"><a href="/ASA-201701-35">ASA-201701-35</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-149">AVG-149</a></td>
@@ -40125,7 +40841,7 @@
 							<td><span class="light_orange">Medium</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201701-32">ASA-201701-32</a><br/><a href="/ASA-201701-32">ASA-201701-32</a></td>
+							<td class="center"><a href="/ASA-201701-32">ASA-201701-32</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-148">AVG-148</a></td>
@@ -40747,8 +41463,8 @@
 								<a href="/CVE-2021-3968">CVE-2021-3968</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/gvim">gvim</a>, </span>
-								<span class="no-wrap"><a href="/package/vim">vim</a></span>
+								<span class="no-wrap"><a href="/package/vim">vim</a>, </span>
+								<span class="no-wrap"><a href="/package/gvim">gvim</a></span>
 							</td>
 							<td>8.2.3582-3</td>
 							<td>8.2.3741-1</td>
@@ -41002,8 +41718,8 @@
 								<a href="/CVE-2021-3872">CVE-2021-3872</a>
 							</td>
 							<td class="wrap">
-								<span class="no-wrap"><a href="/package/gvim">gvim</a>, </span>
-								<span class="no-wrap"><a href="/package/vim">vim</a></span>
+								<span class="no-wrap"><a href="/package/vim">vim</a>, </span>
+								<span class="no-wrap"><a href="/package/gvim">gvim</a></span>
 							</td>
 							<td>8.2.3441-1</td>
 							<td>8.2.3582-1</td>
@@ -41929,7 +42645,7 @@
 							<td><span class="green">Low</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202106-29">ASA-202106-29</a><br/><a href="/ASA-202106-29">ASA-202106-29</a></td>
+							<td class="center"><a href="/ASA-202106-29">ASA-202106-29</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1910">AVG-1910</a></td>
@@ -42500,7 +43216,7 @@
 							<td><span class="green">Low</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-202102-17">ASA-202102-17</a><br/><a href="/ASA-202102-17">ASA-202102-17</a><br/><a href="/ASA-202102-16">ASA-202102-16</a><br/><a href="/ASA-202102-16">ASA-202102-16</a></td>
+							<td class="center"><a href="/ASA-202102-17">ASA-202102-17</a><br/><a href="/ASA-202102-16">ASA-202102-16</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-1524">AVG-1524</a></td>
@@ -43135,7 +43851,7 @@
 							<td><span class="green">Low</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201811-2">ASA-201811-2</a><br/><a href="/ASA-201811-2">ASA-201811-2</a></td>
+							<td class="center"><a href="/ASA-201811-2">ASA-201811-2</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-793">AVG-793</a></td>
@@ -43182,7 +43898,7 @@
 							<td><span class="green">Low</span></td>
 							<td><span class="green">Fixed</span></td>
 							<td></td>
-							<td class="center"><a href="/ASA-201811-1">ASA-201811-1</a><br/><a href="/ASA-201811-1">ASA-201811-1</a></td>
+							<td class="center"><a href="/ASA-201811-1">ASA-201811-1</a></td>
 						</tr>
 						<tr>
 							<td><a href="/AVG-764">AVG-764</a></td>
